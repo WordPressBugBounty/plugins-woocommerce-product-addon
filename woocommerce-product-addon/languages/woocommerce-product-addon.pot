@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-01T15:45:07+00:00\n"
+"POT-Creation-Date: 2024-10-04T07:13:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: backend/options.php:226
 #: inc/arrays.php:424
-#: inc/hooks.php:789
+#: inc/hooks.php:790
 msgid "Weekly"
 msgstr ""
 
@@ -887,7 +887,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:308
 #: classes/admin.class.php:558
-#: inc/admin.php:608
+#: inc/admin.php:611
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
 
@@ -1032,7 +1032,7 @@ msgid "You can create different meta groups for different products."
 msgstr ""
 
 #: classes/admin.class.php:252
-#: inc/admin.php:650
+#: inc/admin.php:653
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
@@ -1191,8 +1191,8 @@ msgstr ""
 #: classes/frontend-scripts.class.php:571
 #: classes/frontend-scripts.class.php:572
 #: classes/frontend-scripts.class.php:573
-#: inc/admin.php:770
-#: inc/admin.php:790
+#: inc/admin.php:773
+#: inc/admin.php:793
 #: inc/arrays.php:595
 #: inc/arrays.php:596
 #: inc/arrays.php:597
@@ -3656,107 +3656,107 @@ msgid "PPOM Meta Successfully Changed to - %s"
 msgstr ""
 
 #: inc/admin.php:54
-#: inc/admin.php:71
+#: inc/admin.php:74
 msgid "<a href=\"%1$s\">%2$s</a>"
 msgstr ""
 
-#: inc/admin.php:60
-#: inc/admin.php:73
+#: inc/admin.php:64
+#: inc/admin.php:76
 msgid "<a class=\"btn button\" href=\"%1$s\">%2$s</a>"
 msgstr ""
 
-#: inc/admin.php:83
+#: inc/admin.php:86
 msgid "Select PPOM Meta"
 msgstr ""
 
-#: inc/admin.php:98
+#: inc/admin.php:101
 msgid "Using multiple PPOM field groups on the same product is available in PRO."
 msgstr ""
 
-#: inc/admin.php:107
+#: inc/admin.php:110
 msgid "Search Group"
 msgstr ""
 
-#: inc/admin.php:109
+#: inc/admin.php:112
 msgid "Create New Field Group"
 msgstr ""
 
-#: inc/admin.php:113
+#: inc/admin.php:116
 msgid "Select a Field Group"
 msgstr ""
 
-#: inc/admin.php:114
+#: inc/admin.php:117
 msgid "Group ID"
 msgstr ""
 
-#: inc/admin.php:115
+#: inc/admin.php:118
 msgid "Group Name"
 msgstr ""
 
-#: inc/admin.php:116
+#: inc/admin.php:119
 #: templates/admin/existing-meta.php:104
 msgid "Edit"
 msgstr ""
 
-#: inc/admin.php:170
+#: inc/admin.php:173
 msgid "Enable Pop-up."
 msgstr ""
 
-#: inc/admin.php:170
-#: inc/admin.php:175
+#: inc/admin.php:173
+#: inc/admin.php:178
 msgid "Available in the %sPremium%s version."
 msgstr ""
 
-#: inc/admin.php:175
+#: inc/admin.php:178
 msgid "Enable Enquiry Form"
 msgstr ""
 
-#: inc/admin.php:236
+#: inc/admin.php:239
 msgid "Dismiss this notice"
 msgstr ""
 
-#: inc/admin.php:254
-#: inc/admin.php:431
+#: inc/admin.php:257
+#: inc/admin.php:434
 msgid "Since version 22.0, Database has some changes. Please Deactivate & then activate the PPOM plugin."
 msgstr ""
 
-#: inc/admin.php:268
-#: inc/admin.php:446
+#: inc/admin.php:271
+#: inc/admin.php:449
 msgid "Sorry, you are not allowed to perform this action."
 msgstr ""
 
-#: inc/admin.php:288
+#: inc/admin.php:291
 msgid "No fields found."
 msgstr ""
 
-#: inc/admin.php:317
-#: inc/admin.php:478
+#: inc/admin.php:320
+#: inc/admin.php:481
 msgid "PPOM title is too long to save, please make it less than 50 characters."
 msgstr ""
 
-#: inc/admin.php:394
+#: inc/admin.php:397
 msgid "Form added successfully"
 msgstr ""
 
-#: inc/admin.php:402
+#: inc/admin.php:405
 #: inc/rest.class.php:393
 msgid "No changes found."
 msgstr ""
 
-#: inc/admin.php:541
+#: inc/admin.php:544
 msgid "Form updated successfully"
 msgstr ""
 
-#: inc/admin.php:549
+#: inc/admin.php:552
 msgid "Form updated successfully."
 msgstr ""
 
-#: inc/admin.php:627
-#: inc/admin.php:678
+#: inc/admin.php:630
+#: inc/admin.php:681
 msgid "Meta deleted successfully"
 msgstr ""
 
-#: inc/admin.php:632
+#: inc/admin.php:635
 msgid "Error while deleting the PPOM, try again."
 msgstr ""
 
@@ -4027,7 +4027,7 @@ msgid "Original Image"
 msgstr ""
 
 #: inc/functions.php:581
-#: inc/functions.php:1634
+#: inc/functions.php:1629
 msgid "Cropped"
 msgstr ""
 
@@ -4035,15 +4035,15 @@ msgstr ""
 msgid "<a href=\"%s\">Add Fields</a>"
 msgstr ""
 
-#: inc/functions.php:1615
+#: inc/functions.php:1610
 msgid "Download File"
 msgstr ""
 
-#: inc/functions.php:1648
+#: inc/functions.php:1643
 msgid "Edited"
 msgstr ""
 
-#: inc/hooks.php:826
+#: inc/hooks.php:827
 msgid "Product ID is not valid"
 msgstr ""
 
