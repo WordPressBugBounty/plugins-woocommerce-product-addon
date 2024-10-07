@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-04T07:13:28+00:00\n"
+"POT-Creation-Date: 2024-10-07T15:57:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -1221,8 +1221,8 @@ msgstr ""
 #: inc/prices.php:805
 #: inc/prices.php:1239
 #: inc/prices.php:1280
-#: inc/woocommerce.php:262
-#: inc/woocommerce.php:584
+#: inc/woocommerce.php:260
+#: inc/woocommerce.php:582
 #: templates/frontend/inputs/cropper.php:44
 #: templates/frontend/inputs/divider.php:106
 #: templates/frontend/inputs/divider.php:116
@@ -1822,7 +1822,7 @@ msgid "Quantity"
 msgstr ""
 
 #: classes/frontend-scripts.class.php:580
-#: inc/woocommerce.php:261
+#: inc/woocommerce.php:259
 msgid "is a required field"
 msgstr ""
 
@@ -4147,15 +4147,15 @@ msgstr ""
 msgid "<div class=\"woocommerce-error\" role=\"alert\">%s</div>"
 msgstr ""
 
-#: inc/woocommerce.php:261
+#: inc/woocommerce.php:259
 msgid "%1$s: %2$s"
 msgstr ""
 
-#: inc/woocommerce.php:615
+#: inc/woocommerce.php:613
 msgid "Total will be calculated in the cart"
 msgstr ""
 
-#: inc/woocommerce.php:1149
+#: inc/woocommerce.php:1147
 msgid "Sorry, maximum quantity is %d."
 msgstr ""
 
