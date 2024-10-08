@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-07T15:57:27+00:00\n"
+"POT-Creation-Date: 2024-10-08T15:00:54+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -143,7 +143,7 @@ msgid "Option Total Label Inside Price Table"
 msgstr ""
 
 #: backend/options.php:70
-#: classes/frontend-scripts.class.php:558
+#: classes/frontend-scripts.class.php:559
 #: inc/arrays.php:188
 #: inc/arrays.php:191
 #: inc/arrays.php:591
@@ -155,7 +155,7 @@ msgid "Product Price Label inside Price Table"
 msgstr ""
 
 #: backend/options.php:75
-#: classes/frontend-scripts.class.php:557
+#: classes/frontend-scripts.class.php:558
 #: inc/arrays.php:207
 #: inc/arrays.php:210
 #: inc/arrays.php:590
@@ -167,7 +167,7 @@ msgid "Total Label inside Price Table"
 msgstr ""
 
 #: backend/options.php:80
-#: classes/frontend-scripts.class.php:561
+#: classes/frontend-scripts.class.php:562
 #: inc/arrays.php:216
 #: inc/arrays.php:219
 #: inc/arrays.php:594
@@ -179,7 +179,7 @@ msgid "Total Discount Label Inside Price Table"
 msgstr ""
 
 #: backend/options.php:85
-#: classes/frontend-scripts.class.php:560
+#: classes/frontend-scripts.class.php:561
 #: inc/arrays.php:243
 #: inc/arrays.php:246
 #: inc/arrays.php:593
@@ -887,7 +887,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:308
 #: classes/admin.class.php:558
-#: inc/admin.php:611
+#: inc/admin.php:608
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
 
@@ -958,7 +958,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:827
 #: classes/fields.class.php:178
-#: classes/frontend-scripts.class.php:544
+#: classes/frontend-scripts.class.php:545
 #: inc/hooks.php:341
 #: inc/hooks.php:369
 msgid "Are you sure?"
@@ -1032,7 +1032,7 @@ msgid "You can create different meta groups for different products."
 msgstr ""
 
 #: classes/admin.class.php:252
-#: inc/admin.php:653
+#: inc/admin.php:650
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
@@ -1186,13 +1186,13 @@ msgstr ""
 #: classes/fields.class.php:301
 #: classes/fields.class.php:305
 #: classes/frontend-scripts.class.php:489
-#: classes/frontend-scripts.class.php:568
-#: classes/frontend-scripts.class.php:570
+#: classes/frontend-scripts.class.php:569
 #: classes/frontend-scripts.class.php:571
 #: classes/frontend-scripts.class.php:572
 #: classes/frontend-scripts.class.php:573
-#: inc/admin.php:773
-#: inc/admin.php:793
+#: classes/frontend-scripts.class.php:574
+#: inc/admin.php:770
+#: inc/admin.php:790
 #: inc/arrays.php:595
 #: inc/arrays.php:596
 #: inc/arrays.php:597
@@ -1784,13 +1784,13 @@ msgstr ""
 msgid "Divider"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:543
+#: classes/frontend-scripts.class.php:544
 #: inc/hooks.php:339
 #: inc/hooks.php:367
 msgid " files allowed only"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:559
+#: classes/frontend-scripts.class.php:560
 #: classes/inputs/input.checkbox.php:111
 #: classes/inputs/input.file.php:164
 #: classes/inputs/input.palettes.php:124
@@ -1802,17 +1802,17 @@ msgstr ""
 msgid "Fixed Fee"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:574
+#: classes/frontend-scripts.class.php:575
 #: inc/arrays.php:601
 msgid "Product Quantity"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:575
+#: classes/frontend-scripts.class.php:576
 #: inc/arrays.php:603
 msgid "unit"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:576
+#: classes/frontend-scripts.class.php:577
 #: inc/arrays.php:605
 #: templates/frontend/component/quantities/horizontal-layout.php:58
 #: templates/frontend/component/quantities/vertical-layout.php:47
@@ -1821,16 +1821,16 @@ msgstr ""
 msgid "Quantity"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:580
+#: classes/frontend-scripts.class.php:581
 #: inc/woocommerce.php:259
 msgid "is a required field"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:581
+#: classes/frontend-scripts.class.php:582
 msgid "You can only select a maximum of"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:582
+#: classes/frontend-scripts.class.php:583
 msgid "You can only select a minimum of"
 msgstr ""
 
@@ -3716,47 +3716,47 @@ msgid "Dismiss this notice"
 msgstr ""
 
 #: inc/admin.php:257
-#: inc/admin.php:434
+#: inc/admin.php:432
 msgid "Since version 22.0, Database has some changes. Please Deactivate & then activate the PPOM plugin."
 msgstr ""
 
 #: inc/admin.php:271
-#: inc/admin.php:449
+#: inc/admin.php:447
 msgid "Sorry, you are not allowed to perform this action."
 msgstr ""
 
-#: inc/admin.php:291
+#: inc/admin.php:292
 msgid "No fields found."
 msgstr ""
 
-#: inc/admin.php:320
-#: inc/admin.php:481
+#: inc/admin.php:319
+#: inc/admin.php:479
 msgid "PPOM title is too long to save, please make it less than 50 characters."
 msgstr ""
 
-#: inc/admin.php:397
+#: inc/admin.php:395
 msgid "Form added successfully"
 msgstr ""
 
-#: inc/admin.php:405
+#: inc/admin.php:403
 #: inc/rest.class.php:393
 msgid "No changes found."
 msgstr ""
 
-#: inc/admin.php:544
+#: inc/admin.php:541
 msgid "Form updated successfully"
 msgstr ""
 
-#: inc/admin.php:552
+#: inc/admin.php:549
 msgid "Form updated successfully."
 msgstr ""
 
-#: inc/admin.php:630
-#: inc/admin.php:681
+#: inc/admin.php:627
+#: inc/admin.php:678
 msgid "Meta deleted successfully"
 msgstr ""
 
-#: inc/admin.php:635
+#: inc/admin.php:632
 msgid "Error while deleting the PPOM, try again."
 msgstr ""
 
