@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-08T15:00:54+00:00\n"
+"POT-Creation-Date: 2024-10-15T14:00:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -887,7 +887,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:308
 #: classes/admin.class.php:558
-#: inc/admin.php:608
+#: inc/admin.php:621
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
 
@@ -1032,7 +1032,7 @@ msgid "You can create different meta groups for different products."
 msgstr ""
 
 #: classes/admin.class.php:252
-#: inc/admin.php:650
+#: inc/admin.php:663
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
@@ -1145,8 +1145,8 @@ msgid "Bulk Actions"
 msgstr ""
 
 #: classes/fields.class.php:171
-#: inc/files.php:483
-#: inc/files.php:499
+#: inc/files.php:530
+#: inc/files.php:546
 msgid "Delete"
 msgstr ""
 
@@ -1191,8 +1191,8 @@ msgstr ""
 #: classes/frontend-scripts.class.php:572
 #: classes/frontend-scripts.class.php:573
 #: classes/frontend-scripts.class.php:574
-#: inc/admin.php:770
-#: inc/admin.php:790
+#: inc/admin.php:783
+#: inc/admin.php:803
 #: inc/arrays.php:595
 #: inc/arrays.php:596
 #: inc/arrays.php:597
@@ -3716,47 +3716,47 @@ msgid "Dismiss this notice"
 msgstr ""
 
 #: inc/admin.php:257
-#: inc/admin.php:432
+#: inc/admin.php:441
 msgid "Since version 22.0, Database has some changes. Please Deactivate & then activate the PPOM plugin."
 msgstr ""
 
 #: inc/admin.php:271
-#: inc/admin.php:447
+#: inc/admin.php:456
 msgid "Sorry, you are not allowed to perform this action."
 msgstr ""
 
-#: inc/admin.php:292
+#: inc/admin.php:296
 msgid "No fields found."
 msgstr ""
 
-#: inc/admin.php:319
-#: inc/admin.php:479
+#: inc/admin.php:323
+#: inc/admin.php:492
 msgid "PPOM title is too long to save, please make it less than 50 characters."
 msgstr ""
 
-#: inc/admin.php:395
+#: inc/admin.php:404
 msgid "Form added successfully"
 msgstr ""
 
-#: inc/admin.php:403
+#: inc/admin.php:412
 #: inc/rest.class.php:393
 msgid "No changes found."
 msgstr ""
 
-#: inc/admin.php:541
+#: inc/admin.php:554
 msgid "Form updated successfully"
 msgstr ""
 
-#: inc/admin.php:549
+#: inc/admin.php:562
 msgid "Form updated successfully."
 msgstr ""
 
-#: inc/admin.php:627
-#: inc/admin.php:678
+#: inc/admin.php:640
+#: inc/admin.php:691
 msgid "Meta deleted successfully"
 msgstr ""
 
-#: inc/admin.php:632
+#: inc/admin.php:645
 msgid "Error while deleting the PPOM, try again."
 msgstr ""
 
@@ -3972,45 +3972,45 @@ msgstr ""
 msgid "Your image-%s"
 msgstr ""
 
-#: inc/files.php:147
+#: inc/files.php:207
 msgid "You cannot upload the file at this time, please refresh the page and try again. Note that your current option choices will be reset."
 msgstr ""
 
-#: inc/files.php:157
+#: inc/files.php:217
 msgid "Error while creating directory"
 msgstr ""
 
-#: inc/files.php:186
+#: inc/files.php:246
 msgid "File type not valid - "
 msgstr ""
 
-#: inc/files.php:349
+#: inc/files.php:396
 msgid "Missing data."
 msgstr ""
 
-#: inc/files.php:357
+#: inc/files.php:404
 msgid "Verification failed for file: %s"
 msgstr ""
 
-#: inc/files.php:380
+#: inc/files.php:427
 msgid "File removed"
 msgstr ""
 
-#: inc/files.php:382
+#: inc/files.php:429
 msgid "Error while deleting file %s"
 msgstr ""
 
-#: inc/files.php:385
+#: inc/files.php:432
 msgid "The file %s does not exists."
 msgstr ""
 
-#: inc/files.php:462
-#: inc/files.php:494
+#: inc/files.php:509
+#: inc/files.php:541
 msgid "Size: "
 msgstr ""
 
-#: inc/files.php:483
-#: inc/files.php:499
+#: inc/files.php:530
+#: inc/files.php:546
 #: templates/admin/ppom-fields.php:674
 msgid "Remove"
 msgstr ""
