@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-15T14:00:38+00:00\n"
+"POT-Creation-Date: 2024-10-18T10:48:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -598,7 +598,7 @@ msgstr ""
 
 #: backend/options.php:454
 #: inc/arrays.php:690
-#: templates/admin/ppom-fields.php:477
+#: templates/admin/ppom-fields.php:479
 msgid "Cart Edit"
 msgstr ""
 
@@ -799,7 +799,7 @@ msgid "Select the icon library to be used for displaying icons."
 msgstr ""
 
 #: backend/options.php:683
-#: templates/admin/ppom-fields.php:357
+#: templates/admin/ppom-fields.php:359
 msgid "Bulk Quantity"
 msgstr ""
 
@@ -874,7 +874,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:129
 #: backend/settings-panel.class.php:130
-#: classes/admin.class.php:670
+#: classes/admin.class.php:689
 msgid "PPOM Settings"
 msgstr ""
 
@@ -1084,31 +1084,31 @@ msgstr ""
 msgid "Select a product"
 msgstr ""
 
-#: classes/admin.class.php:654
+#: classes/admin.class.php:673
 msgid "Provide API key below:"
 msgstr ""
 
-#: classes/admin.class.php:655
+#: classes/admin.class.php:674
 msgid "If you don't know your API key, please login into your: <a target=\"_blank\" href=\"http://wordpresspoets.com/member-area\">Member area</a>"
 msgstr ""
 
-#: classes/admin.class.php:658
+#: classes/admin.class.php:677
 msgid "Entery API key"
 msgstr ""
 
-#: classes/admin.class.php:789
+#: classes/admin.class.php:808
 msgid "Choose Roles"
 msgstr ""
 
-#: classes/admin.class.php:790
+#: classes/admin.class.php:809
 msgid "Roles"
 msgstr ""
 
-#: classes/admin.class.php:800
+#: classes/admin.class.php:819
 msgid "Select all"
 msgstr ""
 
-#: classes/admin.class.php:802
+#: classes/admin.class.php:821
 msgid "Select none"
 msgstr ""
 
@@ -1290,8 +1290,8 @@ msgid "Fixed?"
 msgstr ""
 
 #: classes/fields.class.php:549
-#: templates/admin/ppom-fields.php:686
-#: templates/admin/ppom-fields.php:706
+#: templates/admin/ppom-fields.php:688
+#: templates/admin/ppom-fields.php:708
 msgid "Data Name"
 msgstr ""
 
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: classes/fields.class.php:799
 #: classes/fields.class.php:921
-#: templates/admin/ppom-fields.php:392
+#: templates/admin/ppom-fields.php:394
 msgid "All"
 msgstr ""
 
@@ -1623,94 +1623,94 @@ msgid "Enable Conditional Repeat"
 msgstr ""
 
 #: classes/freemium.class.php:111
-#: templates/admin/ppom-fields.php:289
+#: templates/admin/ppom-fields.php:291
 msgid "Collapse"
 msgstr ""
 
 #: classes/freemium.class.php:115
-#: templates/admin/ppom-fields.php:170
+#: templates/admin/ppom-fields.php:172
 msgid "Emojis"
 msgstr ""
 
 #: classes/freemium.class.php:119
-#: templates/admin/ppom-fields.php:106
+#: templates/admin/ppom-fields.php:108
 msgid "Phone Input"
 msgstr ""
 
 #: classes/freemium.class.php:123
-#: templates/admin/ppom-fields.php:150
+#: templates/admin/ppom-fields.php:152
 msgid "Chained Input"
 msgstr ""
 
 #: classes/freemium.class.php:127
-#: templates/admin/ppom-fields.php:177
+#: templates/admin/ppom-fields.php:179
 msgid "Conditional Images"
 msgstr ""
 
 #: classes/freemium.class.php:131
-#: templates/admin/ppom-fields.php:275
+#: templates/admin/ppom-fields.php:277
 msgid "Domain"
 msgstr ""
 
 #: classes/freemium.class.php:135
-#: templates/admin/ppom-fields.php:267
+#: templates/admin/ppom-fields.php:269
 msgid "Fonts Picker"
 msgstr ""
 
 #: classes/freemium.class.php:139
-#: templates/admin/ppom-fields.php:212
+#: templates/admin/ppom-fields.php:214
 msgid "Personalization Preview"
 msgstr ""
 
 #: classes/freemium.class.php:143
-#: templates/admin/ppom-fields.php:282
+#: templates/admin/ppom-fields.php:284
 msgid "Text Counter"
 msgstr ""
 
 #: classes/freemium.class.php:147
-#: templates/admin/ppom-fields.php:308
+#: templates/admin/ppom-fields.php:310
 msgid "Fixed Price"
 msgstr ""
 
 #: classes/freemium.class.php:151
-#: templates/admin/ppom-fields.php:364
+#: templates/admin/ppom-fields.php:366
 msgid "Select Option Quantity"
 msgstr ""
 
 #: classes/freemium.class.php:155
-#: templates/admin/ppom-fields.php:191
+#: templates/admin/ppom-fields.php:193
 msgid "Image DropDown"
 msgstr ""
 
 #: classes/freemium.class.php:159
-#: templates/admin/ppom-fields.php:143
+#: templates/admin/ppom-fields.php:145
 msgid "Super List"
 msgstr ""
 
 #: classes/freemium.class.php:163
-#: templates/admin/ppom-fields.php:350
+#: templates/admin/ppom-fields.php:352
 msgid "Quantity Option"
 msgstr ""
 
 #: classes/freemium.class.php:167
-#: templates/admin/ppom-fields.php:329
-#: templates/admin/ppom-fields.php:478
+#: templates/admin/ppom-fields.php:331
+#: templates/admin/ppom-fields.php:480
 msgid "Quantities Pack"
 msgstr ""
 
 #: classes/freemium.class.php:171
-#: templates/admin/ppom-fields.php:136
+#: templates/admin/ppom-fields.php:138
 msgid "Radio Switcher"
 msgstr ""
 
 #: classes/freemium.class.php:175
-#: templates/admin/ppom-fields.php:336
+#: templates/admin/ppom-fields.php:338
 msgid "Variation Matrix"
 msgstr ""
 
 #: classes/freemium.class.php:179
 #: classes/inputs/input.daterange.php:24
-#: templates/admin/ppom-fields.php:238
+#: templates/admin/ppom-fields.php:240
 msgid "DateRange Input"
 msgstr ""
 
@@ -1721,19 +1721,19 @@ msgstr ""
 
 #: classes/freemium.class.php:187
 #: classes/inputs/input.file.php:25
-#: templates/admin/ppom-fields.php:163
+#: templates/admin/ppom-fields.php:165
 msgid "File Input"
 msgstr ""
 
 #: classes/freemium.class.php:191
 #: classes/inputs/input.cropper.php:23
-#: templates/admin/ppom-fields.php:205
+#: templates/admin/ppom-fields.php:207
 msgid "Image Cropper"
 msgstr ""
 
 #: classes/freemium.class.php:195
 #: classes/inputs/input.timezone.php:24
-#: templates/admin/ppom-fields.php:230
+#: templates/admin/ppom-fields.php:232
 msgid "Timezone Input"
 msgstr ""
 
@@ -1744,43 +1744,43 @@ msgstr ""
 
 #: classes/freemium.class.php:203
 #: classes/inputs/input.image.php:24
-#: templates/admin/ppom-fields.php:184
+#: templates/admin/ppom-fields.php:186
 msgid "Images"
 msgstr ""
 
 #: classes/freemium.class.php:207
 #: classes/inputs/input.pricematrix.php:25
-#: templates/admin/ppom-fields.php:322
+#: templates/admin/ppom-fields.php:324
 msgid "Price Matrix"
 msgstr ""
 
 #: classes/freemium.class.php:211
 #: classes/inputs/input.section.php:29
-#: templates/admin/ppom-fields.php:245
+#: templates/admin/ppom-fields.php:247
 msgid "HTML"
 msgstr ""
 
 #: classes/freemium.class.php:215
 #: classes/inputs/input.palettes.php:24
-#: templates/admin/ppom-fields.php:260
+#: templates/admin/ppom-fields.php:262
 msgid "Color Palettes"
 msgstr ""
 
 #: classes/freemium.class.php:219
 #: classes/inputs/input.audio.php:24
-#: templates/admin/ppom-fields.php:198
+#: templates/admin/ppom-fields.php:200
 msgid "Audio / Video"
 msgstr ""
 
 #: classes/freemium.class.php:223
 #: classes/inputs/input.measure.php:24
-#: templates/admin/ppom-fields.php:343
+#: templates/admin/ppom-fields.php:345
 msgid "Measure Input"
 msgstr ""
 
 #: classes/freemium.class.php:227
 #: classes/inputs/input.divider.php:24
-#: templates/admin/ppom-fields.php:296
+#: templates/admin/ppom-fields.php:298
 msgid "Divider"
 msgstr ""
 
@@ -1863,8 +1863,8 @@ msgstr ""
 #: classes/inputs/input.text.php:38
 #: classes/inputs/input.textarea.php:37
 #: classes/inputs/input.timezone.php:36
-#: templates/admin/ppom-fields.php:688
-#: templates/admin/ppom-fields.php:708
+#: templates/admin/ppom-fields.php:690
+#: templates/admin/ppom-fields.php:710
 msgid "Title"
 msgstr ""
 
@@ -2243,8 +2243,8 @@ msgstr ""
 #: classes/inputs/input.text.php:143
 #: classes/inputs/input.textarea.php:119
 #: classes/inputs/input.timezone.php:114
-#: templates/admin/ppom-fields.php:690
-#: templates/admin/ppom-fields.php:710
+#: templates/admin/ppom-fields.php:692
+#: templates/admin/ppom-fields.php:712
 msgid "Required"
 msgstr ""
 
@@ -2347,7 +2347,7 @@ msgid "Set rules to show or hide the field based on specific conditions"
 msgstr ""
 
 #: classes/inputs/input.checkbox.php:24
-#: templates/admin/ppom-fields.php:119
+#: templates/admin/ppom-fields.php:121
 msgid "Checkbox Input"
 msgstr ""
 
@@ -2636,8 +2636,8 @@ msgstr ""
 #: classes/inputs/input.number.php:51
 #: classes/inputs/input.text.php:53
 #: classes/inputs/input.textarea.php:52
-#: templates/admin/ppom-fields.php:689
-#: templates/admin/ppom-fields.php:709
+#: templates/admin/ppom-fields.php:691
+#: templates/admin/ppom-fields.php:711
 msgid "Placeholder"
 msgstr ""
 
@@ -2922,7 +2922,7 @@ msgid "Choose the divider text color."
 msgstr ""
 
 #: classes/inputs/input.email.php:24
-#: templates/admin/ppom-fields.php:88
+#: templates/admin/ppom-fields.php:90
 msgid "Email Input"
 msgstr ""
 
@@ -2996,7 +2996,7 @@ msgid "Provide image dimension error message. It will display on frontend while 
 msgstr ""
 
 #: classes/inputs/input.hidden.php:24
-#: templates/admin/ppom-fields.php:100
+#: templates/admin/ppom-fields.php:102
 msgid "Hidden Input"
 msgstr ""
 
@@ -3189,7 +3189,7 @@ msgid "Price will be added as Add-on if text provided"
 msgstr ""
 
 #: classes/inputs/input.number.php:24
-#: templates/admin/ppom-fields.php:95
+#: templates/admin/ppom-fields.php:97
 msgid "Number Input"
 msgstr ""
 
@@ -3432,7 +3432,7 @@ msgid "Order quantity will not be controlled by this."
 msgstr ""
 
 #: classes/inputs/input.radio.php:24
-#: templates/admin/ppom-fields.php:125
+#: templates/admin/ppom-fields.php:127
 msgid "Radio Input"
 msgstr ""
 
@@ -3465,7 +3465,7 @@ msgid "Add your text/HTML here."
 msgstr ""
 
 #: classes/inputs/input.select.php:24
-#: templates/admin/ppom-fields.php:131
+#: templates/admin/ppom-fields.php:133
 msgid "Select Input"
 msgstr ""
 
@@ -3482,7 +3482,7 @@ msgid "Type option with price (optionally), Option ID should be unique and witho
 msgstr ""
 
 #: classes/inputs/input.text.php:24
-#: templates/admin/ppom-fields.php:76
+#: templates/admin/ppom-fields.php:78
 msgid "Text Input"
 msgstr ""
 
@@ -3545,7 +3545,7 @@ msgid "<a target=\"_blank\" href=\""
 msgstr ""
 
 #: classes/inputs/input.textarea.php:24
-#: templates/admin/ppom-fields.php:82
+#: templates/admin/ppom-fields.php:84
 msgid "Textarea Input"
 msgstr ""
 
@@ -4011,7 +4011,7 @@ msgstr ""
 
 #: inc/files.php:530
 #: inc/files.php:546
-#: templates/admin/ppom-fields.php:674
+#: templates/admin/ppom-fields.php:676
 msgid "Remove"
 msgstr ""
 
@@ -4172,7 +4172,7 @@ msgid "Feature"
 msgstr ""
 
 #: templates/admin/addons-list.php:53
-#: templates/admin/ppom-fields.php:442
+#: templates/admin/ppom-fields.php:444
 msgid "PRO"
 msgstr ""
 
@@ -4226,8 +4226,8 @@ msgstr ""
 
 #: templates/admin/existing-meta.php:35
 #: templates/admin/existing-meta.php:50
-#: templates/admin/ppom-fields.php:691
-#: templates/admin/ppom-fields.php:711
+#: templates/admin/ppom-fields.php:693
+#: templates/admin/ppom-fields.php:713
 msgid "Actions"
 msgstr ""
 
@@ -4236,7 +4236,7 @@ msgid "Products"
 msgstr ""
 
 #: templates/admin/existing-meta.php:96
-#: templates/admin/ppom-fields.php:550
+#: templates/admin/ppom-fields.php:552
 msgid "Attach to Products"
 msgstr ""
 
@@ -4256,351 +4256,351 @@ msgstr ""
 msgid "Upgrade to PRO"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:57
+#: templates/admin/ppom-fields.php:59
 msgid "&laquo; Existing Product Meta"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:72
+#: templates/admin/ppom-fields.php:74
 msgid "Text"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:77
+#: templates/admin/ppom-fields.php:79
 msgid "Simple text field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:83
+#: templates/admin/ppom-fields.php:85
 msgid "Simple area field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:89
+#: templates/admin/ppom-fields.php:91
 msgid "Simple email field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:94
+#: templates/admin/ppom-fields.php:96
 msgid "Number"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:101
+#: templates/admin/ppom-fields.php:103
 msgid "Simple hidden field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:107
+#: templates/admin/ppom-fields.php:109
 msgid "Simple Phone field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:114
+#: templates/admin/ppom-fields.php:116
 msgid "Choices"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:118
+#: templates/admin/ppom-fields.php:120
 msgid "Checkbox"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:124
+#: templates/admin/ppom-fields.php:126
 msgid "Radio"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:130
+#: templates/admin/ppom-fields.php:132
 msgid "Select"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:137
+#: templates/admin/ppom-fields.php:139
 msgid "Radio button switcher"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:144
+#: templates/admin/ppom-fields.php:146
 msgid "Advanced list input"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:151
+#: templates/admin/ppom-fields.php:153
 msgid "Linked dropdown selections where choices in one field depend on previous selections."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:158
+#: templates/admin/ppom-fields.php:160
 msgid "Media"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:164
+#: templates/admin/ppom-fields.php:166
 msgid "File upload field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:171
+#: templates/admin/ppom-fields.php:173
 msgid "Emoji picker for input fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:178
+#: templates/admin/ppom-fields.php:180
 msgid "Images that change based on input conditions"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:185
+#: templates/admin/ppom-fields.php:187
 msgid "Select images."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:192
+#: templates/admin/ppom-fields.php:194
 msgid "Dropdown with image selections"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:199
+#: templates/admin/ppom-fields.php:201
 msgid "Audio and video input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:206
+#: templates/admin/ppom-fields.php:208
 msgid "Image cropping tool"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:213
+#: templates/admin/ppom-fields.php:215
 msgid "Preview for personalized products"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:220
+#: templates/admin/ppom-fields.php:222
 msgid "Special Format"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:224
+#: templates/admin/ppom-fields.php:226
 msgid "Date"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:225
+#: templates/admin/ppom-fields.php:227
 msgid "Date input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:231
+#: templates/admin/ppom-fields.php:233
 msgid "Timezone selector for input fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:239
+#: templates/admin/ppom-fields.php:241
 msgid "Date range input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:246
+#: templates/admin/ppom-fields.php:248
 msgid "Custom HTML input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:253
+#: templates/admin/ppom-fields.php:255
 msgid "Color Picker"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:254
+#: templates/admin/ppom-fields.php:256
 msgid "Color picker input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:261
+#: templates/admin/ppom-fields.php:263
 msgid "Color palette selection"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:268
+#: templates/admin/ppom-fields.php:270
 msgid "Font selection tool"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:276
+#: templates/admin/ppom-fields.php:278
 msgid "Domain input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:283
+#: templates/admin/ppom-fields.php:285
 msgid "Character count for input fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:290
+#: templates/admin/ppom-fields.php:292
 msgid "Group and toggle other input fields within a collapsible section, helping to organize long forms more efficiently."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:297
+#: templates/admin/ppom-fields.php:299
 msgid "Add a visual separator."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:304
+#: templates/admin/ppom-fields.php:306
 msgid "Pricing & Quantity"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:309
+#: templates/admin/ppom-fields.php:311
 msgid "Fixed pricing options"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:315
+#: templates/admin/ppom-fields.php:317
 msgid "Variation Quantity "
 msgstr ""
 
-#: templates/admin/ppom-fields.php:316
+#: templates/admin/ppom-fields.php:318
 msgid "Quantity selection with options"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:323
+#: templates/admin/ppom-fields.php:325
 msgid "Matrix-based pricing"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:330
+#: templates/admin/ppom-fields.php:332
 msgid "Pack-based quantity options"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:337
+#: templates/admin/ppom-fields.php:339
 msgid "Quantity selector for variations"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:344
+#: templates/admin/ppom-fields.php:346
 msgid "Measurement input field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:351
+#: templates/admin/ppom-fields.php:353
 msgid "Quantity selection options"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:358
+#: templates/admin/ppom-fields.php:360
 msgid "Bulk quantity selection for products"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:365
+#: templates/admin/ppom-fields.php:367
 msgid "Select option's quantity"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:380
+#: templates/admin/ppom-fields.php:382
 msgid "Select Field Type"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:382
+#: templates/admin/ppom-fields.php:384
 msgid "Search Fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:470
+#: templates/admin/ppom-fields.php:472
 msgid "Unlock all Features!"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:473
+#: templates/admin/ppom-fields.php:475
 msgid "Upgrade to the Pro plan to unlock all features and enhance your product fields management capabilities:"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:475
+#: templates/admin/ppom-fields.php:477
 msgid "Unlock 30+ input fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:476
+#: templates/admin/ppom-fields.php:478
 msgid "Meta Fields Repeater"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:489
-#: templates/admin/ppom-fields.php:644
+#: templates/admin/ppom-fields.php:491
+#: templates/admin/ppom-fields.php:646
 #: templates/admin/product-modal.php:18
 msgid "Close"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:512
+#: templates/admin/ppom-fields.php:514
 msgid "Product Meta Basic Settings"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:521
+#: templates/admin/ppom-fields.php:523
 msgid "Meta group name"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:523
+#: templates/admin/ppom-fields.php:525
 msgid "For your reference."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:532
+#: templates/admin/ppom-fields.php:534
 msgid "Control price display on product page"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:534
+#: templates/admin/ppom-fields.php:536
 msgid "Control how price table will be shown for options or disable."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:538
+#: templates/admin/ppom-fields.php:540
 msgid "Select Option"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:539
+#: templates/admin/ppom-fields.php:541
 msgid "Do Not Show Price Table"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:540
+#: templates/admin/ppom-fields.php:542
 msgid "Show Only Option's Total"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:541
+#: templates/admin/ppom-fields.php:543
 msgid "Show Each Option's Price"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:568
+#: templates/admin/ppom-fields.php:570
 msgid "Custom CSS and JS customization is not available on your current plan. <a href=\"%s\" target=\"_blank\">Upgrade to the Pro</a> plan to unlock the ability to fully customize your fields' appearance and functionality."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:576
+#: templates/admin/ppom-fields.php:578
 msgid "Custom CSS"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:578
+#: templates/admin/ppom-fields.php:580
 msgid "Add your own CSS."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:583
+#: templates/admin/ppom-fields.php:585
 msgid "Use"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:583
+#: templates/admin/ppom-fields.php:585
 msgid "to target block wrapper."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:584
+#: templates/admin/ppom-fields.php:586
 msgid "Example:"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:586
+#: templates/admin/ppom-fields.php:588
 msgid "You can also use other CSS syntax here, such as media queries."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:591
+#: templates/admin/ppom-fields.php:593
 msgid "Custom Javascipt"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:593
+#: templates/admin/ppom-fields.php:595
 msgid "Add your own javascipt script."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:647
+#: templates/admin/ppom-fields.php:649
 msgid "Update Field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:666
+#: templates/admin/ppom-fields.php:668
 msgid "Add PPOM Fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:672
+#: templates/admin/ppom-fields.php:674
 msgid "Add field"
-msgstr ""
-
-#: templates/admin/ppom-fields.php:685
-#: templates/admin/ppom-fields.php:705
-msgid "Status"
 msgstr ""
 
 #: templates/admin/ppom-fields.php:687
 #: templates/admin/ppom-fields.php:707
+msgid "Status"
+msgstr ""
+
+#: templates/admin/ppom-fields.php:689
+#: templates/admin/ppom-fields.php:709
 msgid "Type"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:719
+#: templates/admin/ppom-fields.php:721
 msgid "Save Fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:779
+#: templates/admin/ppom-fields.php:781
 msgid "Copy Field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:785
+#: templates/admin/ppom-fields.php:787
 msgid "Edit Field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:821
+#: templates/admin/ppom-fields.php:823
 msgid "Alert!"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:823
+#: templates/admin/ppom-fields.php:825
 msgid "In order to edit premium fields, benefit from updates and support for PPOM Premium plugin, please renew your license code or activate it."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:826
+#: templates/admin/ppom-fields.php:828
 msgid "Renew License"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:827
+#: templates/admin/ppom-fields.php:829
 msgid "Activate License"
 msgstr ""
 
