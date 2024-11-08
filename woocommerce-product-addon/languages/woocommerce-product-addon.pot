@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-18T10:48:59+00:00\n"
+"POT-Creation-Date: 2024-11-08T09:04:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:129
 #: backend/settings-panel.class.php:130
-#: classes/admin.class.php:689
+#: classes/admin.class.php:698
 msgid "PPOM Settings"
 msgstr ""
 
@@ -886,7 +886,7 @@ msgid "PPOM"
 msgstr ""
 
 #: backend/settings-panel.class.php:308
-#: classes/admin.class.php:558
+#: classes/admin.class.php:567
 #: inc/admin.php:621
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
@@ -1027,88 +1027,88 @@ msgstr ""
 msgid "Manage Personalization Previews"
 msgstr ""
 
-#: classes/admin.class.php:216
+#: classes/admin.class.php:217
 msgid "You can create different meta groups for different products."
 msgstr ""
 
-#: classes/admin.class.php:252
+#: classes/admin.class.php:261
 #: inc/admin.php:663
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
-#: classes/admin.class.php:257
+#: classes/admin.class.php:266
 msgid "Input Field is missing."
 msgstr ""
 
-#: classes/admin.class.php:264
+#: classes/admin.class.php:273
 msgid "Your current plan supports adding one group of fields per product. To add multiple groups to the same product, please %supgrade%s your plan!"
 msgstr ""
 
-#: classes/admin.class.php:267
+#: classes/admin.class.php:276
 msgid "Display on Specific Products"
 msgstr ""
 
-#: classes/admin.class.php:268
+#: classes/admin.class.php:277
 msgid "Select the product(s) where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:272
+#: classes/admin.class.php:281
 msgid "Choose Products:"
 msgstr ""
 
-#: classes/admin.class.php:283
+#: classes/admin.class.php:292
 msgid "Display in Specific Product Categories"
 msgstr ""
 
-#: classes/admin.class.php:284
+#: classes/admin.class.php:293
 msgid "Select the product categories where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:288
+#: classes/admin.class.php:297
 msgid "Choose Categories:"
 msgstr ""
 
-#: classes/admin.class.php:307
+#: classes/admin.class.php:316
 msgid "Display in Specific Product Tags"
 msgstr ""
 
-#: classes/admin.class.php:308
+#: classes/admin.class.php:317
 msgid "Select the product tags where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:312
+#: classes/admin.class.php:321
 msgid "Choose tags:"
 msgstr ""
 
-#: classes/admin.class.php:373
+#: classes/admin.class.php:382
 msgid "Select a product"
 msgstr ""
 
-#: classes/admin.class.php:673
+#: classes/admin.class.php:682
 msgid "Provide API key below:"
 msgstr ""
 
-#: classes/admin.class.php:674
+#: classes/admin.class.php:683
 msgid "If you don't know your API key, please login into your: <a target=\"_blank\" href=\"http://wordpresspoets.com/member-area\">Member area</a>"
 msgstr ""
 
-#: classes/admin.class.php:677
+#: classes/admin.class.php:686
 msgid "Entery API key"
 msgstr ""
 
-#: classes/admin.class.php:808
+#: classes/admin.class.php:817
 msgid "Choose Roles"
 msgstr ""
 
-#: classes/admin.class.php:809
+#: classes/admin.class.php:818
 msgid "Roles"
 msgstr ""
 
-#: classes/admin.class.php:819
+#: classes/admin.class.php:828
 msgid "Select all"
 msgstr ""
 
-#: classes/admin.class.php:821
+#: classes/admin.class.php:830
 msgid "Select none"
 msgstr ""
 
