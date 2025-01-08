@@ -1,4 +1,4 @@
-# Copyright (C) 2024 Themeisle
+# Copyright (C) 2025 Themeisle
 # This file is distributed under the same license as the PPOM for WooCommerce plugin.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-08T09:04:11+00:00\n"
+"POT-Creation-Date: 2025-01-08T16:36:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -45,12 +45,12 @@ msgid "Basic Settings"
 msgstr ""
 
 #: backend/options.php:29
-#: inc/arrays.php:253
+#: inc/arrays.php:259
 msgid "Disable Bootstrap"
 msgstr ""
 
 #: backend/options.php:30
-#: inc/arrays.php:258
+#: inc/arrays.php:264
 msgid "Bootstrap JS is loaded from a CDN by default. You can disable it if your site is already loading it."
 msgstr ""
 
@@ -65,19 +65,20 @@ msgstr ""
 #: backend/options.php:197
 #: backend/options.php:203
 #: backend/options.php:725
-#: inc/arrays.php:255
-#: inc/arrays.php:264
-#: inc/arrays.php:273
-#: inc/arrays.php:281
-#: inc/arrays.php:313
-#: inc/arrays.php:323
-#: inc/arrays.php:334
-#: inc/arrays.php:344
-#: inc/arrays.php:354
-#: inc/arrays.php:364
-#: inc/arrays.php:373
-#: inc/arrays.php:382
-#: inc/arrays.php:391
+#: classes/fields.class.php:187
+#: inc/arrays.php:261
+#: inc/arrays.php:270
+#: inc/arrays.php:279
+#: inc/arrays.php:287
+#: inc/arrays.php:319
+#: inc/arrays.php:329
+#: inc/arrays.php:340
+#: inc/arrays.php:350
+#: inc/arrays.php:360
+#: inc/arrays.php:370
+#: inc/arrays.php:379
+#: inc/arrays.php:388
+#: inc/arrays.php:397
 msgid "Yes"
 msgstr ""
 
@@ -86,7 +87,7 @@ msgid "Legacy Inputs Rendering"
 msgstr ""
 
 #: backend/options.php:36
-#: inc/arrays.php:267
+#: inc/arrays.php:273
 msgid "PPOM Version 22.0 is a major update. If any issues occur, you can revert to the previous version using this option."
 msgstr ""
 
@@ -99,22 +100,22 @@ msgid "If you found any issue in conditions you may enable this option."
 msgstr ""
 
 #: backend/options.php:45
-#: inc/arrays.php:279
+#: inc/arrays.php:285
 msgid "Enable Legacy Price Calculations"
 msgstr ""
 
 #: backend/options.php:46
-#: inc/arrays.php:284
+#: inc/arrays.php:290
 msgid "Enable this option to use the legacy method for price calculations."
 msgstr ""
 
 #: backend/options.php:50
-#: inc/arrays.php:287
+#: inc/arrays.php:293
 msgid "PPOM Permissions"
 msgstr ""
 
 #: backend/options.php:51
-#: inc/arrays.php:294
+#: inc/arrays.php:300
 msgid "You can set permissions here to allow different roles to manage PPOM fields."
 msgstr ""
 
@@ -143,10 +144,10 @@ msgid "Option Total Label Inside Price Table"
 msgstr ""
 
 #: backend/options.php:70
-#: classes/frontend-scripts.class.php:559
-#: inc/arrays.php:188
-#: inc/arrays.php:191
-#: inc/arrays.php:591
+#: classes/frontend-scripts.class.php:562
+#: inc/arrays.php:194
+#: inc/arrays.php:197
+#: inc/arrays.php:597
 msgid "Option Total"
 msgstr ""
 
@@ -155,10 +156,10 @@ msgid "Product Price Label inside Price Table"
 msgstr ""
 
 #: backend/options.php:75
-#: classes/frontend-scripts.class.php:558
-#: inc/arrays.php:207
-#: inc/arrays.php:210
-#: inc/arrays.php:590
+#: classes/frontend-scripts.class.php:561
+#: inc/arrays.php:213
+#: inc/arrays.php:216
+#: inc/arrays.php:596
 msgid "Product Price"
 msgstr ""
 
@@ -167,10 +168,10 @@ msgid "Total Label inside Price Table"
 msgstr ""
 
 #: backend/options.php:80
-#: classes/frontend-scripts.class.php:562
-#: inc/arrays.php:216
-#: inc/arrays.php:219
-#: inc/arrays.php:594
+#: classes/frontend-scripts.class.php:565
+#: inc/arrays.php:222
+#: inc/arrays.php:225
+#: inc/arrays.php:600
 msgid "Total"
 msgstr ""
 
@@ -179,15 +180,15 @@ msgid "Total Discount Label Inside Price Table"
 msgstr ""
 
 #: backend/options.php:85
-#: classes/frontend-scripts.class.php:561
-#: inc/arrays.php:243
-#: inc/arrays.php:246
-#: inc/arrays.php:593
+#: classes/frontend-scripts.class.php:564
+#: inc/arrays.php:249
+#: inc/arrays.php:252
+#: inc/arrays.php:599
 msgid "Total Discount"
 msgstr ""
 
 #: backend/options.php:89
-#: inc/arrays.php:198
+#: inc/arrays.php:204
 msgid "Option Total Suffix"
 msgstr ""
 
@@ -244,7 +245,7 @@ msgid "You can set the 'Add to Cart' button label here when PPOM is attached."
 msgstr ""
 
 #: backend/options.php:169
-#: inc/arrays.php:401
+#: inc/arrays.php:407
 msgid "Select Options"
 msgstr ""
 
@@ -293,7 +294,7 @@ msgid "When this option is enabled, the fixed fee will be taxable."
 msgstr ""
 
 #: backend/options.php:207
-#: inc/arrays.php:462
+#: inc/arrays.php:468
 msgid "Price Table Position"
 msgstr ""
 
@@ -302,12 +303,12 @@ msgid "Set the location where the price table will be rendered on the front end.
 msgstr ""
 
 #: backend/options.php:211
-#: inc/arrays.php:467
+#: inc/arrays.php:473
 msgid "After PPOM Fields"
 msgstr ""
 
 #: backend/options.php:212
-#: inc/arrays.php:468
+#: inc/arrays.php:474
 msgid "Before  PPOM Fields"
 msgstr ""
 
@@ -324,23 +325,23 @@ msgid "Set the duration for keeping uploaded images from abandoned carts. Reacti
 msgstr ""
 
 #: backend/options.php:225
-#: inc/arrays.php:423
+#: inc/arrays.php:429
 msgid "Daily"
 msgstr ""
 
 #: backend/options.php:226
-#: inc/arrays.php:424
+#: inc/arrays.php:430
 #: inc/hooks.php:790
 msgid "Weekly"
 msgstr ""
 
 #: backend/options.php:227
-#: inc/arrays.php:425
+#: inc/arrays.php:431
 msgid "Monthly"
 msgstr ""
 
 #: backend/options.php:232
-#: inc/arrays.php:433
+#: inc/arrays.php:439
 msgid "Meta Group Overrides"
 msgstr ""
 
@@ -349,22 +350,22 @@ msgid "Leave this set to default if you're not sure."
 msgstr ""
 
 #: backend/options.php:236
-#: inc/arrays.php:438
+#: inc/arrays.php:444
 msgid "Default"
 msgstr ""
 
 #: backend/options.php:237
-#: inc/arrays.php:439
+#: inc/arrays.php:445
 msgid "Category Overrides Individual Assignment"
 msgstr ""
 
 #: backend/options.php:238
-#: inc/arrays.php:440
+#: inc/arrays.php:446
 msgid "Individual Overrides Category Assignment"
 msgstr ""
 
 #: backend/options.php:243
-#: inc/arrays.php:448
+#: inc/arrays.php:454
 msgid "Meta Group Priority"
 msgstr ""
 
@@ -373,12 +374,12 @@ msgid "Choose which meta group takes priority when applied: Category or Product.
 msgstr ""
 
 #: backend/options.php:247
-#: inc/arrays.php:453
+#: inc/arrays.php:459
 msgid "Category First"
 msgstr ""
 
 #: backend/options.php:248
-#: inc/arrays.php:454
+#: inc/arrays.php:460
 msgid "Individual First"
 msgstr ""
 
@@ -597,7 +598,7 @@ msgid "Change the label for the modal button."
 msgstr ""
 
 #: backend/options.php:454
-#: inc/arrays.php:690
+#: inc/arrays.php:696
 #: templates/admin/ppom-fields.php:479
 msgid "Cart Edit"
 msgstr ""
@@ -639,7 +640,7 @@ msgid "Button Class"
 msgstr ""
 
 #: backend/options.php:490
-msgid " Add custom CSS classes to the enquiry form button, separated by commas."
+msgid "Add custom CSS classes to the enquiry form button, separated by commas."
 msgstr ""
 
 #: backend/options.php:494
@@ -669,12 +670,12 @@ msgid "Enable this option to hide the 'Add to Cart' button on the product page."
 msgstr ""
 
 #: backend/options.php:515
-#: inc/arrays.php:712
+#: inc/arrays.php:718
 msgid "Enquiry Form"
 msgstr ""
 
 #: backend/options.php:532
-#: inc/arrays.php:718
+#: inc/arrays.php:724
 msgid "Fields Popup"
 msgstr ""
 
@@ -828,7 +829,7 @@ msgid "PPOM REST API"
 msgstr ""
 
 #: backend/options.php:709
-#: inc/arrays.php:367
+#: inc/arrays.php:373
 msgid "Check this option to enable PPOM REST API."
 msgstr ""
 
@@ -874,7 +875,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:129
 #: backend/settings-panel.class.php:130
-#: classes/admin.class.php:698
+#: classes/admin.class.php:712
 msgid "PPOM Settings"
 msgstr ""
 
@@ -886,8 +887,8 @@ msgid "PPOM"
 msgstr ""
 
 #: backend/settings-panel.class.php:308
-#: classes/admin.class.php:567
-#: inc/admin.php:621
+#: classes/admin.class.php:577
+#: inc/admin.php:635
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
 
@@ -958,7 +959,7 @@ msgstr ""
 
 #: backend/settings-panel.class.php:827
 #: classes/fields.class.php:178
-#: classes/frontend-scripts.class.php:545
+#: classes/frontend-scripts.class.php:548
 #: inc/hooks.php:341
 #: inc/hooks.php:369
 msgid "Are you sure?"
@@ -969,16 +970,25 @@ msgid "The administrator role cannot be removed."
 msgstr ""
 
 #: backend/templates/admin-settings.php:56
-#: backend/templates/admin-settings.php:277
+#: backend/templates/admin-settings.php:295
 msgid "Save changes"
 msgstr ""
 
-#: backend/templates/admin-settings.php:102
-#: backend/templates/admin-settings.php:145
-msgid "%s customization is not available on your current plan. %sUpgrade to the Pro%s plan to unlock the ability to fully enable and customize this functionality."
+#. translators: %1$s: the name of plugin feature, %2$s: the upgrade link.
+#. translators: %1$s: the name of plugin feature, %2$s: opening anchor tag.
+#: backend/templates/admin-settings.php:104
+#: backend/templates/admin-settings.php:156
+msgid "%1$s customization is not available on your current plan. %2$s plan to unlock the ability to fully enable and customize this functionality."
 msgstr ""
 
-#: backend/templates/admin-settings.php:223
+#: backend/templates/admin-settings.php:109
+#: backend/templates/admin-settings.php:161
+#: classes/admin.class.php:280
+#: templates/admin/ppom-fields.php:578
+msgid "Upgrade to the Pro"
+msgstr ""
+
+#: backend/templates/admin-settings.php:241
 msgid "Hint: "
 msgstr ""
 
@@ -1002,7 +1012,7 @@ msgstr ""
 #: classes/admin.class.php:139
 #: classes/admin.class.php:154
 #: classes/admin.class.php:169
-#: classes/plugin.class.php:917
+#: classes/plugin.class.php:943
 #: templates/admin/changelog.php:54
 msgid "PPOM Fields"
 msgstr ""
@@ -1032,7 +1042,7 @@ msgid "You can create different meta groups for different products."
 msgstr ""
 
 #: classes/admin.class.php:261
-#: inc/admin.php:663
+#: inc/admin.php:677
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
@@ -1040,75 +1050,77 @@ msgstr ""
 msgid "Input Field is missing."
 msgstr ""
 
-#: classes/admin.class.php:273
-msgid "Your current plan supports adding one group of fields per product. To add multiple groups to the same product, please %supgrade%s your plan!"
+#. translators: %1$s: the link to the store with label 'upgrade'.
+#: classes/admin.class.php:276
+msgid "Your current plan supports adding one group of fields per product. To add multiple groups to the same product, please %1$s your plan!"
 msgstr ""
 
-#: classes/admin.class.php:276
+#: classes/admin.class.php:286
 msgid "Display on Specific Products"
 msgstr ""
 
-#: classes/admin.class.php:277
+#: classes/admin.class.php:287
 msgid "Select the product(s) where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:281
+#: classes/admin.class.php:291
 msgid "Choose Products:"
 msgstr ""
 
-#: classes/admin.class.php:292
+#: classes/admin.class.php:302
 msgid "Display in Specific Product Categories"
 msgstr ""
 
-#: classes/admin.class.php:293
+#: classes/admin.class.php:303
 msgid "Select the product categories where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:297
+#: classes/admin.class.php:307
 msgid "Choose Categories:"
 msgstr ""
 
-#: classes/admin.class.php:316
+#: classes/admin.class.php:326
 msgid "Display in Specific Product Tags"
 msgstr ""
 
-#: classes/admin.class.php:317
+#: classes/admin.class.php:327
 msgid "Select the product tags where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:321
+#: classes/admin.class.php:331
 msgid "Choose tags:"
 msgstr ""
 
-#: classes/admin.class.php:382
+#: classes/admin.class.php:392
 msgid "Select a product"
 msgstr ""
 
-#: classes/admin.class.php:682
+#. translators: %1$d: number of products, %2$d: number of categories, %3$d: number of tags.
+#: classes/admin.class.php:650
+msgid "PPOM updated for %1$d Products, %2$d Categories and %3$d Tags."
+msgstr ""
+
+#: classes/admin.class.php:698
 msgid "Provide API key below:"
 msgstr ""
 
-#: classes/admin.class.php:683
-msgid "If you don't know your API key, please login into your: <a target=\"_blank\" href=\"http://wordpresspoets.com/member-area\">Member area</a>"
+#: classes/admin.class.php:700
+msgid "Enter API key"
 msgstr ""
 
-#: classes/admin.class.php:686
-msgid "Entery API key"
-msgstr ""
-
-#: classes/admin.class.php:817
+#: classes/admin.class.php:831
 msgid "Choose Roles"
 msgstr ""
 
-#: classes/admin.class.php:818
+#: classes/admin.class.php:832
 msgid "Roles"
 msgstr ""
 
-#: classes/admin.class.php:828
+#: classes/admin.class.php:842
 msgid "Select all"
 msgstr ""
 
-#: classes/admin.class.php:830
+#: classes/admin.class.php:844
 msgid "Select none"
 msgstr ""
 
@@ -1145,17 +1157,37 @@ msgid "Bulk Actions"
 msgstr ""
 
 #: classes/fields.class.php:171
-#: inc/files.php:530
-#: inc/files.php:546
+#: inc/files.php:539
+#: inc/files.php:555
 msgid "Delete"
 msgstr ""
 
 #: classes/fields.class.php:172
+#: classes/fields.class.php:173
 msgid "Export"
 msgstr ""
 
+#. translators: it marks if a feature is locked under a paid plan.
 #: classes/fields.class.php:173
-msgid "Export (PRO)"
+#: classes/fields.class.php:875
+#: classes/fields.class.php:876
+#: classes/fields.class.php:877
+#: classes/fields.class.php:883
+#: classes/fields.class.php:884
+#: classes/fields.class.php:885
+#: classes/fields.class.php:886
+#: classes/fields.class.php:974
+#: classes/fields.class.php:975
+#: classes/fields.class.php:976
+#: classes/fields.class.php:982
+#: classes/fields.class.php:983
+#: classes/fields.class.php:984
+#: classes/fields.class.php:985
+#: classes/freemium.class.php:52
+#: inc/arrays.php:310
+#: templates/admin/addons-list.php:56
+#: templates/admin/ppom-fields.php:444
+msgid "PRO"
 msgstr ""
 
 #: classes/fields.class.php:174
@@ -1182,172 +1214,173 @@ msgstr ""
 msgid "Please at least check one field!"
 msgstr ""
 
-#: classes/fields.class.php:213
-#: classes/fields.class.php:301
-#: classes/fields.class.php:305
-#: classes/frontend-scripts.class.php:489
-#: classes/frontend-scripts.class.php:569
-#: classes/frontend-scripts.class.php:571
-#: classes/frontend-scripts.class.php:572
-#: classes/frontend-scripts.class.php:573
-#: classes/frontend-scripts.class.php:574
-#: inc/admin.php:783
-#: inc/admin.php:803
-#: inc/arrays.php:595
-#: inc/arrays.php:596
-#: inc/arrays.php:597
-#: inc/arrays.php:598
-#: inc/arrays.php:599
-#: inc/arrays.php:600
-#: inc/arrays.php:602
-#: inc/arrays.php:629
-#: inc/files.php:106
-#: inc/nmInput.class.php:158
-#: inc/nmInput.class.php:238
-#: inc/nmInput.class.php:266
-#: inc/nmInput.class.php:353
-#: inc/nmInput.class.php:442
-#: inc/nmInput.class.php:555
-#: inc/nmInput.class.php:637
-#: inc/nmInput.class.php:724
-#: inc/nmInput.class.php:822
-#: inc/nmInput.class.php:935
-#: inc/nmInput.class.php:1165
-#: inc/nmInput.class.php:1260
-#: inc/nmInput.class.php:1334
-#: inc/nmInput.class.php:1417
-#: inc/nmInput.class.php:1503
-#: inc/nmInput.class.php:1599
-#: inc/prices.php:805
-#: inc/prices.php:1239
-#: inc/prices.php:1280
-#: inc/woocommerce.php:260
-#: inc/woocommerce.php:582
-#: templates/frontend/inputs/cropper.php:44
-#: templates/frontend/inputs/divider.php:106
-#: templates/frontend/inputs/divider.php:116
-#: templates/frontend/inputs/divider.php:121
-#: templates/frontend/inputs/divider.php:128
-#: templates/frontend/inputs/divider.php:136
-#: templates/frontend/inputs/file.php:38
-#: templates/frontend/inputs/text.php:54
-#: templates/frontend/inputs/timezone.php:28
-#: templates/render-fields.php:418
-msgid "%s"
+#: classes/fields.class.php:186
+msgid "An error occurred. Please try again."
 msgstr ""
 
-#: classes/fields.class.php:222
-msgid "close"
+#: classes/fields.class.php:188
+msgid "No"
 msgstr ""
 
-#: classes/fields.class.php:223
-msgid "Add Field"
+#: classes/fields.class.php:189
+#: templates/admin/ppom-fields.php:661
+msgid "Update Field"
 msgstr ""
 
-#: classes/fields.class.php:405
-#: classes/fields.class.php:490
-msgid "Option"
+#: classes/fields.class.php:190
+msgid "Price (fix or %)"
 msgstr ""
 
-#: classes/fields.class.php:406
-#: classes/fields.class.php:491
-#: classes/fields.class.php:695
-#: classes/fields.class.php:711
-msgid "Price (optional)"
+#: classes/fields.class.php:191
+msgid "Choose File"
 msgstr ""
 
-#: classes/fields.class.php:409
-#: classes/fields.class.php:416
-msgid "Discount"
+#: classes/fields.class.php:192
+msgid "Upload"
 msgstr ""
 
-#: classes/fields.class.php:410
-#: classes/fields.class.php:417
-msgid "Tooltip"
-msgstr ""
-
-#: classes/fields.class.php:412
-msgid "Stock (PRO only)"
-msgstr ""
-
-#: classes/fields.class.php:419
-msgid "Stock (optional)"
-msgstr ""
-
-#: classes/fields.class.php:422
-#: classes/fields.class.php:493
-msgid "Unique Option ID)"
-msgstr ""
-
-#: classes/fields.class.php:492
-#: classes/fields.class.php:692
-msgid "Label"
-msgstr ""
-
-#: classes/fields.class.php:514
-#: classes/fields.class.php:535
-msgid "Fixed?"
-msgstr ""
-
-#: classes/fields.class.php:549
-#: templates/admin/ppom-fields.php:688
-#: templates/admin/ppom-fields.php:708
-msgid "Data Name"
-msgstr ""
-
-#: classes/fields.class.php:550
-msgid "Font Name"
-msgstr ""
-
-#: classes/fields.class.php:605
-#: classes/fields.class.php:624
-#: classes/fields.class.php:708
-msgid "option"
-msgstr ""
-
-#: classes/fields.class.php:606
-#: classes/fields.class.php:625
-#: classes/fields.class.php:658
-#: classes/fields.class.php:668
-msgid "price (if any)"
-msgstr ""
-
-#: classes/fields.class.php:607
-#: classes/fields.class.php:626
-msgid "weight (if any)"
-msgstr ""
-
-#: classes/fields.class.php:608
-#: classes/fields.class.php:627
-msgid "Default. Qty"
-msgstr ""
-
-#: classes/fields.class.php:609
-#: classes/fields.class.php:628
-msgid "Min. Qty"
-msgstr ""
-
-#: classes/fields.class.php:610
-#: classes/fields.class.php:629
-msgid "Max. Qty"
-msgstr ""
-
-#: classes/fields.class.php:611
-#: classes/fields.class.php:630
+#: classes/fields.class.php:193
+#: classes/fields.class.php:429
+#: classes/fields.class.php:632
+#: classes/fields.class.php:651
 msgid "Stock"
 msgstr ""
 
+#: classes/fields.class.php:194
+msgid "Meta IDs"
+msgstr ""
+
+#: classes/fields.class.php:195
+msgid "Cannot Remove More Option"
+msgstr ""
+
+#: classes/fields.class.php:196
+msgid "Data Name must be required"
+msgstr ""
+
+#: classes/fields.class.php:197
+msgid "Data Name already exists"
+msgstr ""
+
+#: classes/fields.class.php:235
+msgid "close"
+msgstr ""
+
+#: classes/fields.class.php:236
+msgid "Add Field"
+msgstr ""
+
+#: classes/fields.class.php:418
+#: classes/fields.class.php:511
+msgid "Option"
+msgstr ""
+
+#: classes/fields.class.php:419
+#: classes/fields.class.php:512
+#: classes/fields.class.php:716
+#: classes/fields.class.php:732
+msgid "Price (optional)"
+msgstr ""
+
+#: classes/fields.class.php:422
+#: classes/fields.class.php:433
+msgid "Discount"
+msgstr ""
+
+#: classes/fields.class.php:423
+#: classes/fields.class.php:434
+msgid "Tooltip"
+msgstr ""
+
+#. translators: $s: the weight unit.
+#: classes/fields.class.php:426
+msgid "Weight-%s"
+msgstr ""
+
+#. translators: $s: the weight unit.
+#: classes/fields.class.php:426
+#: classes/fields.class.php:429
+msgid "PRO only"
+msgstr ""
+
+#. translators: $s: the weight unit.
+#: classes/fields.class.php:437
+msgid "Weight-%s (optional)"
+msgstr ""
+
+#: classes/fields.class.php:440
+msgid "Stock (optional)"
+msgstr ""
+
+#: classes/fields.class.php:443
+#: classes/fields.class.php:514
+msgid "Unique Option ID)"
+msgstr ""
+
+#: classes/fields.class.php:513
+#: classes/fields.class.php:713
+msgid "Label"
+msgstr ""
+
+#: classes/fields.class.php:535
+#: classes/fields.class.php:556
+msgid "Fixed?"
+msgstr ""
+
+#: classes/fields.class.php:570
+#: templates/admin/ppom-fields.php:700
+#: templates/admin/ppom-fields.php:720
+msgid "Data Name"
+msgstr ""
+
+#: classes/fields.class.php:571
+msgid "Font Name"
+msgstr ""
+
+#: classes/fields.class.php:626
+#: classes/fields.class.php:645
+#: classes/fields.class.php:729
+msgid "option"
+msgstr ""
+
+#: classes/fields.class.php:627
+#: classes/fields.class.php:646
+#: classes/fields.class.php:679
+#: classes/fields.class.php:689
+msgid "price (if any)"
+msgstr ""
+
+#: classes/fields.class.php:628
+#: classes/fields.class.php:647
+msgid "weight (if any)"
+msgstr ""
+
+#: classes/fields.class.php:629
 #: classes/fields.class.php:648
+msgid "Default. Qty"
+msgstr ""
+
+#: classes/fields.class.php:630
+#: classes/fields.class.php:649
+msgid "Min. Qty"
+msgstr ""
+
+#: classes/fields.class.php:631
+#: classes/fields.class.php:650
+msgid "Max. Qty"
+msgstr ""
+
+#: classes/fields.class.php:669
 msgid "Unique ID)"
 msgstr ""
 
-#: classes/fields.class.php:657
-#: classes/fields.class.php:667
+#: classes/fields.class.php:678
+#: classes/fields.class.php:688
 msgid "Unit"
 msgstr ""
 
-#: classes/fields.class.php:693
-#: classes/fields.class.php:709
+#: classes/fields.class.php:714
+#: classes/fields.class.php:730
 #: classes/inputs/input.audio.php:62
 #: classes/inputs/input.checkbox.php:67
 #: classes/inputs/input.color.php:84
@@ -1366,172 +1399,177 @@ msgstr ""
 #: classes/inputs/input.select.php:79
 #: classes/inputs/input.text.php:102
 #: classes/inputs/input.textarea.php:85
-#: classes/inputs/input.timezone.php:80
+#: classes/inputs/input.timezone.php:81
 msgid "Width"
 msgstr ""
 
-#: classes/fields.class.php:694
-#: classes/fields.class.php:710
+#: classes/fields.class.php:715
+#: classes/fields.class.php:731
 msgid "Height"
 msgstr ""
 
-#: classes/fields.class.php:788
-#: classes/fields.class.php:912
+#: classes/fields.class.php:809
+#: classes/fields.class.php:933
 msgid "Show"
 msgstr ""
 
-#: classes/fields.class.php:789
-#: classes/fields.class.php:913
+#: classes/fields.class.php:810
+#: classes/fields.class.php:934
 msgid "Hide"
 msgstr ""
 
-#: classes/fields.class.php:794
-#: classes/fields.class.php:917
+#: classes/fields.class.php:815
+#: classes/fields.class.php:938
 msgid "only if"
 msgstr ""
 
-#: classes/fields.class.php:799
-#: classes/fields.class.php:921
+#: classes/fields.class.php:820
+#: classes/fields.class.php:942
 #: templates/admin/ppom-fields.php:394
 msgid "All"
 msgstr ""
 
-#: classes/fields.class.php:800
-#: classes/fields.class.php:922
+#: classes/fields.class.php:821
+#: classes/fields.class.php:943
 msgid "Any"
 msgstr ""
 
-#: classes/fields.class.php:805
+#: classes/fields.class.php:826
+#: classes/fields.class.php:947
 msgid "of the following matches"
 msgstr ""
 
-#: classes/fields.class.php:830
-#: classes/fields.class.php:932
-msgid "Rule "
+#: classes/fields.class.php:851
+#: classes/fields.class.php:953
+msgid "Rule"
 msgstr ""
 
-#: classes/fields.class.php:846
-#: classes/fields.class.php:945
+#: classes/fields.class.php:867
+#: classes/fields.class.php:966
 msgid "Value Comparison"
 msgstr ""
 
-#: classes/fields.class.php:847
-#: classes/fields.class.php:946
+#: classes/fields.class.php:868
+#: classes/fields.class.php:967
 msgid "is"
 msgstr ""
 
-#: classes/fields.class.php:848
-#: classes/fields.class.php:947
+#: classes/fields.class.php:869
+#: classes/fields.class.php:968
 msgid "is not"
 msgstr ""
 
-#: classes/fields.class.php:849
-#: classes/fields.class.php:948
+#: classes/fields.class.php:870
+#: classes/fields.class.php:969
 msgid "is empty"
 msgstr ""
 
-#: classes/fields.class.php:850
-#: classes/fields.class.php:949
+#: classes/fields.class.php:871
+#: classes/fields.class.php:970
 msgid "has any value"
 msgstr ""
 
-#: classes/fields.class.php:853
-#: classes/fields.class.php:952
+#: classes/fields.class.php:874
+#: classes/fields.class.php:973
 msgid "Text Matching"
 msgstr ""
 
-#: classes/fields.class.php:854
-#: classes/fields.class.php:953
+#: classes/fields.class.php:875
+#: classes/fields.class.php:974
 msgid "contains"
 msgstr ""
 
-#: classes/fields.class.php:855
-#: classes/fields.class.php:954
+#: classes/fields.class.php:876
+#: classes/fields.class.php:975
 msgid "does not contain"
 msgstr ""
 
-#: classes/fields.class.php:856
-#: classes/fields.class.php:955
+#: classes/fields.class.php:877
+#: classes/fields.class.php:976
 msgid "matches RegEx"
 msgstr ""
 
-#: classes/fields.class.php:859
-#: classes/fields.class.php:958
+#: classes/fields.class.php:880
+#: classes/fields.class.php:979
 msgid "Numeric Comparison"
 msgstr ""
 
-#: classes/fields.class.php:860
-#: classes/fields.class.php:959
+#: classes/fields.class.php:881
+#: classes/fields.class.php:980
 msgid "greater than"
 msgstr ""
 
-#: classes/fields.class.php:861
-#: classes/fields.class.php:960
+#: classes/fields.class.php:882
+#: classes/fields.class.php:981
 msgid "less than"
 msgstr ""
 
-#: classes/fields.class.php:862
-#: classes/fields.class.php:961
+#: classes/fields.class.php:883
+#: classes/fields.class.php:982
 msgid "is between"
 msgstr ""
 
-#: classes/fields.class.php:863
-#: classes/fields.class.php:962
+#: classes/fields.class.php:884
+#: classes/fields.class.php:983
 msgid "is multiple of"
 msgstr ""
 
-#: classes/fields.class.php:864
-#: classes/fields.class.php:963
+#: classes/fields.class.php:885
+#: classes/fields.class.php:984
 msgid "is even"
 msgstr ""
 
-#: classes/fields.class.php:865
-#: classes/fields.class.php:964
+#: classes/fields.class.php:886
+#: classes/fields.class.php:985
 msgid "is odd"
 msgstr ""
 
-#: classes/fields.class.php:882
-#: classes/fields.class.php:976
+#: classes/fields.class.php:903
+#: classes/fields.class.php:999
 msgid "and"
 msgstr ""
 
-#: classes/fields.class.php:887
-#: classes/fields.class.php:981
+#: classes/fields.class.php:908
+#: classes/fields.class.php:1004
 msgid "Upgrade to Unlock"
 msgstr ""
 
-#: classes/fields.class.php:926
-msgid " of the following matches"
-msgstr ""
-
-#: classes/fields.class.php:1001
-#: classes/fields.class.php:1051
+#: classes/fields.class.php:1024
+#: classes/fields.class.php:1074
 msgid "Select/Upload Image"
 msgstr ""
 
-#: classes/fields.class.php:1096
+#: classes/fields.class.php:1119
 #: classes/inputs/input.audio.php:83
 msgid "Select Audio/Video"
 msgstr ""
 
-#: classes/fields.class.php:1208
+#: classes/fields.class.php:1190
+msgid "Quantity Range"
+msgstr ""
+
+#: classes/fields.class.php:1191
+msgid "Base Price"
+msgstr ""
+
+#: classes/fields.class.php:1231
 msgid "Save Changing"
 msgstr ""
 
-#: classes/fields.class.php:1209
+#: classes/fields.class.php:1232
 msgid "Edit Changing"
 msgstr ""
 
-#: classes/fields.class.php:1236
+#: classes/fields.class.php:1259
 msgid "Fields"
 msgstr ""
 
-#: classes/fields.class.php:1241
+#: classes/fields.class.php:1264
 #: classes/inputs/input.audio.php:112
 #: classes/inputs/input.checkbox.php:128
 #: classes/inputs/input.color.php:135
 #: classes/inputs/input.cropper.php:210
-#: classes/inputs/input.date.php:176
+#: classes/inputs/input.date.php:181
 #: classes/inputs/input.daterange.php:185
 #: classes/inputs/input.email.php:105
 #: classes/inputs/input.file.php:175
@@ -1546,52 +1584,53 @@ msgstr ""
 #: classes/inputs/input.select.php:124
 #: classes/inputs/input.text.php:154
 #: classes/inputs/input.textarea.php:130
-#: classes/inputs/input.timezone.php:125
+#: classes/inputs/input.timezone.php:126
 msgid "Conditions"
 msgstr ""
 
-#: classes/fields.class.php:1247
+#: classes/fields.class.php:1270
 #: classes/inputs/input.cropper.php:124
 msgid "Add Options"
 msgstr ""
 
-#: classes/fields.class.php:1263
+#: classes/fields.class.php:1286
 msgid "Add Images"
 msgstr ""
 
-#: classes/fields.class.php:1268
+#: classes/fields.class.php:1291
 msgid "Add Audio/Video"
 msgstr ""
 
-#: classes/fields.class.php:1275
+#: classes/fields.class.php:1298
 msgid "Fonts Family"
 msgstr ""
 
-#: classes/fields.class.php:1280
+#: classes/fields.class.php:1303
 msgid "Custom Fonts"
 msgstr ""
 
-#: classes/fields.class.php:1286
+#: classes/fields.class.php:1309
 msgid "Image Dimensions"
 msgstr ""
 
-#: classes/form.class.php:137
-#: templates/render-fields.php:82
+#. translators: $s: the name of the field.
+#: classes/form.class.php:139
+#: templates/render-fields.php:83
 msgid "Please provide data name property for %s"
 msgstr ""
 
-#: classes/form.class.php:163
-#: templates/render-fields.php:204
+#: classes/form.class.php:167
+#: templates/render-fields.php:211
 msgid "Prev"
 msgstr ""
 
-#: classes/form.class.php:164
-#: templates/render-fields.php:205
+#: classes/form.class.php:168
+#: templates/render-fields.php:212
 msgid "Next"
 msgstr ""
 
 #: classes/freemium.class.php:52
-msgid "Conditional Repeater (PRO)"
+msgid "Conditional Repeater"
 msgstr ""
 
 #: classes/freemium.class.php:72
@@ -1784,36 +1823,36 @@ msgstr ""
 msgid "Divider"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:544
+#: classes/frontend-scripts.class.php:547
 #: inc/hooks.php:339
 #: inc/hooks.php:367
 msgid " files allowed only"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:560
+#: classes/frontend-scripts.class.php:563
 #: classes/inputs/input.checkbox.php:111
 #: classes/inputs/input.file.php:164
 #: classes/inputs/input.palettes.php:124
 #: classes/inputs/input.radio.php:99
 #: classes/inputs/input.select.php:107
-#: inc/arrays.php:225
-#: inc/arrays.php:228
-#: inc/arrays.php:592
+#: inc/arrays.php:231
+#: inc/arrays.php:234
+#: inc/arrays.php:598
 msgid "Fixed Fee"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:575
-#: inc/arrays.php:601
+#: classes/frontend-scripts.class.php:578
+#: inc/arrays.php:607
 msgid "Product Quantity"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:576
-#: inc/arrays.php:603
+#: classes/frontend-scripts.class.php:579
+#: inc/arrays.php:609
 msgid "unit"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:577
-#: inc/arrays.php:605
+#: classes/frontend-scripts.class.php:580
+#: inc/arrays.php:611
 #: templates/frontend/component/quantities/horizontal-layout.php:58
 #: templates/frontend/component/quantities/vertical-layout.php:47
 #: templates/input/quantities.php:53
@@ -1821,25 +1860,20 @@ msgstr ""
 msgid "Quantity"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:581
-#: inc/woocommerce.php:259
+#: classes/frontend-scripts.class.php:584
 msgid "is a required field"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:582
+#: classes/frontend-scripts.class.php:585
 msgid "You can only select a maximum of"
 msgstr ""
 
-#: classes/frontend-scripts.class.php:583
+#: classes/frontend-scripts.class.php:586
 msgid "You can only select a minimum of"
 msgstr ""
 
 #: classes/inputs/input.audio.php:25
 msgid "Audio File Selection"
-msgstr ""
-
-#: classes/inputs/input.audio.php:26
-msgid "<i class=\"fa fa-file-video-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.audio.php:36
@@ -1863,8 +1897,8 @@ msgstr ""
 #: classes/inputs/input.text.php:38
 #: classes/inputs/input.textarea.php:37
 #: classes/inputs/input.timezone.php:36
-#: templates/admin/ppom-fields.php:690
-#: templates/admin/ppom-fields.php:710
+#: templates/admin/ppom-fields.php:702
+#: templates/admin/ppom-fields.php:722
 msgid "Title"
 msgstr ""
 
@@ -2023,6 +2057,7 @@ msgstr ""
 msgid "Insert the error message for validation."
 msgstr ""
 
+#. translators: `Class` is referred to Cascading Style Sheets class.
 #: classes/inputs/input.audio.php:56
 #: classes/inputs/input.checkbox.php:61
 #: classes/inputs/input.cropper.php:64
@@ -2039,14 +2074,13 @@ msgstr ""
 #: classes/inputs/input.select.php:73
 #: classes/inputs/input.text.php:89
 #: classes/inputs/input.textarea.php:79
-#: classes/inputs/input.timezone.php:74
+#: classes/inputs/input.timezone.php:75
 msgid "Class"
 msgstr ""
 
 #: classes/inputs/input.audio.php:57
 #: classes/inputs/input.checkbox.php:62
 #: classes/inputs/input.cropper.php:65
-#: classes/inputs/input.date.php:62
 #: classes/inputs/input.daterange.php:58
 #: classes/inputs/input.email.php:62
 #: classes/inputs/input.file.php:64
@@ -2059,8 +2093,8 @@ msgstr ""
 #: classes/inputs/input.select.php:74
 #: classes/inputs/input.text.php:90
 #: classes/inputs/input.textarea.php:80
-#: classes/inputs/input.timezone.php:75
-msgid "Insert an additional class(es) (separateb by comma) for more personalization."
+#: classes/inputs/input.timezone.php:76
+msgid "Insert an additional class(es) (separated by comma) for more personalization."
 msgstr ""
 
 #: classes/inputs/input.audio.php:63
@@ -2083,7 +2117,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:92
 #: classes/inputs/input.color.php:92
 #: classes/inputs/input.cropper.php:144
-#: classes/inputs/input.date.php:127
+#: classes/inputs/input.date.php:132
 #: classes/inputs/input.daterange.php:117
 #: classes/inputs/input.email.php:75
 #: classes/inputs/input.file.php:139
@@ -2099,7 +2133,7 @@ msgstr ""
 #: classes/inputs/input.select.php:87
 #: classes/inputs/input.text.php:110
 #: classes/inputs/input.textarea.php:93
-#: classes/inputs/input.timezone.php:88
+#: classes/inputs/input.timezone.php:89
 msgid "Visibility"
 msgstr ""
 
@@ -2107,7 +2141,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:93
 #: classes/inputs/input.color.php:93
 #: classes/inputs/input.cropper.php:145
-#: classes/inputs/input.date.php:128
+#: classes/inputs/input.date.php:133
 #: classes/inputs/input.daterange.php:118
 #: classes/inputs/input.email.php:76
 #: classes/inputs/input.file.php:140
@@ -2123,7 +2157,7 @@ msgstr ""
 #: classes/inputs/input.select.php:88
 #: classes/inputs/input.text.php:111
 #: classes/inputs/input.textarea.php:94
-#: classes/inputs/input.timezone.php:89
+#: classes/inputs/input.timezone.php:90
 msgid "Set field visibility based on user."
 msgstr ""
 
@@ -2131,7 +2165,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:99
 #: classes/inputs/input.color.php:100
 #: classes/inputs/input.cropper.php:151
-#: classes/inputs/input.date.php:135
+#: classes/inputs/input.date.php:140
 #: classes/inputs/input.daterange.php:126
 #: classes/inputs/input.email.php:82
 #: classes/inputs/input.file.php:146
@@ -2147,7 +2181,7 @@ msgstr ""
 #: classes/inputs/input.select.php:95
 #: classes/inputs/input.text.php:118
 #: classes/inputs/input.textarea.php:100
-#: classes/inputs/input.timezone.php:96
+#: classes/inputs/input.timezone.php:97
 msgid "User Roles"
 msgstr ""
 
@@ -2155,7 +2189,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:100
 #: classes/inputs/input.color.php:101
 #: classes/inputs/input.cropper.php:152
-#: classes/inputs/input.date.php:136
+#: classes/inputs/input.date.php:141
 #: classes/inputs/input.daterange.php:127
 #: classes/inputs/input.email.php:83
 #: classes/inputs/input.file.php:147
@@ -2171,7 +2205,7 @@ msgstr ""
 #: classes/inputs/input.select.php:96
 #: classes/inputs/input.text.php:119
 #: classes/inputs/input.textarea.php:101
-#: classes/inputs/input.timezone.php:97
+#: classes/inputs/input.timezone.php:98
 msgid "Role separated by comma."
 msgstr ""
 
@@ -2183,7 +2217,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:105
 #: classes/inputs/input.color.php:118
 #: classes/inputs/input.cropper.php:193
-#: classes/inputs/input.date.php:159
+#: classes/inputs/input.date.php:164
 #: classes/inputs/input.daterange.php:168
 #: classes/inputs/input.email.php:88
 #: classes/inputs/input.file.php:152
@@ -2198,7 +2232,7 @@ msgstr ""
 #: classes/inputs/input.select.php:101
 #: classes/inputs/input.text.php:137
 #: classes/inputs/input.textarea.php:113
-#: classes/inputs/input.timezone.php:108
+#: classes/inputs/input.timezone.php:109
 msgid "Show tooltip"
 msgstr ""
 
@@ -2206,7 +2240,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:106
 #: classes/inputs/input.color.php:119
 #: classes/inputs/input.cropper.php:194
-#: classes/inputs/input.date.php:160
+#: classes/inputs/input.date.php:165
 #: classes/inputs/input.daterange.php:169
 #: classes/inputs/input.email.php:89
 #: classes/inputs/input.file.php:153
@@ -2221,7 +2255,7 @@ msgstr ""
 #: classes/inputs/input.select.php:102
 #: classes/inputs/input.text.php:138
 #: classes/inputs/input.textarea.php:114
-#: classes/inputs/input.timezone.php:109
+#: classes/inputs/input.timezone.php:110
 msgid "Show Description in Tooltip with Help Icon"
 msgstr ""
 
@@ -2229,7 +2263,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:117
 #: classes/inputs/input.color.php:124
 #: classes/inputs/input.cropper.php:199
-#: classes/inputs/input.date.php:165
+#: classes/inputs/input.date.php:170
 #: classes/inputs/input.daterange.php:174
 #: classes/inputs/input.email.php:94
 #: classes/inputs/input.file.php:158
@@ -2242,9 +2276,9 @@ msgstr ""
 #: classes/inputs/input.select.php:113
 #: classes/inputs/input.text.php:143
 #: classes/inputs/input.textarea.php:119
-#: classes/inputs/input.timezone.php:114
-#: templates/admin/ppom-fields.php:692
-#: templates/admin/ppom-fields.php:712
+#: classes/inputs/input.timezone.php:115
+#: templates/admin/ppom-fields.php:704
+#: templates/admin/ppom-fields.php:724
 msgid "Required"
 msgstr ""
 
@@ -2252,7 +2286,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:118
 #: classes/inputs/input.color.php:125
 #: classes/inputs/input.cropper.php:200
-#: classes/inputs/input.date.php:166
+#: classes/inputs/input.date.php:171
 #: classes/inputs/input.daterange.php:175
 #: classes/inputs/input.email.php:95
 #: classes/inputs/input.file.php:159
@@ -2265,7 +2299,7 @@ msgstr ""
 #: classes/inputs/input.select.php:114
 #: classes/inputs/input.text.php:144
 #: classes/inputs/input.textarea.php:120
-#: classes/inputs/input.timezone.php:115
+#: classes/inputs/input.timezone.php:116
 msgid "Select this if it must be required."
 msgstr ""
 
@@ -2281,7 +2315,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:123
 #: classes/inputs/input.color.php:130
 #: classes/inputs/input.cropper.php:205
-#: classes/inputs/input.date.php:171
+#: classes/inputs/input.date.php:176
 #: classes/inputs/input.daterange.php:180
 #: classes/inputs/input.email.php:100
 #: classes/inputs/input.file.php:170
@@ -2296,7 +2330,7 @@ msgstr ""
 #: classes/inputs/input.select.php:119
 #: classes/inputs/input.text.php:149
 #: classes/inputs/input.textarea.php:125
-#: classes/inputs/input.timezone.php:120
+#: classes/inputs/input.timezone.php:121
 msgid "Enable Conditions"
 msgstr ""
 
@@ -2304,7 +2338,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:124
 #: classes/inputs/input.color.php:131
 #: classes/inputs/input.cropper.php:206
-#: classes/inputs/input.date.php:172
+#: classes/inputs/input.date.php:177
 #: classes/inputs/input.daterange.php:181
 #: classes/inputs/input.email.php:101
 #: classes/inputs/input.file.php:171
@@ -2319,7 +2353,7 @@ msgstr ""
 #: classes/inputs/input.select.php:120
 #: classes/inputs/input.text.php:150
 #: classes/inputs/input.textarea.php:126
-#: classes/inputs/input.timezone.php:121
+#: classes/inputs/input.timezone.php:122
 msgid "Tick it to turn conditional logic to work below"
 msgstr ""
 
@@ -2327,7 +2361,7 @@ msgstr ""
 #: classes/inputs/input.checkbox.php:129
 #: classes/inputs/input.color.php:136
 #: classes/inputs/input.cropper.php:211
-#: classes/inputs/input.date.php:177
+#: classes/inputs/input.date.php:182
 #: classes/inputs/input.daterange.php:186
 #: classes/inputs/input.email.php:106
 #: classes/inputs/input.file.php:176
@@ -2342,7 +2376,7 @@ msgstr ""
 #: classes/inputs/input.select.php:125
 #: classes/inputs/input.text.php:155
 #: classes/inputs/input.textarea.php:131
-#: classes/inputs/input.timezone.php:126
+#: classes/inputs/input.timezone.php:127
 msgid "Set rules to show or hide the field based on specific conditions"
 msgstr ""
 
@@ -2353,10 +2387,6 @@ msgstr ""
 
 #: classes/inputs/input.checkbox.php:25
 msgid "regular checkbox input"
-msgstr ""
-
-#: classes/inputs/input.checkbox.php:26
-msgid "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.checkbox.php:56
@@ -2406,10 +2436,6 @@ msgstr ""
 
 #: classes/inputs/input.color.php:25
 msgid "Color pallete input"
-msgstr ""
-
-#: classes/inputs/input.color.php:26
-msgid "<i class=\"fa fa-modx\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.color.php:56
@@ -2462,10 +2488,6 @@ msgstr ""
 
 #: classes/inputs/input.cropper.php:24
 msgid "Crop images"
-msgstr ""
-
-#: classes/inputs/input.cropper.php:25
-msgid "<i class=\"fa fa-crop\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.cropper.php:58
@@ -2623,10 +2645,6 @@ msgstr ""
 msgid "regular date input"
 msgstr ""
 
-#: classes/inputs/input.date.php:26
-msgid "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.date.php:42
 msgid "REQUIRED: The identification name of this field, that you can insert into body email configuration. Note: Use only lowercase characters and underscores."
 msgstr ""
@@ -2636,8 +2654,8 @@ msgstr ""
 #: classes/inputs/input.number.php:51
 #: classes/inputs/input.text.php:53
 #: classes/inputs/input.textarea.php:52
-#: templates/admin/ppom-fields.php:691
-#: templates/admin/ppom-fields.php:711
+#: templates/admin/ppom-fields.php:703
+#: templates/admin/ppom-fields.php:723
 msgid "Placeholder"
 msgstr ""
 
@@ -2645,6 +2663,10 @@ msgstr ""
 #: classes/inputs/input.email.php:52
 #: classes/inputs/input.textarea.php:53
 msgid "Optional."
+msgstr ""
+
+#: classes/inputs/input.date.php:62
+msgid "Insert an additional class(es) (separate by comma) for more personalization."
 msgstr ""
 
 #: classes/inputs/input.date.php:75
@@ -2664,7 +2686,11 @@ msgid "[ This feature requires jQuery datePicker ] The default highlighted date 
 msgstr ""
 
 #: classes/inputs/input.date.php:84
-msgid "<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-defaultDate\">Example</a>"
+#: classes/inputs/input.date.php:91
+#: classes/inputs/input.date.php:98
+#: classes/inputs/input.date.php:110
+#: classes/inputs/input.date.php:117
+msgid "Example"
 msgstr ""
 
 #: classes/inputs/input.date.php:89
@@ -2676,10 +2702,6 @@ msgstr ""
 msgid "[ This feature requires jQuery datePicker ] The earliest selectable date. Enter a date or use shortcode (examples: +10d, +17d, +1m +7d). Full dates should follow the same date format you have selected for this field."
 msgstr ""
 
-#: classes/inputs/input.date.php:91
-msgid "<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-minDate\">Example</a>"
-msgstr ""
-
 #: classes/inputs/input.date.php:96
 #: classes/inputs/input.daterange.php:111
 msgid "Max Date"
@@ -2689,64 +2711,49 @@ msgstr ""
 msgid "[ This feature requires jQuery datePicker ] The maximum selectable date. Enter a date or use shortcode (examples: +10d, +17d, +1m +7d). Full dates should follow the same date format you have selected for this field."
 msgstr ""
 
-#: classes/inputs/input.date.php:98
-msgid "<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-maxDate\">Example</a>"
-msgstr ""
-
 #: classes/inputs/input.date.php:103
 msgid "Year Range"
 msgstr ""
 
-#: classes/inputs/input.date.php:104
-msgid "[ This feature requires jQuery datePicker ] Years to allow date selections. Example: c-10:c+10. TIP: The letter \"c\" indicates the current year so \"c+1\" will indicate next year.  Thus c:c+1 will be %s:%s"
+#. translators: %1%s: the current year date, %2%s the next yar date.
+#: classes/inputs/input.date.php:106
+msgid "[ This feature requires jQuery datePicker ] Years to allow date selections. Example: c-10:c+10. TIP: The letter \"c\" indicates the current year so \"c+1\" will indicate next year.  Thus c:c+1 will be %1$s:%2$s"
 msgstr ""
 
-#: classes/inputs/input.date.php:105
-msgid "<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-yearRange\">Example</a>"
-msgstr ""
-
-#: classes/inputs/input.date.php:110
+#: classes/inputs/input.date.php:115
 msgid "First day of week"
 msgstr ""
 
-#: classes/inputs/input.date.php:111
+#: classes/inputs/input.date.php:116
 msgid "[ This feature requires jQuery datePicker ] First day of the week to show on the popup calendar."
 msgstr ""
 
-#: classes/inputs/input.date.php:112
-msgid "<a target=\"_blank\" href=\"https://api.jqueryui.com/datepicker/#option-firstDay\">Example</a>"
-msgstr ""
-
-#: classes/inputs/input.date.php:141
+#: classes/inputs/input.date.php:146
 msgid "jQuery datePicker"
 msgstr ""
 
-#: classes/inputs/input.date.php:142
+#: classes/inputs/input.date.php:147
 msgid "Enable jQuery datePicker over HTML5 date field."
 msgstr ""
 
-#: classes/inputs/input.date.php:147
+#: classes/inputs/input.date.php:152
 msgid "Disable Weekends"
 msgstr ""
 
-#: classes/inputs/input.date.php:148
+#: classes/inputs/input.date.php:153
 msgid "[ This feature requires jQuery datePicker ] Prevent display &amp; selection of weekends."
 msgstr ""
 
-#: classes/inputs/input.date.php:153
+#: classes/inputs/input.date.php:158
 msgid "Disable Past Dates"
 msgstr ""
 
-#: classes/inputs/input.date.php:154
+#: classes/inputs/input.date.php:159
 msgid "[ This feature requires jQuery datePicker ] Prevent selection of dates prior to today&rsquo;s date."
 msgstr ""
 
 #: classes/inputs/input.daterange.php:25
-msgid "<a href=\"http://www.daterangepicker.com/\" target=\"_blank\">More detail</a>"
-msgstr ""
-
-#: classes/inputs/input.daterange.php:26
-msgid "<i class=\"fa fa-table\" aria-hidden=\"true\"></i>"
+msgid "More detail"
 msgstr ""
 
 #: classes/inputs/input.daterange.php:37
@@ -2754,7 +2761,7 @@ msgid "All about Daterangepicker, see daterangepicker"
 msgstr ""
 
 #: classes/inputs/input.daterange.php:38
-msgid "<a href=\"http://www.daterangepicker.com/\" target=\"_blank\">Daterangepicker</a>"
+msgid "Daterangepicker"
 msgstr ""
 
 #: classes/inputs/input.daterange.php:71
@@ -2845,12 +2852,7 @@ msgid "Hide the Apply/Cancel button."
 msgstr ""
 
 #: classes/inputs/input.divider.php:25
-msgid "regular didider input"
-msgstr ""
-
-#: classes/inputs/input.divider.php:26
-#: classes/inputs/input.text.php:26
-msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+msgid "regular divider input"
 msgstr ""
 
 #: classes/inputs/input.divider.php:34
@@ -2930,17 +2932,8 @@ msgstr ""
 msgid "regular email input"
 msgstr ""
 
-#: classes/inputs/input.email.php:26
-#: classes/inputs/input.palettes.php:26
-msgid "<i class=\"fa fa-user-plus\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.file.php:26
 msgid "regular file input"
-msgstr ""
-
-#: classes/inputs/input.file.php:27
-msgid "<i class=\"fa fa-file\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.file.php:95
@@ -2948,7 +2941,7 @@ msgid "File types"
 msgstr ""
 
 #: classes/inputs/input.file.php:96
-msgid "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+msgid "File types allowed separated by comma, e.g: jpg,pdf,zip"
 msgstr ""
 
 #: classes/inputs/input.file.php:102
@@ -3004,11 +2997,6 @@ msgstr ""
 msgid "regular hidden input"
 msgstr ""
 
-#: classes/inputs/input.hidden.php:26
-#: classes/inputs/input.number.php:26
-msgid "<i class=\"fa fa-hashtag\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.hidden.php:39
 msgid "Label will show in cart"
 msgstr ""
@@ -3033,10 +3021,6 @@ msgstr ""
 
 #: classes/inputs/input.image.php:25
 msgid "Images selection"
-msgstr ""
-
-#: classes/inputs/input.image.php:26
-msgid "<i class=\"fa fa-picture-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.image.php:71
@@ -3122,10 +3106,6 @@ msgstr ""
 
 #: classes/inputs/input.measure.php:25
 msgid "Measuremnts"
-msgstr ""
-
-#: classes/inputs/input.measure.php:26
-msgid "<i class=\"fa fa-building-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.measure.php:70
@@ -3275,10 +3255,6 @@ msgstr ""
 msgid "Price/Quantity"
 msgstr ""
 
-#: classes/inputs/input.pricematrix.php:27
-msgid "<i class=\"fa fa-usd\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.pricematrix.php:38
 msgid "It will as section heading wrapped in h2"
 msgstr ""
@@ -3347,10 +3323,6 @@ msgstr ""
 msgid "regular select-box input"
 msgstr ""
 
-#: classes/inputs/input.quantities.php:26
-msgid "<i class=\"fa fa-list-ol\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.quantities.php:34
 msgid "Vertical Layout"
 msgstr ""
@@ -3403,7 +3375,7 @@ msgstr ""
 #: classes/inputs/input.radio.php:73
 #: classes/inputs/input.select.php:80
 #: classes/inputs/input.textarea.php:86
-#: classes/inputs/input.timezone.php:81
+#: classes/inputs/input.timezone.php:82
 msgid "Select width column"
 msgstr ""
 
@@ -3440,20 +3412,12 @@ msgstr ""
 msgid "regular radio input"
 msgstr ""
 
-#: classes/inputs/input.radio.php:26
-msgid "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
-msgstr ""
-
 #: classes/inputs/input.radio.php:47
 msgid "Small description, it will be diplay near name title."
 msgstr ""
 
 #: classes/inputs/input.section.php:30
 msgid "HTML content"
-msgstr ""
-
-#: classes/inputs/input.section.php:31
-msgid "<i class=\"fa fa-code\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.section.php:59
@@ -3471,10 +3435,6 @@ msgstr ""
 
 #: classes/inputs/input.select.php:25
 msgid "regular select input"
-msgstr ""
-
-#: classes/inputs/input.select.php:26
-msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.select.php:57
@@ -3541,7 +3501,7 @@ msgid "Enabling this option allows the input mask field to interpret the provide
 msgstr ""
 
 #: classes/inputs/input.text.php:132
-msgid "<a target=\"_blank\" href=\""
+msgid "See More"
 msgstr ""
 
 #: classes/inputs/input.textarea.php:24
@@ -3551,10 +3511,6 @@ msgstr ""
 
 #: classes/inputs/input.textarea.php:25
 msgid "regular textarea input"
-msgstr ""
-
-#: classes/inputs/input.textarea.php:26
-msgid "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.textarea.php:62
@@ -3574,15 +3530,11 @@ msgid "Enable WordPress rich editor."
 msgstr ""
 
 #: classes/inputs/input.textarea.php:108
-msgid "<a target=\"_blank\" href=\"https://codex.wordpress.org/Function_Reference/wp_editor\">Editor</a>"
+msgid "Editor"
 msgstr ""
 
 #: classes/inputs/input.timezone.php:25
 msgid "Show Timezone"
-msgstr ""
-
-#: classes/inputs/input.timezone.php:26
-msgid "<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>"
 msgstr ""
 
 #: classes/inputs/input.timezone.php:57
@@ -3597,11 +3549,11 @@ msgstr ""
 msgid "All,AFRICA, AMERICA, ANTARCTICA, ASIA, ATLANTIC, AUSTRALIA, EUROPE, INDIAN, PACIFIC"
 msgstr ""
 
-#: classes/inputs/input.timezone.php:102
+#: classes/inputs/input.timezone.php:103
 msgid "Show Local Time"
 msgstr ""
 
-#: classes/inputs/input.timezone.php:103
+#: classes/inputs/input.timezone.php:104
 msgid "It will show current local time."
 msgstr ""
 
@@ -3625,44 +3577,42 @@ msgstr ""
 msgid "Select options"
 msgstr ""
 
-#: classes/plugin.class.php:451
-#: classes/plugin.class.php:452
-msgid "nm_action_%d"
-msgstr ""
-
-#: classes/plugin.class.php:460
-#: classes/plugin.class.php:461
+#: classes/plugin.class.php:466
+#: classes/plugin.class.php:467
 msgid "Remove Meta"
 msgstr ""
 
-#: classes/plugin.class.php:564
+#: classes/plugin.class.php:572
 msgid "Product meta updated."
-msgid_plural "%s Products meta updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
-#: classes/plugin.class.php:567
+#. translators: %s: number of products
+#: classes/plugin.class.php:576
+msgid "%s Products meta updated."
+msgstr ""
+
+#: classes/plugin.class.php:585
 msgid "Product meta removed."
-msgid_plural "%s Products meta removed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
-#: classes/plugin.class.php:739
+#. translators: %s: number of products
+#: classes/plugin.class.php:589
+msgid "%s Products meta removed."
+msgstr ""
+
+#: classes/plugin.class.php:764
 msgid "Sorry, you are not allowed to clone"
 msgstr ""
 
-#: classes/plugin.class.php:897
+#. translators: %s: meta title
+#: classes/plugin.class.php:923
 msgid "PPOM Meta Successfully Changed to - %s"
-msgstr ""
-
-#: inc/admin.php:54
-#: inc/admin.php:74
-msgid "<a href=\"%1$s\">%2$s</a>"
 msgstr ""
 
 #: inc/admin.php:64
 #: inc/admin.php:76
-msgid "<a class=\"btn button\" href=\"%1$s\">%2$s</a>"
+#: inc/functions.php:1025
+msgid "Add Fields"
 msgstr ""
 
 #: inc/admin.php:86
@@ -3703,60 +3653,77 @@ msgid "Enable Pop-up."
 msgstr ""
 
 #: inc/admin.php:173
-#: inc/admin.php:178
-msgid "Available in the %sPremium%s version."
+msgid "Enable this option to display product fields in a popup instead of directly on the product page."
 msgstr ""
 
-#: inc/admin.php:178
+#. translators: %1$s the opening link HTML tag, %2$s the close link HTML tag.
+#: inc/admin.php:175
+msgid "Available in the %1$sPremium%2$s version."
+msgstr ""
+
+#: inc/admin.php:183
 msgid "Enable Enquiry Form"
 msgstr ""
 
-#: inc/admin.php:239
+#: inc/admin.php:183
+msgid "Enhances your product pages by adding a customizable enquiry button. It allows customers to send inquiries directly to the admin about products with PPOM Fields via email."
+msgstr ""
+
+#. translators: %1$s the link to Store with label: 'Premium'.
+#: inc/admin.php:185
+msgid "Available in the %1$s version."
+msgstr ""
+
+#: inc/admin.php:189
+msgid "Premium"
+msgstr ""
+
+#: inc/admin.php:253
 msgid "Dismiss this notice"
 msgstr ""
 
-#: inc/admin.php:257
-#: inc/admin.php:441
+#: inc/admin.php:271
+#: inc/admin.php:455
 msgid "Since version 22.0, Database has some changes. Please Deactivate & then activate the PPOM plugin."
 msgstr ""
 
-#: inc/admin.php:271
-#: inc/admin.php:456
+#: inc/admin.php:285
+#: inc/admin.php:470
 msgid "Sorry, you are not allowed to perform this action."
 msgstr ""
 
-#: inc/admin.php:296
+#: inc/admin.php:310
 msgid "No fields found."
 msgstr ""
 
-#: inc/admin.php:323
-#: inc/admin.php:492
+#: inc/admin.php:337
+#: inc/admin.php:506
 msgid "PPOM title is too long to save, please make it less than 50 characters."
 msgstr ""
 
-#: inc/admin.php:404
+#: inc/admin.php:418
 msgid "Form added successfully"
 msgstr ""
 
-#: inc/admin.php:412
-#: inc/rest.class.php:393
+#: inc/admin.php:426
+#: inc/rest.class.php:395
 msgid "No changes found."
 msgstr ""
 
-#: inc/admin.php:554
+#: inc/admin.php:568
 msgid "Form updated successfully"
 msgstr ""
 
-#: inc/admin.php:562
+#: inc/admin.php:576
 msgid "Form updated successfully."
 msgstr ""
 
-#: inc/admin.php:640
-#: inc/admin.php:691
+#: inc/admin.php:654
+#: inc/admin.php:705
 msgid "Meta deleted successfully"
 msgstr ""
 
-#: inc/admin.php:645
+#: inc/admin.php:659
 msgid "Error while deleting the PPOM, try again."
 msgstr ""
 
@@ -3776,283 +3743,286 @@ msgstr ""
 msgid "By Role"
 msgstr ""
 
-#: inc/arrays.php:176
-msgid "Please migrate settings to new settings panel framework. <a href=\""
+#: inc/arrays.php:177
+msgid "Please migrate settings to new settings panel framework."
 msgstr ""
 
-#: inc/arrays.php:183
-msgid "Following settings help you the control and customize plugin as per your need. <a href=\""
+#: inc/arrays.php:178
+msgid "Start Migration"
 msgstr ""
 
-#: inc/arrays.php:190
-#: inc/arrays.php:209
-#: inc/arrays.php:218
-#: inc/arrays.php:227
-#: inc/arrays.php:236
-#: inc/arrays.php:245
-#: inc/arrays.php:400
+#: inc/arrays.php:187
+msgid "Following settings help you the control and customize plugin as per your need."
+msgstr ""
+
+#: inc/arrays.php:188
+msgid "PPOM Fields Manager"
+msgstr ""
+
+#: inc/arrays.php:196
+#: inc/arrays.php:215
+#: inc/arrays.php:224
+#: inc/arrays.php:233
+#: inc/arrays.php:242
+#: inc/arrays.php:251
+#: inc/arrays.php:406
 msgid "Label For Price Table"
 msgstr ""
 
-#: inc/arrays.php:200
+#: inc/arrays.php:206
 msgid "E.g for Tax/Va info like. Vat included"
 msgstr ""
 
-#: inc/arrays.php:234
-#: inc/arrays.php:237
-#: inc/arrays.php:589
+#: inc/arrays.php:240
+#: inc/arrays.php:243
+#: inc/arrays.php:595
 msgid "Discount Price"
 msgstr ""
 
-#: inc/arrays.php:262
+#: inc/arrays.php:268
 msgid "Enable Legacy Inputs Rendering"
 msgstr ""
 
-#: inc/arrays.php:271
+#: inc/arrays.php:277
 msgid "Disable FontAwesome"
 msgstr ""
 
-#: inc/arrays.php:276
+#: inc/arrays.php:282
 msgid "FontAwesome are being loaded from CDN, it will disable if your site already loading it."
 msgstr ""
 
-#: inc/arrays.php:289
-#: inc/arrays.php:420
-#: inc/arrays.php:435
-#: inc/arrays.php:450
-#: inc/arrays.php:464
+#: inc/arrays.php:295
+#: inc/arrays.php:426
+#: inc/arrays.php:441
+#: inc/arrays.php:456
+#: inc/arrays.php:470
 msgid "Button"
 msgstr ""
 
-#: inc/arrays.php:304
-msgid "Advance Features (PRO)"
+#: inc/arrays.php:310
+msgid "Advance Features"
 msgstr ""
 
-#: inc/arrays.php:306
+#: inc/arrays.php:312
 msgid "These options will work when PRO version is installed"
 msgstr ""
 
-#: inc/arrays.php:311
+#: inc/arrays.php:317
 msgid "Hide Product Price?"
 msgstr ""
 
-#: inc/arrays.php:316
+#: inc/arrays.php:322
 msgid "Hides Product core price under price Title (When PPOM Fields attached)"
 msgstr ""
 
-#: inc/arrays.php:321
+#: inc/arrays.php:327
 msgid "Hide Variable Product Price?"
 msgstr ""
 
-#: inc/arrays.php:326
+#: inc/arrays.php:332
 msgid "Hides Variable Product core price under price Title (When PPOM Fields attached)"
 msgstr ""
 
-#: inc/arrays.php:332
+#: inc/arrays.php:338
 msgid "Hide Options Price?"
 msgstr ""
 
-#: inc/arrays.php:337
+#: inc/arrays.php:343
 msgid "Hides options price in Selec/Radio/Checkbox/Image display prices with label"
 msgstr ""
 
-#: inc/arrays.php:342
+#: inc/arrays.php:348
 msgid "Taxable Options Price?"
 msgstr ""
 
-#: inc/arrays.php:347
+#: inc/arrays.php:353
 msgid "Apply tax settings on option prices from WooCommerce->Tax"
 msgstr ""
 
-#: inc/arrays.php:352
+#: inc/arrays.php:358
 msgid "Clear Fields after Add to Cart?"
 msgstr ""
 
-#: inc/arrays.php:357
+#: inc/arrays.php:363
 msgid "Empty all fields on Product page after to cart."
 msgstr ""
 
-#: inc/arrays.php:362
+#: inc/arrays.php:368
 msgid "Enable PPOM REST API?"
 msgstr ""
 
-#: inc/arrays.php:371
+#: inc/arrays.php:377
 msgid "Use optimized Price Table Caculation (BETA)"
 msgstr ""
 
-#: inc/arrays.php:376
+#: inc/arrays.php:382
 msgid "A Fast and Optimized script to caculate price on product page in Table."
 msgstr ""
 
-#: inc/arrays.php:380
+#: inc/arrays.php:386
 msgid "Enable New Conditional Logic Script"
 msgstr ""
 
-#: inc/arrays.php:385
+#: inc/arrays.php:391
 msgid "A faster approach to load conditional fields. Beta version, please report bug in new conditional script."
 msgstr ""
 
-#: inc/arrays.php:389
+#: inc/arrays.php:395
 msgid "Do not send Product Meta to PayPal Invoice"
 msgstr ""
 
-#: inc/arrays.php:394
+#: inc/arrays.php:400
 msgid "Product meta will not be sent to PayPal invoice, only the Item name will be sent to invoice"
 msgstr ""
 
-#: inc/arrays.php:398
+#: inc/arrays.php:404
 msgid "Select Option Label"
 msgstr ""
 
-#: inc/arrays.php:409
+#: inc/arrays.php:415
 msgid "PPOM API Secret Key"
 msgstr ""
 
-#: inc/arrays.php:411
+#: inc/arrays.php:417
 msgid "Enter any characters to create a secret key. This key must be set while requesting to API"
 msgstr ""
 
-#: inc/arrays.php:418
+#: inc/arrays.php:424
 msgid "Delete Un-used images"
 msgstr ""
 
-#: inc/arrays.php:428
+#: inc/arrays.php:434
 msgid "Set duration to uploaded images of abandoned cart. Re-activate plugin to when update this option"
 msgstr ""
 
-#: inc/arrays.php:443
-#: inc/arrays.php:457
+#: inc/arrays.php:449
+#: inc/arrays.php:463
 msgid "Leave if default if not sure."
 msgstr ""
 
-#: inc/arrays.php:471
+#: inc/arrays.php:477
 msgid "Set the location to render Price Table on Front-end"
 msgstr ""
 
-#: inc/arrays.php:675
+#: inc/arrays.php:681
 msgid "30+ Premium Field Types"
 msgstr ""
 
-#: inc/arrays.php:676
+#: inc/arrays.php:682
 msgid "PPOM Pro expands your product customization options with over 30 advanced field types, including Date Picker, Image Cropper, Quantities Pack, and Color Picker. These powerful fields allow you to create tailored product flows, offering customers a highly personalized shopping experience and enabling more dynamic interactions with your products."
 msgstr ""
 
-#: inc/arrays.php:679
-#: inc/arrays.php:694
-#: inc/arrays.php:705
-#: inc/arrays.php:722
+#: inc/arrays.php:685
+#: inc/arrays.php:700
+#: inc/arrays.php:711
+#: inc/arrays.php:728
 msgid "Documentation"
 msgstr ""
 
-#: inc/arrays.php:683
+#: inc/arrays.php:689
 msgid "Demo"
 msgstr ""
 
-#: inc/arrays.php:691
+#: inc/arrays.php:697
 msgid "The Cart Edit addon can help the visitors of your website easily change their orders to suit their needs while they're checking the cart.  By enabling this, an Edit Options button will appear in the cart under the products' names. This will get visitors to the product's page to change their choices."
 msgstr ""
 
-#: inc/arrays.php:701
+#: inc/arrays.php:707
+#: templates/render-fields.php:95
 msgid "Conditional Field Repeater"
 msgstr ""
 
-#: inc/arrays.php:702
+#: inc/arrays.php:708
 msgid "Conditional Field Repeater allows you to duplicate PPOM fields, enabling customers to repeat a set of options for multiple entries. This is perfect for scenarios where customers need to provide varied input for the same product, like ordering shirts with multiple custom text lines to be printed."
 msgstr ""
 
-#: inc/arrays.php:713
+#: inc/arrays.php:719
 msgid "Enquiry Form Add-on enhances your product pages by adding a customizable enquiry button. It allows customers to send inquiries directly to the admin about products with PPOM Fields via email. All associated PPOM Meta Fields are included in the customer's message."
 msgstr ""
 
-#: inc/arrays.php:719
+#: inc/arrays.php:725
 msgid "The Fields Popup addon allows the PPOM meta fields to be displayed inside a popup on the product page."
 msgstr ""
 
-#: inc/files.php:122
+#. translators: $s: the size of the cropped image.
+#: inc/files.php:124
 msgid "Your image-%s"
 msgstr ""
 
-#: inc/files.php:207
+#: inc/files.php:209
 msgid "You cannot upload the file at this time, please refresh the page and try again. Note that your current option choices will be reset."
 msgstr ""
 
-#: inc/files.php:217
+#: inc/files.php:219
 msgid "Error while creating directory"
 msgstr ""
 
-#: inc/files.php:246
-msgid "File type not valid - "
+#. translators: %s: the name of the extension.
+#: inc/files.php:250
+msgid "File type not valid - %s"
 msgstr ""
 
-#: inc/files.php:396
+#: inc/files.php:402
 msgid "Missing data."
 msgstr ""
 
-#: inc/files.php:404
+#. translators: %s: the name of file
+#: inc/files.php:411
 msgid "Verification failed for file: %s"
 msgstr ""
 
-#: inc/files.php:427
+#: inc/files.php:434
 msgid "File removed"
 msgstr ""
 
-#: inc/files.php:429
+#. translators: %s: the name of file
+#: inc/files.php:437
 msgid "Error while deleting file %s"
 msgstr ""
 
-#: inc/files.php:432
+#. translators: %s: the name of file
+#: inc/files.php:441
 msgid "The file %s does not exists."
 msgstr ""
 
-#: inc/files.php:509
-#: inc/files.php:541
+#: inc/files.php:518
+#: inc/files.php:550
 msgid "Size: "
 msgstr ""
 
-#: inc/files.php:530
-#: inc/files.php:546
-#: templates/admin/ppom-fields.php:676
+#: inc/files.php:539
+#: inc/files.php:555
+#: templates/admin/ppom-fields.php:688
 msgid "Remove"
 msgstr ""
 
-#: inc/functions.php:408
-#: inc/functions.php:432
-#: inc/functions.php:457
-#: inc/functions.php:519
-msgid "<strong>Total = %d</strong>"
+#. translators: %d: the total quantity.
+#: inc/functions.php:409
+#: inc/functions.php:434
+#: inc/functions.php:460
+#: inc/functions.php:523
+msgid "Total = %d"
 msgstr ""
 
-#: inc/functions.php:574
+#: inc/functions.php:578
 msgid "Original Image"
 msgstr ""
 
-#: inc/functions.php:581
-#: inc/functions.php:1629
+#: inc/functions.php:585
+#: inc/functions.php:1633
 msgid "Cropped"
 msgstr ""
 
-#: inc/functions.php:1021
-msgid "<a href=\"%s\">Add Fields</a>"
-msgstr ""
-
-#: inc/functions.php:1610
+#: inc/functions.php:1614
 msgid "Download File"
 msgstr ""
 
-#: inc/functions.php:1643
+#: inc/functions.php:1647
 msgid "Edited"
 msgstr ""
 
 #: inc/hooks.php:827
 msgid "Product ID is not valid"
-msgstr ""
-
-#: inc/nmInput.class.php:264
-msgid "data-use_units=\""
-msgstr ""
-
-#: inc/nmInput.class.php:279
-msgid "data-use_units=\"no\" data-price=\"%1$s\" data-label=\"%2$s\" data-data_name=\"%3$s\" data-optionid=\"%4$s\" data-qty=\"%5$s\">"
 msgstr ""
 
 #: inc/nmInput.class.php:927
@@ -4064,17 +4034,12 @@ msgstr ""
 msgid "Quantities cannot be used with Price Matrix, Remove prices from quantities input."
 msgstr ""
 
-#: inc/nmInput.class.php:1248
-#: templates/frontend/inputs/quantities.php:41
-msgid "<div class=\"woocommerce-error\">%s</div>"
-msgstr ""
-
 #: inc/nmInput.class.php:1326
 msgid "audios not selected"
 msgstr ""
 
 #: inc/nmInput.class.php:1429
-#: templates/frontend/inputs/file.php:50
+#: templates/frontend/inputs/file.php:54
 msgid "Drag File Here"
 msgstr ""
 
@@ -4085,58 +4050,72 @@ msgstr ""
 msgid "Drag file/directory here"
 msgstr ""
 
-#: inc/nmInput.class.php:1547
-#: templates/frontend/inputs/cropper.php:84
-msgid "<option value=\"\">%s</option>"
-msgstr ""
-
-#: inc/prices.php:796
+#. translators: %d: the number of files options.
+#: inc/prices.php:797
 msgid "%d Files"
 msgstr ""
 
 #: inc/rest.class.php:119
-#: inc/rest.class.php:228
-#: inc/rest.class.php:295
+#: inc/rest.class.php:230
+#: inc/rest.class.php:297
 msgid "No Product Found"
 msgstr ""
 
 #: inc/rest.class.php:131
-#: inc/rest.class.php:172
+#: inc/rest.class.php:173
 msgid "No Meta Found"
 msgstr ""
 
-#: inc/rest.class.php:209
-#: inc/rest.class.php:276
+#. translators: %s: Field Meta ID
+#: inc/rest.class.php:146
+#: inc/rest.class.php:184
+msgid "Meta found %s"
+msgstr ""
+
+#: inc/rest.class.php:211
+#: inc/rest.class.php:278
 msgid "No fields to save"
 msgstr ""
 
-#: inc/rest.class.php:218
-#: inc/rest.class.php:285
-#: inc/rest.class.php:594
-#: inc/rest.class.php:699
+#: inc/rest.class.php:220
+#: inc/rest.class.php:287
+#: inc/rest.class.php:597
+#: inc/rest.class.php:703
 msgid "Secret key is not valid"
 msgstr ""
 
-#: inc/rest.class.php:536
-#: inc/rest.class.php:576
-#: inc/rest.class.php:681
+#: inc/rest.class.php:538
+#: inc/rest.class.php:579
+#: inc/rest.class.php:685
 msgid "No Order Found"
 msgstr ""
 
-#: inc/rest.class.php:585
+#. translators: %s: WooCommerce Order ID
+#: inc/rest.class.php:550
+msgid "Order found %s"
+msgstr ""
+
+#: inc/rest.class.php:588
 msgid "No meta found to save"
 msgstr ""
 
-#: inc/rest.class.php:609
+#: inc/rest.class.php:612
 msgid "Submitted fields are in valid format."
 msgstr ""
 
-#: inc/rest.class.php:690
+#. translators: %s: WooCommerce Order ID
+#: inc/rest.class.php:655
+#: inc/rest.class.php:740
+msgid "Order updated %s"
+msgstr ""
+
+#: inc/rest.class.php:694
 msgid "No fields to delete"
 msgstr ""
 
 #: inc/woocommerce.php:41
-msgid "<div class='error'>Some of your fields has duplicated datanames, please fix it</div>"
+#: templates/frontend/ppom-fields.php:20
+msgid "Some of your fields has duplicated datanames, please fix it"
 msgstr ""
 
 #: inc/woocommerce.php:145
@@ -4144,18 +4123,20 @@ msgid "Sorry, an error has occurred. Please enable JavaScript or contact site ow
 msgstr ""
 
 #: inc/woocommerce.php:163
-msgid "<div class=\"woocommerce-error\" role=\"alert\">%s</div>"
+msgid "Error while validating, try again"
 msgstr ""
 
-#: inc/woocommerce.php:259
-msgid "%1$s: %2$s"
+#. translators: %s: the name of the field.
+#: inc/woocommerce.php:264
+msgid "%s is a required field"
 msgstr ""
 
-#: inc/woocommerce.php:613
+#: inc/woocommerce.php:620
 msgid "Total will be calculated in the cart"
 msgstr ""
 
-#: inc/woocommerce.php:1147
+#. translators: %d: the number of maximum quantity.
+#: inc/woocommerce.php:1157
 msgid "Sorry, maximum quantity is %d."
 msgstr ""
 
@@ -4171,12 +4152,7 @@ msgstr ""
 msgid "Feature"
 msgstr ""
 
-#: templates/admin/addons-list.php:53
-#: templates/admin/ppom-fields.php:444
-msgid "PRO"
-msgstr ""
-
-#: templates/admin/addons-list.php:61
+#: templates/admin/addons-list.php:66
 msgid "Get Started"
 msgstr ""
 
@@ -4200,7 +4176,8 @@ msgstr ""
 msgid "Tweaks"
 msgstr ""
 
-#: templates/admin/changelog.php:60
+#. translators: %s: PPOM version type (Free/Pro)
+#: templates/admin/changelog.php:64
 msgid "%s Changelog"
 msgstr ""
 
@@ -4226,8 +4203,8 @@ msgstr ""
 
 #: templates/admin/existing-meta.php:35
 #: templates/admin/existing-meta.php:50
-#: templates/admin/ppom-fields.php:693
-#: templates/admin/ppom-fields.php:713
+#: templates/admin/ppom-fields.php:705
+#: templates/admin/ppom-fields.php:725
 msgid "Actions"
 msgstr ""
 
@@ -4252,12 +4229,12 @@ msgstr ""
 msgid "We're sorry, importing fields is not available on your plan. Please upgrade to the Pro plan to unlock all these features and enhance your product fields management capabilities."
 msgstr ""
 
-#: templates/admin/existing-meta.php:136
+#: templates/admin/existing-meta.php:137
 msgid "Upgrade to PRO"
 msgstr ""
 
 #: templates/admin/ppom-fields.php:59
-msgid "&laquo; Existing Product Meta"
+msgid "Existing Product Meta"
 msgstr ""
 
 #: templates/admin/ppom-fields.php:74
@@ -4477,8 +4454,10 @@ msgid "Meta Fields Repeater"
 msgstr ""
 
 #: templates/admin/ppom-fields.php:491
-#: templates/admin/ppom-fields.php:646
+#: templates/admin/ppom-fields.php:658
 #: templates/admin/product-modal.php:18
+#: templates/frontend/component/image/image-modals.php:30
+#: templates/v10/image-modals.php:20
 msgid "Close"
 msgstr ""
 
@@ -4518,89 +4497,86 @@ msgstr ""
 msgid "Show Each Option's Price"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:570
-msgid "Custom CSS and JS customization is not available on your current plan. <a href=\"%s\" target=\"_blank\">Upgrade to the Pro</a> plan to unlock the ability to fully customize your fields' appearance and functionality."
+#. translators: %1$s the upgrade link with label: 'Upgrade To Pro'.
+#: templates/admin/ppom-fields.php:574
+msgid "Custom CSS and JS customization is not available on your current plan. %1$s plan to unlock the ability to fully customize your fields' appearance and functionality."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:578
+#: templates/admin/ppom-fields.php:590
 msgid "Custom CSS"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:580
+#: templates/admin/ppom-fields.php:592
 msgid "Add your own CSS."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:585
+#: templates/admin/ppom-fields.php:597
 msgid "Use"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:585
+#: templates/admin/ppom-fields.php:597
 msgid "to target block wrapper."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:586
+#: templates/admin/ppom-fields.php:598
 msgid "Example:"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:588
+#: templates/admin/ppom-fields.php:600
 msgid "You can also use other CSS syntax here, such as media queries."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:593
+#: templates/admin/ppom-fields.php:605
 msgid "Custom Javascipt"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:595
+#: templates/admin/ppom-fields.php:607
 msgid "Add your own javascipt script."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:649
-msgid "Update Field"
-msgstr ""
-
-#: templates/admin/ppom-fields.php:668
+#: templates/admin/ppom-fields.php:680
 msgid "Add PPOM Fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:674
+#: templates/admin/ppom-fields.php:686
 msgid "Add field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:687
-#: templates/admin/ppom-fields.php:707
+#: templates/admin/ppom-fields.php:699
+#: templates/admin/ppom-fields.php:719
 msgid "Status"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:689
-#: templates/admin/ppom-fields.php:709
+#: templates/admin/ppom-fields.php:701
+#: templates/admin/ppom-fields.php:721
 msgid "Type"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:721
+#: templates/admin/ppom-fields.php:733
 msgid "Save Fields"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:781
+#: templates/admin/ppom-fields.php:793
 msgid "Copy Field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:787
+#: templates/admin/ppom-fields.php:799
 msgid "Edit Field"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:823
+#: templates/admin/ppom-fields.php:835
 msgid "Alert!"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:825
+#: templates/admin/ppom-fields.php:837
 msgid "In order to edit premium fields, benefit from updates and support for PPOM Premium plugin, please renew your license code or activate it."
 msgstr ""
 
-#: templates/admin/ppom-fields.php:828
+#: templates/admin/ppom-fields.php:840
 msgid "Renew License"
 msgstr ""
 
-#: templates/admin/ppom-fields.php:829
+#: templates/admin/ppom-fields.php:841
 msgid "Activate License"
 msgstr ""
 
@@ -4612,16 +4588,11 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: templates/frontend/component/quantities/grid-layout.php:50
-#: templates/frontend/component/quantities/horizontal-layout.php:73
-#: templates/frontend/component/quantities/vertical-layout.php:67
+#. translators: %s: stock quantity
+#: templates/frontend/component/quantities/grid-layout.php:52
+#: templates/frontend/component/quantities/horizontal-layout.php:75
+#: templates/frontend/component/quantities/vertical-layout.php:69
 msgid "%s in stock"
-msgstr ""
-
-#: templates/frontend/component/quantities/grid-layout.php:112
-#: templates/frontend/component/quantities/horizontal-layout.php:116
-#: templates/frontend/component/quantities/vertical-layout.php:122
-msgid "<span class=\"ppom-instock\">%s</span>"
 msgstr ""
 
 #: templates/frontend/component/quantities/horizontal-layout.php:45
@@ -4643,8 +4614,8 @@ msgstr ""
 
 #: templates/frontend/inputs/cropper.php:28
 #: templates/frontend/inputs/file.php:28
-#: templates/render-fields.php:630
-#: templates/render-fields.php:678
+#: templates/render-fields.php:637
+#: templates/render-fields.php:685
 msgid "Select files"
 msgstr ""
 
@@ -4668,10 +4639,6 @@ msgstr ""
 msgid "The timezone not found, please add different regions."
 msgstr ""
 
-#: templates/frontend/ppom-fields.php:20
-msgid "Some of your fields has duplicated datanames, please fix it"
-msgstr ""
-
 #: templates/input/quantities.php:245
 msgid "Options Total: "
 msgstr ""
@@ -4682,4 +4649,13 @@ msgstr ""
 
 #: templates/input/quantities.php:258
 msgid "Grand Total: "
+msgstr ""
+
+#. translators: %1$s: the name of the field, %2$s: label 'Conditional Field Repeater' with bold, %3$s: label 'Legacy Input Rendering' with bold.
+#: templates/render-fields.php:93
+msgid "The %1$s field cannot be used because the Conditional Field Repeater mode is activated, although Legacy Input Rendering is enabled. %2$s cannot work if the %3$s is enabled."
+msgstr ""
+
+#: templates/render-fields.php:96
+msgid "Legacy Input Rendering"
 msgstr ""
