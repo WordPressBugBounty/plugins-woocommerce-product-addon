@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-10T13:56:06+00:00\n"
+"POT-Creation-Date: 2025-04-16T09:59:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -957,7 +957,7 @@ msgstr ""
 msgid "Font Color"
 msgstr ""
 
-#: backend/settings-panel.class.php:827
+#: backend/settings-panel.class.php:829
 #: classes/fields.class.php:178
 #: classes/frontend-scripts.class.php:548
 #: inc/hooks.php:341
@@ -965,7 +965,7 @@ msgstr ""
 msgid "Are you sure?"
 msgstr ""
 
-#: backend/settings-panel.class.php:828
+#: backend/settings-panel.class.php:830
 msgid "The administrator role cannot be removed."
 msgstr ""
 
@@ -1012,7 +1012,7 @@ msgstr ""
 #: classes/admin.class.php:139
 #: classes/admin.class.php:154
 #: classes/admin.class.php:169
-#: classes/plugin.class.php:943
+#: classes/plugin.class.php:961
 #: templates/admin/changelog.php:54
 msgid "PPOM Fields"
 msgstr ""
@@ -1169,20 +1169,20 @@ msgstr ""
 
 #. translators: it marks if a feature is locked under a paid plan.
 #: classes/fields.class.php:173
-#: classes/fields.class.php:875
-#: classes/fields.class.php:876
-#: classes/fields.class.php:877
-#: classes/fields.class.php:883
-#: classes/fields.class.php:884
-#: classes/fields.class.php:885
 #: classes/fields.class.php:886
-#: classes/fields.class.php:974
-#: classes/fields.class.php:975
-#: classes/fields.class.php:976
-#: classes/fields.class.php:982
-#: classes/fields.class.php:983
-#: classes/fields.class.php:984
+#: classes/fields.class.php:887
+#: classes/fields.class.php:888
+#: classes/fields.class.php:894
+#: classes/fields.class.php:895
+#: classes/fields.class.php:896
+#: classes/fields.class.php:897
 #: classes/fields.class.php:985
+#: classes/fields.class.php:986
+#: classes/fields.class.php:987
+#: classes/fields.class.php:993
+#: classes/fields.class.php:994
+#: classes/fields.class.php:995
+#: classes/fields.class.php:996
 #: classes/freemium.class.php:52
 #: inc/arrays.php:310
 #: templates/admin/addons-list.php:56
@@ -1240,9 +1240,9 @@ msgid "Upload"
 msgstr ""
 
 #: classes/fields.class.php:193
-#: classes/fields.class.php:429
-#: classes/fields.class.php:632
-#: classes/fields.class.php:651
+#: classes/fields.class.php:440
+#: classes/fields.class.php:643
+#: classes/fields.class.php:662
 msgid "Stock"
 msgstr ""
 
@@ -1262,125 +1262,125 @@ msgstr ""
 msgid "Data Name already exists"
 msgstr ""
 
-#: classes/fields.class.php:235
+#: classes/fields.class.php:246
 msgid "close"
 msgstr ""
 
-#: classes/fields.class.php:236
+#: classes/fields.class.php:247
 msgid "Add Field"
 msgstr ""
 
-#: classes/fields.class.php:418
-#: classes/fields.class.php:511
+#: classes/fields.class.php:429
+#: classes/fields.class.php:522
 msgid "Option"
 msgstr ""
 
-#: classes/fields.class.php:419
-#: classes/fields.class.php:512
-#: classes/fields.class.php:716
-#: classes/fields.class.php:732
+#: classes/fields.class.php:430
+#: classes/fields.class.php:523
+#: classes/fields.class.php:727
+#: classes/fields.class.php:743
 msgid "Price (optional)"
 msgstr ""
 
-#: classes/fields.class.php:422
 #: classes/fields.class.php:433
+#: classes/fields.class.php:444
 msgid "Discount"
 msgstr ""
 
-#: classes/fields.class.php:423
 #: classes/fields.class.php:434
+#: classes/fields.class.php:445
 msgid "Tooltip"
 msgstr ""
 
 #. translators: $s: the weight unit.
-#: classes/fields.class.php:426
+#: classes/fields.class.php:437
 msgid "Weight-%s"
 msgstr ""
 
 #. translators: $s: the weight unit.
-#: classes/fields.class.php:426
-#: classes/fields.class.php:429
+#: classes/fields.class.php:437
+#: classes/fields.class.php:440
 msgid "PRO only"
 msgstr ""
 
 #. translators: $s: the weight unit.
-#: classes/fields.class.php:437
+#: classes/fields.class.php:448
 msgid "Weight-%s (optional)"
 msgstr ""
 
-#: classes/fields.class.php:440
+#: classes/fields.class.php:451
 msgid "Stock (optional)"
 msgstr ""
 
-#: classes/fields.class.php:443
-#: classes/fields.class.php:514
+#: classes/fields.class.php:454
+#: classes/fields.class.php:525
 msgid "Unique Option ID)"
 msgstr ""
 
-#: classes/fields.class.php:513
-#: classes/fields.class.php:713
+#: classes/fields.class.php:524
+#: classes/fields.class.php:724
 msgid "Label"
 msgstr ""
 
-#: classes/fields.class.php:535
-#: classes/fields.class.php:556
+#: classes/fields.class.php:546
+#: classes/fields.class.php:567
 msgid "Fixed?"
 msgstr ""
 
-#: classes/fields.class.php:570
+#: classes/fields.class.php:581
 #: templates/admin/ppom-fields.php:700
 #: templates/admin/ppom-fields.php:720
 msgid "Data Name"
 msgstr ""
 
-#: classes/fields.class.php:571
+#: classes/fields.class.php:582
 msgid "Font Name"
 msgstr ""
 
-#: classes/fields.class.php:626
-#: classes/fields.class.php:645
-#: classes/fields.class.php:729
+#: classes/fields.class.php:637
+#: classes/fields.class.php:656
+#: classes/fields.class.php:740
 msgid "option"
 msgstr ""
 
-#: classes/fields.class.php:627
-#: classes/fields.class.php:646
-#: classes/fields.class.php:679
-#: classes/fields.class.php:689
+#: classes/fields.class.php:638
+#: classes/fields.class.php:657
+#: classes/fields.class.php:690
+#: classes/fields.class.php:700
 msgid "price (if any)"
 msgstr ""
 
-#: classes/fields.class.php:628
-#: classes/fields.class.php:647
+#: classes/fields.class.php:639
+#: classes/fields.class.php:658
 msgid "weight (if any)"
 msgstr ""
 
-#: classes/fields.class.php:629
-#: classes/fields.class.php:648
+#: classes/fields.class.php:640
+#: classes/fields.class.php:659
 msgid "Default. Qty"
 msgstr ""
 
-#: classes/fields.class.php:630
-#: classes/fields.class.php:649
+#: classes/fields.class.php:641
+#: classes/fields.class.php:660
 msgid "Min. Qty"
 msgstr ""
 
-#: classes/fields.class.php:631
-#: classes/fields.class.php:650
+#: classes/fields.class.php:642
+#: classes/fields.class.php:661
 msgid "Max. Qty"
 msgstr ""
 
-#: classes/fields.class.php:669
+#: classes/fields.class.php:680
 msgid "Unique ID)"
 msgstr ""
 
-#: classes/fields.class.php:678
-#: classes/fields.class.php:688
+#: classes/fields.class.php:689
+#: classes/fields.class.php:699
 msgid "Unit"
 msgstr ""
 
-#: classes/fields.class.php:714
-#: classes/fields.class.php:730
+#: classes/fields.class.php:725
+#: classes/fields.class.php:741
 #: classes/inputs/input.audio.php:62
 #: classes/inputs/input.checkbox.php:67
 #: classes/inputs/input.color.php:84
@@ -1403,168 +1403,168 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: classes/fields.class.php:715
-#: classes/fields.class.php:731
+#: classes/fields.class.php:726
+#: classes/fields.class.php:742
 msgid "Height"
 msgstr ""
 
-#: classes/fields.class.php:809
-#: classes/fields.class.php:933
+#: classes/fields.class.php:820
+#: classes/fields.class.php:944
 msgid "Show"
 msgstr ""
 
-#: classes/fields.class.php:810
-#: classes/fields.class.php:934
+#: classes/fields.class.php:821
+#: classes/fields.class.php:945
 msgid "Hide"
 msgstr ""
 
-#: classes/fields.class.php:815
-#: classes/fields.class.php:938
+#: classes/fields.class.php:826
+#: classes/fields.class.php:949
 msgid "only if"
 msgstr ""
 
-#: classes/fields.class.php:820
-#: classes/fields.class.php:942
+#: classes/fields.class.php:831
+#: classes/fields.class.php:953
 #: templates/admin/ppom-fields.php:394
 msgid "All"
 msgstr ""
 
-#: classes/fields.class.php:821
-#: classes/fields.class.php:943
+#: classes/fields.class.php:832
+#: classes/fields.class.php:954
 msgid "Any"
 msgstr ""
 
-#: classes/fields.class.php:826
-#: classes/fields.class.php:947
+#: classes/fields.class.php:837
+#: classes/fields.class.php:958
 msgid "of the following matches"
 msgstr ""
 
-#: classes/fields.class.php:851
-#: classes/fields.class.php:953
+#: classes/fields.class.php:862
+#: classes/fields.class.php:964
 msgid "Rule"
 msgstr ""
 
-#: classes/fields.class.php:867
-#: classes/fields.class.php:966
+#: classes/fields.class.php:878
+#: classes/fields.class.php:977
 msgid "Value Comparison"
 msgstr ""
 
-#: classes/fields.class.php:868
-#: classes/fields.class.php:967
+#: classes/fields.class.php:879
+#: classes/fields.class.php:978
 msgid "is"
-msgstr ""
-
-#: classes/fields.class.php:869
-#: classes/fields.class.php:968
-msgid "is not"
-msgstr ""
-
-#: classes/fields.class.php:870
-#: classes/fields.class.php:969
-msgid "is empty"
-msgstr ""
-
-#: classes/fields.class.php:871
-#: classes/fields.class.php:970
-msgid "has any value"
-msgstr ""
-
-#: classes/fields.class.php:874
-#: classes/fields.class.php:973
-msgid "Text Matching"
-msgstr ""
-
-#: classes/fields.class.php:875
-#: classes/fields.class.php:974
-msgid "contains"
-msgstr ""
-
-#: classes/fields.class.php:876
-#: classes/fields.class.php:975
-msgid "does not contain"
-msgstr ""
-
-#: classes/fields.class.php:877
-#: classes/fields.class.php:976
-msgid "matches RegEx"
 msgstr ""
 
 #: classes/fields.class.php:880
 #: classes/fields.class.php:979
-msgid "Numeric Comparison"
+msgid "is not"
 msgstr ""
 
 #: classes/fields.class.php:881
 #: classes/fields.class.php:980
-msgid "greater than"
+msgid "is empty"
 msgstr ""
 
 #: classes/fields.class.php:882
 #: classes/fields.class.php:981
-msgid "less than"
-msgstr ""
-
-#: classes/fields.class.php:883
-#: classes/fields.class.php:982
-msgid "is between"
-msgstr ""
-
-#: classes/fields.class.php:884
-#: classes/fields.class.php:983
-msgid "is multiple of"
+msgid "has any value"
 msgstr ""
 
 #: classes/fields.class.php:885
 #: classes/fields.class.php:984
-msgid "is even"
+msgid "Text Matching"
 msgstr ""
 
 #: classes/fields.class.php:886
 #: classes/fields.class.php:985
+msgid "contains"
+msgstr ""
+
+#: classes/fields.class.php:887
+#: classes/fields.class.php:986
+msgid "does not contain"
+msgstr ""
+
+#: classes/fields.class.php:888
+#: classes/fields.class.php:987
+msgid "matches RegEx"
+msgstr ""
+
+#: classes/fields.class.php:891
+#: classes/fields.class.php:990
+msgid "Numeric Comparison"
+msgstr ""
+
+#: classes/fields.class.php:892
+#: classes/fields.class.php:991
+msgid "greater than"
+msgstr ""
+
+#: classes/fields.class.php:893
+#: classes/fields.class.php:992
+msgid "less than"
+msgstr ""
+
+#: classes/fields.class.php:894
+#: classes/fields.class.php:993
+msgid "is between"
+msgstr ""
+
+#: classes/fields.class.php:895
+#: classes/fields.class.php:994
+msgid "is multiple of"
+msgstr ""
+
+#: classes/fields.class.php:896
+#: classes/fields.class.php:995
+msgid "is even"
+msgstr ""
+
+#: classes/fields.class.php:897
+#: classes/fields.class.php:996
 msgid "is odd"
 msgstr ""
 
-#: classes/fields.class.php:903
-#: classes/fields.class.php:999
+#: classes/fields.class.php:914
+#: classes/fields.class.php:1010
 msgid "and"
 msgstr ""
 
-#: classes/fields.class.php:908
-#: classes/fields.class.php:1004
+#: classes/fields.class.php:919
+#: classes/fields.class.php:1015
 msgid "Upgrade to Unlock"
 msgstr ""
 
-#: classes/fields.class.php:1024
-#: classes/fields.class.php:1074
+#: classes/fields.class.php:1035
+#: classes/fields.class.php:1085
 msgid "Select/Upload Image"
 msgstr ""
 
-#: classes/fields.class.php:1119
+#: classes/fields.class.php:1130
 #: classes/inputs/input.audio.php:83
 msgid "Select Audio/Video"
 msgstr ""
 
-#: classes/fields.class.php:1190
+#: classes/fields.class.php:1201
 msgid "Quantity Range"
 msgstr ""
 
-#: classes/fields.class.php:1191
+#: classes/fields.class.php:1202
 msgid "Base Price"
 msgstr ""
 
-#: classes/fields.class.php:1231
+#: classes/fields.class.php:1242
 msgid "Save Changing"
 msgstr ""
 
-#: classes/fields.class.php:1232
+#: classes/fields.class.php:1243
 msgid "Edit Changing"
 msgstr ""
 
-#: classes/fields.class.php:1259
+#: classes/fields.class.php:1270
 msgid "Fields"
 msgstr ""
 
-#: classes/fields.class.php:1264
+#: classes/fields.class.php:1275
 #: classes/inputs/input.audio.php:112
 #: classes/inputs/input.checkbox.php:128
 #: classes/inputs/input.color.php:135
@@ -1588,28 +1588,28 @@ msgstr ""
 msgid "Conditions"
 msgstr ""
 
-#: classes/fields.class.php:1270
+#: classes/fields.class.php:1281
 #: classes/inputs/input.cropper.php:124
 msgid "Add Options"
 msgstr ""
 
-#: classes/fields.class.php:1286
+#: classes/fields.class.php:1297
 msgid "Add Images"
 msgstr ""
 
-#: classes/fields.class.php:1291
+#: classes/fields.class.php:1302
 msgid "Add Audio/Video"
 msgstr ""
 
-#: classes/fields.class.php:1298
+#: classes/fields.class.php:1309
 msgid "Fonts Family"
 msgstr ""
 
-#: classes/fields.class.php:1303
+#: classes/fields.class.php:1314
 msgid "Custom Fonts"
 msgstr ""
 
-#: classes/fields.class.php:1309
+#: classes/fields.class.php:1320
 msgid "Image Dimensions"
 msgstr ""
 
@@ -3600,12 +3600,12 @@ msgstr ""
 msgid "%s Products meta removed."
 msgstr ""
 
-#: classes/plugin.class.php:764
+#: classes/plugin.class.php:782
 msgid "Sorry, you are not allowed to clone"
 msgstr ""
 
 #. translators: %s: meta title
-#: classes/plugin.class.php:923
+#: classes/plugin.class.php:941
 msgid "PPOM Meta Successfully Changed to - %s"
 msgstr ""
 
