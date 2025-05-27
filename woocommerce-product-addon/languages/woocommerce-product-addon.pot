@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-16T09:59:32+00:00\n"
+"POT-Creation-Date: 2025-05-27T11:32:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: woocommerce-product-addon\n"
 
 #. Plugin Name of the plugin
@@ -978,6 +978,7 @@ msgstr ""
 #. translators: %1$s: the name of plugin feature, %2$s: opening anchor tag.
 #: backend/templates/admin-settings.php:104
 #: backend/templates/admin-settings.php:156
+#, php-format
 msgid "%1$s customization is not available on your current plan. %2$s plan to unlock the ability to fully enable and customize this functionality."
 msgstr ""
 
@@ -1052,6 +1053,7 @@ msgstr ""
 
 #. translators: %1$s: the link to the store with label 'upgrade'.
 #: classes/admin.class.php:276
+#, php-format
 msgid "Your current plan supports adding one group of fields per product. To add multiple groups to the same product, please %1$s your plan!"
 msgstr ""
 
@@ -1097,6 +1099,7 @@ msgstr ""
 
 #. translators: %1$d: number of products, %2$d: number of categories, %3$d: number of tags.
 #: classes/admin.class.php:650
+#, php-format
 msgid "PPOM updated for %1$d Products, %2$d Categories and %3$d Tags."
 msgstr ""
 
@@ -1157,8 +1160,8 @@ msgid "Bulk Actions"
 msgstr ""
 
 #: classes/fields.class.php:171
-#: inc/files.php:539
-#: inc/files.php:555
+#: inc/files.php:540
+#: inc/files.php:556
 msgid "Delete"
 msgstr ""
 
@@ -1294,6 +1297,7 @@ msgstr ""
 
 #. translators: $s: the weight unit.
 #: classes/fields.class.php:437
+#, php-format
 msgid "Weight-%s"
 msgstr ""
 
@@ -1305,6 +1309,7 @@ msgstr ""
 
 #. translators: $s: the weight unit.
 #: classes/fields.class.php:448
+#, php-format
 msgid "Weight-%s (optional)"
 msgstr ""
 
@@ -1616,6 +1621,7 @@ msgstr ""
 #. translators: $s: the name of the field.
 #: classes/form.class.php:139
 #: templates/render-fields.php:83
+#, php-format
 msgid "Please provide data name property for %s"
 msgstr ""
 
@@ -2717,6 +2723,7 @@ msgstr ""
 
 #. translators: %1%s: the current year date, %2%s the next yar date.
 #: classes/inputs/input.date.php:106
+#, php-format
 msgid "[ This feature requires jQuery datePicker ] Years to allow date selections. Example: c-10:c+10. TIP: The letter \"c\" indicates the current year so \"c+1\" will indicate next year.  Thus c:c+1 will be %1$s:%2$s"
 msgstr ""
 
@@ -3588,6 +3595,7 @@ msgstr ""
 
 #. translators: %s: number of products
 #: classes/plugin.class.php:576
+#, php-format
 msgid "%s Products meta updated."
 msgstr ""
 
@@ -3597,6 +3605,7 @@ msgstr ""
 
 #. translators: %s: number of products
 #: classes/plugin.class.php:589
+#, php-format
 msgid "%s Products meta removed."
 msgstr ""
 
@@ -3606,6 +3615,7 @@ msgstr ""
 
 #. translators: %s: meta title
 #: classes/plugin.class.php:941
+#, php-format
 msgid "PPOM Meta Successfully Changed to - %s"
 msgstr ""
 
@@ -3658,6 +3668,7 @@ msgstr ""
 
 #. translators: %1$s the opening link HTML tag, %2$s the close link HTML tag.
 #: inc/admin.php:175
+#, php-format
 msgid "Available in the %1$sPremium%2$s version."
 msgstr ""
 
@@ -3671,6 +3682,7 @@ msgstr ""
 
 #. translators: %1$s the link to Store with label: 'Premium'.
 #: inc/admin.php:185
+#, php-format
 msgid "Available in the %1$s version."
 msgstr ""
 
@@ -3725,6 +3737,18 @@ msgstr ""
 
 #: inc/admin.php:659
 msgid "Error while deleting the PPOM, try again."
+msgstr ""
+
+#. translators: %1$s - HTML tag, %2$s - discount, %3$s - HTML tag, %4$s - product name.
+#: inc/admin.php:836
+#, php-format
+msgid "Our biggest sale of the year: %1$sup to %2$s OFF%3$s on %4$s. Don't miss this limited-time offer."
+msgstr ""
+
+#. translators: %1$s - HTML tag, %2$s - discount, %3$s - HTML tag, %4$s - product name.
+#: inc/admin.php:846
+#, php-format
+msgid "Get %1$sup to %2$s off%3$s when you upgrade your %4$s plan or renew early."
 msgstr ""
 
 #: inc/arrays.php:61
@@ -3946,52 +3970,57 @@ msgstr ""
 
 #. translators: $s: the size of the cropped image.
 #: inc/files.php:124
+#, php-format
 msgid "Your image-%s"
 msgstr ""
 
-#: inc/files.php:209
+#: inc/files.php:210
 msgid "You cannot upload the file at this time, please refresh the page and try again. Note that your current option choices will be reset."
 msgstr ""
 
-#: inc/files.php:219
+#: inc/files.php:220
 msgid "Error while creating directory"
 msgstr ""
 
 #. translators: %s: the name of the extension.
-#: inc/files.php:250
+#: inc/files.php:251
+#, php-format
 msgid "File type not valid - %s"
 msgstr ""
 
-#: inc/files.php:402
+#: inc/files.php:403
 msgid "Missing data."
 msgstr ""
 
 #. translators: %s: the name of file
-#: inc/files.php:411
+#: inc/files.php:412
+#, php-format
 msgid "Verification failed for file: %s"
 msgstr ""
 
-#: inc/files.php:434
+#: inc/files.php:435
 msgid "File removed"
 msgstr ""
 
 #. translators: %s: the name of file
-#: inc/files.php:437
+#: inc/files.php:438
+#, php-format
 msgid "Error while deleting file %s"
 msgstr ""
 
 #. translators: %s: the name of file
-#: inc/files.php:441
+#: inc/files.php:442
+#, php-format
 msgid "The file %s does not exists."
 msgstr ""
 
-#: inc/files.php:518
-#: inc/files.php:550
+#: inc/files.php:519
+#: inc/files.php:551
 msgid "Size: "
 msgstr ""
 
-#: inc/files.php:539
-#: inc/files.php:555
+#: inc/files.php:540
+#: inc/files.php:556
 #: templates/admin/ppom-fields.php:688
 msgid "Remove"
 msgstr ""
@@ -4001,6 +4030,7 @@ msgstr ""
 #: inc/functions.php:434
 #: inc/functions.php:460
 #: inc/functions.php:523
+#, php-format
 msgid "Total = %d"
 msgstr ""
 
@@ -4009,15 +4039,15 @@ msgid "Original Image"
 msgstr ""
 
 #: inc/functions.php:585
-#: inc/functions.php:1633
+#: inc/functions.php:1625
 msgid "Cropped"
 msgstr ""
 
-#: inc/functions.php:1614
+#: inc/functions.php:1606
 msgid "Download File"
 msgstr ""
 
-#: inc/functions.php:1647
+#: inc/functions.php:1639
 msgid "Edited"
 msgstr ""
 
@@ -4052,6 +4082,7 @@ msgstr ""
 
 #. translators: %d: the number of files options.
 #: inc/prices.php:797
+#, php-format
 msgid "%d Files"
 msgstr ""
 
@@ -4069,6 +4100,7 @@ msgstr ""
 #. translators: %s: Field Meta ID
 #: inc/rest.class.php:146
 #: inc/rest.class.php:184
+#, php-format
 msgid "Meta found %s"
 msgstr ""
 
@@ -4092,6 +4124,7 @@ msgstr ""
 
 #. translators: %s: WooCommerce Order ID
 #: inc/rest.class.php:550
+#, php-format
 msgid "Order found %s"
 msgstr ""
 
@@ -4106,6 +4139,7 @@ msgstr ""
 #. translators: %s: WooCommerce Order ID
 #: inc/rest.class.php:655
 #: inc/rest.class.php:740
+#, php-format
 msgid "Order updated %s"
 msgstr ""
 
@@ -4128,6 +4162,7 @@ msgstr ""
 
 #. translators: %s: the name of the field.
 #: inc/woocommerce.php:264
+#, php-format
 msgid "%s is a required field"
 msgstr ""
 
@@ -4137,6 +4172,7 @@ msgstr ""
 
 #. translators: %d: the number of maximum quantity.
 #: inc/woocommerce.php:1157
+#, php-format
 msgid "Sorry, maximum quantity is %d."
 msgstr ""
 
@@ -4178,6 +4214,7 @@ msgstr ""
 
 #. translators: %s: PPOM version type (Free/Pro)
 #: templates/admin/changelog.php:64
+#, php-format
 msgid "%s Changelog"
 msgstr ""
 
@@ -4499,6 +4536,7 @@ msgstr ""
 
 #. translators: %1$s the upgrade link with label: 'Upgrade To Pro'.
 #: templates/admin/ppom-fields.php:574
+#, php-format
 msgid "Custom CSS and JS customization is not available on your current plan. %1$s plan to unlock the ability to fully customize your fields' appearance and functionality."
 msgstr ""
 
@@ -4592,6 +4630,7 @@ msgstr ""
 #: templates/frontend/component/quantities/grid-layout.php:52
 #: templates/frontend/component/quantities/horizontal-layout.php:75
 #: templates/frontend/component/quantities/vertical-layout.php:69
+#, php-format
 msgid "%s in stock"
 msgstr ""
 
@@ -4653,6 +4692,7 @@ msgstr ""
 
 #. translators: %1$s: the name of the field, %2$s: label 'Conditional Field Repeater' with bold, %3$s: label 'Legacy Input Rendering' with bold.
 #: templates/render-fields.php:93
+#, php-format
 msgid "The %1$s field cannot be used because the Conditional Field Repeater mode is activated, although Legacy Input Rendering is enabled. %2$s cannot work if the %3$s is enabled."
 msgstr ""
 
