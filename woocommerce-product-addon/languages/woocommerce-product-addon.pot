@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-27T11:32:14+00:00\n"
+"POT-Creation-Date: 2025-07-25T10:50:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: woocommerce-product-addon\n"
@@ -39,32 +39,32 @@ msgstr ""
 msgid "https://themeisle.com/"
 msgstr ""
 
-#: backend/options.php:25
-#: backend/options.php:134
+#: backend/options.php:32
+#: backend/options.php:138
 msgid "Basic Settings"
 msgstr ""
 
-#: backend/options.php:29
+#: backend/options.php:36
 #: inc/arrays.php:259
 msgid "Disable Bootstrap"
 msgstr ""
 
-#: backend/options.php:30
+#: backend/options.php:37
 #: inc/arrays.php:264
 msgid "Bootstrap JS is loaded from a CDN by default. You can disable it if your site is already loading it."
 msgstr ""
 
-#: backend/options.php:31
-#: backend/options.php:140
-#: backend/options.php:146
-#: backend/options.php:152
-#: backend/options.php:158
-#: backend/options.php:179
-#: backend/options.php:185
-#: backend/options.php:191
-#: backend/options.php:197
-#: backend/options.php:203
-#: backend/options.php:725
+#: backend/options.php:38
+#: backend/options.php:144
+#: backend/options.php:150
+#: backend/options.php:156
+#: backend/options.php:162
+#: backend/options.php:183
+#: backend/options.php:189
+#: backend/options.php:195
+#: backend/options.php:201
+#: backend/options.php:207
+#: backend/options.php:729
 #: classes/fields.class.php:187
 #: inc/arrays.php:261
 #: inc/arrays.php:270
@@ -82,68 +82,68 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: backend/options.php:35
+#: backend/options.php:42
 msgid "Legacy Inputs Rendering"
 msgstr ""
 
-#: backend/options.php:36
+#: backend/options.php:43
 #: inc/arrays.php:273
 msgid "PPOM Version 22.0 is a major update. If any issues occur, you can revert to the previous version using this option."
 msgstr ""
 
-#: backend/options.php:40
+#: backend/options.php:47
 msgid "Legacy Conditions Script"
 msgstr ""
 
-#: backend/options.php:41
+#: backend/options.php:48
 msgid "If you found any issue in conditions you may enable this option."
 msgstr ""
 
-#: backend/options.php:45
+#: backend/options.php:52
 #: inc/arrays.php:285
 msgid "Enable Legacy Price Calculations"
 msgstr ""
 
-#: backend/options.php:46
+#: backend/options.php:53
 #: inc/arrays.php:290
 msgid "Enable this option to use the legacy method for price calculations."
 msgstr ""
 
-#: backend/options.php:50
+#: backend/options.php:57
 #: inc/arrays.php:293
 msgid "PPOM Permissions"
 msgstr ""
 
-#: backend/options.php:51
+#: backend/options.php:58
 #: inc/arrays.php:300
 msgid "You can set permissions here to allow different roles to manage PPOM fields."
 msgstr ""
 
-#: backend/options.php:53
+#: backend/options.php:60
 msgid "choose role"
 msgstr ""
 
-#: backend/options.php:59
+#: backend/options.php:66
 msgid "Restricted File Types"
 msgstr ""
 
-#: backend/options.php:60
+#: backend/options.php:67
 msgid "Specify the file types that are restricted from being uploaded in this section."
 msgstr ""
 
-#: backend/options.php:61
+#: backend/options.php:68
 msgid "php,php4,php5,php6,php7,phtml,exe,shtml"
 msgstr ""
 
-#: backend/options.php:65
+#: backend/options.php:72
 msgid "Label Settings"
 msgstr ""
 
-#: backend/options.php:69
+#: backend/options.php:76
 msgid "Option Total Label Inside Price Table"
 msgstr ""
 
-#: backend/options.php:70
+#: backend/options.php:77
 #: classes/frontend-scripts.class.php:562
 #: inc/arrays.php:194
 #: inc/arrays.php:197
@@ -151,11 +151,11 @@ msgstr ""
 msgid "Option Total"
 msgstr ""
 
-#: backend/options.php:74
+#: backend/options.php:81
 msgid "Product Price Label inside Price Table"
 msgstr ""
 
-#: backend/options.php:75
+#: backend/options.php:82
 #: classes/frontend-scripts.class.php:561
 #: inc/arrays.php:213
 #: inc/arrays.php:216
@@ -163,11 +163,11 @@ msgstr ""
 msgid "Product Price"
 msgstr ""
 
-#: backend/options.php:79
+#: backend/options.php:86
 msgid "Total Label inside Price Table"
 msgstr ""
 
-#: backend/options.php:80
+#: backend/options.php:87
 #: classes/frontend-scripts.class.php:565
 #: inc/arrays.php:222
 #: inc/arrays.php:225
@@ -175,11 +175,11 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: backend/options.php:84
+#: backend/options.php:91
 msgid "Total Discount Label Inside Price Table"
 msgstr ""
 
-#: backend/options.php:85
+#: backend/options.php:92
 #: classes/frontend-scripts.class.php:564
 #: inc/arrays.php:249
 #: inc/arrays.php:252
@@ -187,777 +187,777 @@ msgstr ""
 msgid "Total Discount"
 msgstr ""
 
-#: backend/options.php:89
+#: backend/options.php:96
 #: inc/arrays.php:204
 msgid "Option Total Suffix"
 msgstr ""
 
-#: backend/options.php:90
+#: backend/options.php:97
 msgid "Specify the label to display tax or VAT information, such as 'VAT Included' or 'Tax Applied,' inside the price table."
 msgstr ""
 
-#: backend/options.php:138
+#: backend/options.php:142
 msgid "Hide Images in Cart"
 msgstr ""
 
-#: backend/options.php:139
+#: backend/options.php:143
 msgid "When using image-type input, the selected images will not be displayed in the cart."
 msgstr ""
 
-#: backend/options.php:144
+#: backend/options.php:148
 msgid "Uploaded Image Resize Proportionally"
 msgstr ""
 
-#: backend/options.php:145
+#: backend/options.php:149
 msgid "By default, images are resized into a square. Enable this option to resize uploaded images proportionally."
 msgstr ""
 
-#: backend/options.php:150
+#: backend/options.php:154
 msgid "Clear Fields After Add to Cart"
 msgstr ""
 
-#: backend/options.php:151
+#: backend/options.php:155
 msgid "Clear all fields on the product page after adding the item to the cart."
 msgstr ""
 
-#: backend/options.php:156
+#: backend/options.php:160
 msgid "Enable Client-Side Validation"
 msgstr ""
 
-#: backend/options.php:157
+#: backend/options.php:161
 msgid "Enable this option for faster and more efficient validation of fields directly on the client side."
 msgstr ""
 
-#: backend/options.php:162
+#: backend/options.php:166
 msgid "Do Not Send Product Meta to PayPal Invoice"
 msgstr ""
 
-#: backend/options.php:163
+#: backend/options.php:167
 msgid "Product meta will not be included in the PayPal invoice; only the item name will be sent to the invoice."
 msgstr ""
 
-#: backend/options.php:167
+#: backend/options.php:171
 msgid "Shop Add to Cart Label"
 msgstr ""
 
-#: backend/options.php:168
+#: backend/options.php:172
 msgid "You can set the 'Add to Cart' button label here when PPOM is attached."
 msgstr ""
 
-#: backend/options.php:169
+#: backend/options.php:173
 #: inc/arrays.php:407
 msgid "Select Options"
 msgstr ""
 
-#: backend/options.php:173
+#: backend/options.php:177
 msgid "Price Settings"
 msgstr ""
 
-#: backend/options.php:177
+#: backend/options.php:181
 msgid "Override Product Price"
 msgstr ""
 
-#: backend/options.php:178
+#: backend/options.php:182
 msgid "Override the core product price on archive and product pages if PPOM field options include a price."
 msgstr ""
 
-#: backend/options.php:183
+#: backend/options.php:187
 msgid "Hide Variable Product Price"
 msgstr ""
 
-#: backend/options.php:184
+#: backend/options.php:188
 msgid "Hides the core price of variable products under the price title when PPOM fields are attached."
 msgstr ""
 
-#: backend/options.php:189
+#: backend/options.php:193
 msgid "Hide Options Price"
 msgstr ""
 
-#: backend/options.php:190
+#: backend/options.php:194
 msgid "Hides the option prices in Select, Radio, Checkbox, and Image inputs when displaying prices with labels."
 msgstr ""
 
-#: backend/options.php:195
+#: backend/options.php:199
 msgid "Taxable Options Price"
 msgstr ""
 
-#: backend/options.php:196
+#: backend/options.php:200
 msgid "Apply tax settings to option prices as configured in WooCommerce → Tax."
 msgstr ""
 
-#: backend/options.php:201
+#: backend/options.php:205
 msgid "Apply Tax on Fixed/Cart Fee"
 msgstr ""
 
-#: backend/options.php:202
+#: backend/options.php:206
 msgid "When this option is enabled, the fixed fee will be taxable."
 msgstr ""
 
-#: backend/options.php:207
+#: backend/options.php:211
 #: inc/arrays.php:468
 msgid "Price Table Position"
 msgstr ""
 
-#: backend/options.php:208
+#: backend/options.php:212
 msgid "Set the location where the price table will be rendered on the front end."
 msgstr ""
 
-#: backend/options.php:211
+#: backend/options.php:215
 #: inc/arrays.php:473
 msgid "After PPOM Fields"
 msgstr ""
 
-#: backend/options.php:212
+#: backend/options.php:216
 #: inc/arrays.php:474
 msgid "Before  PPOM Fields"
 msgstr ""
 
-#: backend/options.php:217
+#: backend/options.php:221
 msgid "Advanced Settings"
 msgstr ""
 
-#: backend/options.php:221
+#: backend/options.php:225
 msgid "Delete Unused Images"
 msgstr ""
 
-#: backend/options.php:222
+#: backend/options.php:226
 msgid "Set the duration for keeping uploaded images from abandoned carts. Reactivate the plugin after updating this option to apply changes."
 msgstr ""
 
-#: backend/options.php:225
+#: backend/options.php:229
 #: inc/arrays.php:429
 msgid "Daily"
 msgstr ""
 
-#: backend/options.php:226
+#: backend/options.php:230
 #: inc/arrays.php:430
 #: inc/hooks.php:790
 msgid "Weekly"
 msgstr ""
 
-#: backend/options.php:227
+#: backend/options.php:231
 #: inc/arrays.php:431
 msgid "Monthly"
 msgstr ""
 
-#: backend/options.php:232
+#: backend/options.php:236
 #: inc/arrays.php:439
 msgid "Meta Group Overrides"
 msgstr ""
 
-#: backend/options.php:233
+#: backend/options.php:237
 msgid "Leave this set to default if you're not sure."
 msgstr ""
 
-#: backend/options.php:236
+#: backend/options.php:240
 #: inc/arrays.php:444
 msgid "Default"
 msgstr ""
 
-#: backend/options.php:237
+#: backend/options.php:241
 #: inc/arrays.php:445
 msgid "Category Overrides Individual Assignment"
 msgstr ""
 
-#: backend/options.php:238
+#: backend/options.php:242
 #: inc/arrays.php:446
 msgid "Individual Overrides Category Assignment"
 msgstr ""
 
-#: backend/options.php:243
+#: backend/options.php:247
 #: inc/arrays.php:454
 msgid "Meta Group Priority"
 msgstr ""
 
-#: backend/options.php:244
+#: backend/options.php:248
 msgid "Choose which meta group takes priority when applied: Category or Product. Leave this set to default if you're not sure."
 msgstr ""
 
-#: backend/options.php:247
+#: backend/options.php:251
 #: inc/arrays.php:459
 msgid "Category First"
 msgstr ""
 
-#: backend/options.php:248
+#: backend/options.php:252
 #: inc/arrays.php:460
 msgid "Individual First"
 msgstr ""
 
-#: backend/options.php:256
-#: classes/admin.class.php:209
+#: backend/options.php:260
+#: classes/admin.class.php:215
 #: templates/admin/changelog.php:55
 msgid "General Settings"
 msgstr ""
 
-#: backend/options.php:260
+#: backend/options.php:264
 msgid "Field Label"
 msgstr ""
 
-#: backend/options.php:265
+#: backend/options.php:269
 msgid "Field Description"
 msgstr ""
 
-#: backend/options.php:270
+#: backend/options.php:274
 msgid "Options Label"
 msgstr ""
 
-#: backend/options.php:275
+#: backend/options.php:279
 msgid "Options Price Label"
 msgstr ""
 
-#: backend/options.php:280
+#: backend/options.php:284
 msgid "Input Box Settings"
 msgstr ""
 
-#: backend/options.php:281
+#: backend/options.php:285
 msgid "PPOM frontend elements can be styled from these settings."
 msgstr ""
 
-#: backend/options.php:285
-#: backend/options.php:326
-#: backend/options.php:349
+#: backend/options.php:289
+#: backend/options.php:330
+#: backend/options.php:353
 msgid "Background Color"
 msgstr ""
 
-#: backend/options.php:290
-#: backend/options.php:321
-#: backend/options.php:345
+#: backend/options.php:294
+#: backend/options.php:325
+#: backend/options.php:349
 msgid "Text Color"
 msgstr ""
 
-#: backend/options.php:295
+#: backend/options.php:299
 msgid "Border Style"
 msgstr ""
 
-#: backend/options.php:301
+#: backend/options.php:305
 msgid "Border Focus Style"
 msgstr ""
 
-#: backend/options.php:307
+#: backend/options.php:311
 msgid "Box Shodow Focus"
 msgstr ""
 
-#: backend/options.php:308
+#: backend/options.php:312
 msgid "If you don't want to apply it, simply set the value to 'none.'"
 msgstr ""
 
-#: backend/options.php:311
+#: backend/options.php:315
 msgid "See reference"
 msgstr ""
 
-#: backend/options.php:317
+#: backend/options.php:321
 msgid "Price Table Settings"
 msgstr ""
 
-#: backend/options.php:331
+#: backend/options.php:335
 msgid "Tooltip Settings"
 msgstr ""
 
-#: backend/options.php:335
+#: backend/options.php:339
 msgid "Icon Color"
 msgstr ""
 
-#: backend/options.php:340
+#: backend/options.php:344
 msgid "Max. Width"
 msgstr ""
 
-#: backend/options.php:341
+#: backend/options.php:345
 msgid "Default: 500px"
 msgstr ""
 
-#: backend/options.php:353
+#: backend/options.php:357
 msgid "Border Color"
 msgstr ""
 
-#: backend/options.php:357
+#: backend/options.php:361
 msgid "Position"
 msgstr ""
 
-#: backend/options.php:359
-#: backend/settings-panel.class.php:525
+#: backend/options.php:363
+#: backend/settings-panel.class.php:528
 msgid "Top"
 msgstr ""
 
-#: backend/options.php:360
-#: backend/settings-panel.class.php:533
+#: backend/options.php:364
+#: backend/settings-panel.class.php:536
 msgid "Bottom"
 msgstr ""
 
-#: backend/options.php:361
-#: backend/settings-panel.class.php:537
+#: backend/options.php:365
+#: backend/settings-panel.class.php:540
 msgid "Left"
 msgstr ""
 
-#: backend/options.php:362
-#: backend/settings-panel.class.php:529
+#: backend/options.php:366
+#: backend/settings-panel.class.php:532
 msgid "Right"
 msgstr ""
 
-#: backend/options.php:367
+#: backend/options.php:371
 msgid "Animation"
 msgstr ""
 
-#: backend/options.php:369
+#: backend/options.php:373
 msgid "Fade"
 msgstr ""
 
-#: backend/options.php:370
+#: backend/options.php:374
 msgid "Grow"
 msgstr ""
 
-#: backend/options.php:371
+#: backend/options.php:375
 msgid "Swing"
 msgstr ""
 
-#: backend/options.php:372
+#: backend/options.php:376
 msgid "Slide"
 msgstr ""
 
-#: backend/options.php:373
+#: backend/options.php:377
 msgid "Fall"
 msgstr ""
 
-#: backend/options.php:378
+#: backend/options.php:382
 msgid "Interactive"
 msgstr ""
 
-#: backend/options.php:379
+#: backend/options.php:383
 msgid "Allow users to interact with the tooltip."
 msgstr ""
 
-#: backend/options.php:383
+#: backend/options.php:387
 msgid "Open Tooltip on click"
 msgstr ""
 
-#: backend/options.php:384
+#: backend/options.php:388
 msgid "Allow users to open the tooltip by clicking on it. Default behavior is hover."
 msgstr ""
 
-#: backend/options.php:391
+#: backend/options.php:395
 msgid "Pro Settings"
 msgstr ""
 
-#: backend/options.php:398
+#: backend/options.php:402
 msgid "Fields Settings"
 msgstr ""
 
-#: backend/options.php:405
+#: backend/options.php:409
 msgid "Style Settings"
 msgstr ""
 
-#: backend/options.php:420
+#: backend/options.php:424
 msgid "Enable PPOM Cart Edit"
 msgstr ""
 
-#: backend/options.php:421
+#: backend/options.php:425
 msgid "Enable this option to allow editing of PPOM fields in the cart."
 msgstr ""
 
-#: backend/options.php:425
+#: backend/options.php:429
 msgid "Popup Edit"
 msgstr ""
 
-#: backend/options.php:426
+#: backend/options.php:430
 msgid "Enable this option to open field editing for PPOM options in a popup."
 msgstr ""
 
-#: backend/options.php:430
+#: backend/options.php:434
 msgid "Edit Options Text"
 msgstr ""
 
-#: backend/options.php:431
+#: backend/options.php:435
 msgid "Edit Options"
 msgstr ""
 
-#: backend/options.php:432
+#: backend/options.php:436
 msgid "Change the label for the edit options button."
 msgstr ""
 
-#: backend/options.php:436
+#: backend/options.php:440
 msgid "Edit Button Class"
 msgstr ""
 
-#: backend/options.php:437
+#: backend/options.php:441
 msgid "Add custom CSS classes to the edit button, separated by spaces."
 msgstr ""
 
-#: backend/options.php:441
+#: backend/options.php:445
 msgid "Fields Modal"
 msgstr ""
 
-#: backend/options.php:442
+#: backend/options.php:446
 msgid "This will display PPOM fields inside a modal instead of on the cart line item, keeping your cart page simple and clean."
 msgstr ""
 
-#: backend/options.php:446
+#: backend/options.php:450
 msgid "Model Button Label"
 msgstr ""
 
-#: backend/options.php:447
+#: backend/options.php:451
 msgid "Change the label for the modal button."
 msgstr ""
 
-#: backend/options.php:454
+#: backend/options.php:458
 #: inc/arrays.php:696
 #: templates/admin/ppom-fields.php:479
 msgid "Cart Edit"
 msgstr ""
 
-#: backend/options.php:468
+#: backend/options.php:472
 msgid "Emails Recepients"
 msgstr ""
 
-#: backend/options.php:469
+#: backend/options.php:473
 msgid "Enter the email addresses of the enquiry form recipients, separated by commas."
 msgstr ""
 
-#: backend/options.php:473
+#: backend/options.php:477
 msgid "Note"
 msgstr ""
 
-#: backend/options.php:474
+#: backend/options.php:478
 msgid "Set the message to be displayed on the enquiry form."
 msgstr ""
 
-#: backend/options.php:479
+#: backend/options.php:483
 msgid "Send Message"
 msgstr ""
 
-#: backend/options.php:480
+#: backend/options.php:484
 msgid "Set the message to be displayed after the enquiry form is submitted."
 msgstr ""
 
-#: backend/options.php:484
+#: backend/options.php:488
 msgid "Button Title"
 msgstr ""
 
-#: backend/options.php:485
+#: backend/options.php:489
 msgid "Change the title of the enquiry form button."
 msgstr ""
 
-#: backend/options.php:489
+#: backend/options.php:493
 msgid "Button Class"
 msgstr ""
 
-#: backend/options.php:490
+#: backend/options.php:494
 msgid "Add custom CSS classes to the enquiry form button, separated by commas."
 msgstr ""
 
-#: backend/options.php:494
-#: backend/options.php:549
+#: backend/options.php:498
+#: backend/options.php:553
 msgid "Button Text Color"
 msgstr ""
 
-#: backend/options.php:498
-#: backend/options.php:554
+#: backend/options.php:502
+#: backend/options.php:558
 msgid "Button Background Color"
 msgstr ""
 
-#: backend/options.php:502
+#: backend/options.php:506
 msgid "Send Enquiry Form Data to User"
 msgstr ""
 
-#: backend/options.php:503
+#: backend/options.php:507
 msgid "Enable this option to send a copy of the enquiry form data to the user."
 msgstr ""
 
-#: backend/options.php:507
+#: backend/options.php:511
 msgid "Hide Add to Cart Button"
 msgstr ""
 
-#: backend/options.php:508
+#: backend/options.php:512
 msgid "Enable this option to hide the 'Add to Cart' button on the product page."
 msgstr ""
 
-#: backend/options.php:515
+#: backend/options.php:519
 #: inc/arrays.php:718
 msgid "Enquiry Form"
 msgstr ""
 
-#: backend/options.php:532
+#: backend/options.php:536
 #: inc/arrays.php:724
 msgid "Fields Popup"
 msgstr ""
 
-#: backend/options.php:537
+#: backend/options.php:541
 msgid "Enable Fields Popup"
 msgstr ""
 
-#: backend/options.php:538
+#: backend/options.php:542
 msgid "Enable the PPOM fields popup for all products."
 msgstr ""
 
-#: backend/options.php:543
+#: backend/options.php:547
 msgid "Button Label"
 msgstr ""
 
-#: backend/options.php:544
+#: backend/options.php:548
 msgid "Set the label for the popup button."
 msgstr ""
 
-#: backend/options.php:564
+#: backend/options.php:568
 msgid "Collapse Field"
 msgstr ""
 
-#: backend/options.php:569
+#: backend/options.php:573
 msgid "Multiple Collapse Open"
 msgstr ""
 
-#: backend/options.php:570
+#: backend/options.php:574
 msgid "Allow multiple collapsible sections to be open at the same time."
 msgstr ""
 
-#: backend/options.php:575
+#: backend/options.php:579
 msgid "Hide Headline Arrow"
 msgstr ""
 
-#: backend/options.php:576
+#: backend/options.php:580
 msgid "Hide the arrow displayed under the headline."
 msgstr ""
 
-#: backend/options.php:581
+#: backend/options.php:585
 msgid "Collapse Icon Position"
 msgstr ""
 
-#: backend/options.php:587
+#: backend/options.php:591
 msgid "Control the position of the collapse icon."
 msgstr ""
 
-#: backend/options.php:592
+#: backend/options.php:596
 msgid "Collapse Text Color"
 msgstr ""
 
-#: backend/options.php:597
+#: backend/options.php:601
 msgid "Collapse Background Color"
 msgstr ""
 
-#: backend/options.php:602
+#: backend/options.php:606
 msgid "Collapse Open Text Color"
 msgstr ""
 
-#: backend/options.php:607
+#: backend/options.php:611
 msgid "Collapse Open Background Color"
 msgstr ""
 
-#: backend/options.php:612
+#: backend/options.php:616
 msgid "Allow Next/Prev"
 msgstr ""
 
-#: backend/options.php:613
+#: backend/options.php:617
 msgid "Allow user to show/hide collapse using prev/next button."
 msgstr ""
 
-#: backend/options.php:624
+#: backend/options.php:628
 msgid "Field Repeater"
 msgstr ""
 
-#: backend/options.php:629
+#: backend/options.php:633
 msgid "Clone Title"
 msgstr ""
 
-#: backend/options.php:630
+#: backend/options.php:634
 msgid "Set the title attribute for the Clone icon."
 msgstr ""
 
-#: backend/options.php:635
+#: backend/options.php:639
 msgid "Remove Title"
 msgstr ""
 
-#: backend/options.php:636
+#: backend/options.php:640
 msgid "Set the title attribute for the Remove icon."
 msgstr ""
 
-#: backend/options.php:641
+#: backend/options.php:645
 msgid "Icons Size"
 msgstr ""
 
-#: backend/options.php:642
+#: backend/options.php:646
 msgid "Icons size e.g 25px. Defaults to 20px."
 msgstr ""
 
-#: backend/options.php:651
+#: backend/options.php:655
 msgid "Clone Mode"
 msgstr ""
 
-#: backend/options.php:652
+#: backend/options.php:656
 msgid "How to clone the fields"
 msgstr ""
 
-#: backend/options.php:661
+#: backend/options.php:665
 msgid "Clone Icons Position"
 msgstr ""
 
-#: backend/options.php:662
+#: backend/options.php:666
 msgid "Set the placement of the clone icons within the repeater fields."
 msgstr ""
 
-#: backend/options.php:671
+#: backend/options.php:675
 msgid "Icons Library"
 msgstr ""
 
-#: backend/options.php:672
+#: backend/options.php:676
 msgid "Select the icon library to be used for displaying icons."
 msgstr ""
 
-#: backend/options.php:683
+#: backend/options.php:687
 #: templates/admin/ppom-fields.php:359
 msgid "Bulk Quantity"
 msgstr ""
 
-#: backend/options.php:688
+#: backend/options.php:692
 msgid "Display Type"
 msgstr ""
 
-#: backend/options.php:691
+#: backend/options.php:695
 msgid "Bulk Quantity Standard"
 msgstr ""
 
-#: backend/options.php:692
+#: backend/options.php:696
 msgid "Bulk Quantity Packaged"
 msgstr ""
 
-#: backend/options.php:694
+#: backend/options.php:698
 msgid "Choose how bulk quantities are displayed. Select 'Bulk Quantity Standard' for standard bulk orders or 'Bulk Quantity Packaged' for pre-packaged bulk quantities."
 msgstr ""
 
-#: backend/options.php:704
+#: backend/options.php:708
 msgid "REST API"
 msgstr ""
 
-#: backend/options.php:708
+#: backend/options.php:712
 msgid "PPOM REST API"
 msgstr ""
 
-#: backend/options.php:709
+#: backend/options.php:713
 #: inc/arrays.php:373
 msgid "Check this option to enable PPOM REST API."
 msgstr ""
 
-#: backend/options.php:713
+#: backend/options.php:717
 msgid "Secret Key"
 msgstr ""
 
-#: backend/options.php:714
+#: backend/options.php:718
 msgid "Enter any characters to create a secret key. This key must be provided when making API requests."
 msgstr ""
 
-#: backend/options.php:719
+#: backend/options.php:723
 msgid "WCFM Vendors"
 msgstr ""
 
-#: backend/options.php:723
+#: backend/options.php:727
 msgid "Allow Vendors to Create/Edit PPOM Fields"
 msgstr ""
 
-#: backend/options.php:724
+#: backend/options.php:728
 msgid "Enable this option to allow vendors to create or edit PPOM fields. These fields will be global."
 msgstr ""
 
-#: backend/options.php:729
+#: backend/options.php:733
 msgid "Store Title"
 msgstr ""
 
-#: backend/options.php:730
+#: backend/options.php:734
 msgid "Set the label to display on the product edit page."
 msgstr ""
 
-#: backend/options.php:731
+#: backend/options.php:735
 msgid "Custom Fields"
 msgstr ""
 
-#: backend/options.php:743
+#: backend/options.php:747
 msgid "Integrations"
 msgstr ""
 
-#: backend/settings-panel.class.php:124
+#: backend/settings-panel.class.php:127
 msgid "PPOM Admin Settings"
 msgstr ""
 
-#: backend/settings-panel.class.php:129
-#: backend/settings-panel.class.php:130
-#: classes/admin.class.php:712
+#: backend/settings-panel.class.php:131
+#: backend/settings-panel.class.php:132
+#: classes/admin.class.php:718
 msgid "PPOM Settings"
 msgstr ""
 
-#: backend/settings-panel.class.php:136
-#: classes/admin.class.php:41
-#: classes/admin.class.php:42
+#: backend/settings-panel.class.php:138
+#: classes/admin.class.php:89
+#: classes/admin.class.php:90
 #: inc/admin.php:22
 msgid "PPOM"
 msgstr ""
 
-#: backend/settings-panel.class.php:308
-#: classes/admin.class.php:577
+#: backend/settings-panel.class.php:311
+#: classes/admin.class.php:583
 #: inc/admin.php:635
 msgid "Sorry, you are not allowed to perform this action please try again"
 msgstr ""
 
-#: backend/settings-panel.class.php:338
+#: backend/settings-panel.class.php:341
 msgid "Settings saved successfully."
 msgstr ""
 
-#: backend/settings-panel.class.php:344
+#: backend/settings-panel.class.php:347
 msgid "Settings saved error."
 msgstr ""
 
-#: backend/settings-panel.class.php:502
+#: backend/settings-panel.class.php:505
 #: classes/ppom.class.php:253
 msgid "None"
 msgstr ""
 
-#: backend/settings-panel.class.php:503
+#: backend/settings-panel.class.php:506
 #: classes/inputs/input.divider.php:45
 msgid "Solid"
 msgstr ""
 
-#: backend/settings-panel.class.php:504
+#: backend/settings-panel.class.php:507
 #: classes/inputs/input.divider.php:46
 msgid "Dotted"
 msgstr ""
 
-#: backend/settings-panel.class.php:505
+#: backend/settings-panel.class.php:508
 #: classes/inputs/input.divider.php:47
 msgid "Dashed"
 msgstr ""
 
-#: backend/settings-panel.class.php:506
+#: backend/settings-panel.class.php:509
 #: classes/inputs/input.divider.php:48
 msgid "Double"
 msgstr ""
 
-#: backend/settings-panel.class.php:507
+#: backend/settings-panel.class.php:510
 #: classes/inputs/input.divider.php:49
 msgid "Groove"
 msgstr ""
 
-#: backend/settings-panel.class.php:508
+#: backend/settings-panel.class.php:511
 #: classes/inputs/input.divider.php:50
 msgid "Ridge"
 msgstr ""
 
-#: backend/settings-panel.class.php:509
+#: backend/settings-panel.class.php:512
 #: classes/inputs/input.divider.php:51
 msgid "Inset"
 msgstr ""
 
-#: backend/settings-panel.class.php:510
+#: backend/settings-panel.class.php:513
 #: classes/inputs/input.divider.php:52
 msgid "Outset"
 msgstr ""
 
-#: backend/settings-panel.class.php:553
+#: backend/settings-panel.class.php:556
 msgid "Font Size"
 msgstr ""
 
-#: backend/settings-panel.class.php:556
+#: backend/settings-panel.class.php:559
 msgid "Line Height"
 msgstr ""
 
-#: backend/settings-panel.class.php:559
+#: backend/settings-panel.class.php:562
 msgid "Font Color"
 msgstr ""
 
-#: backend/settings-panel.class.php:829
+#: backend/settings-panel.class.php:832
 #: classes/fields.class.php:178
 #: classes/frontend-scripts.class.php:548
 #: inc/hooks.php:341
@@ -965,7 +965,7 @@ msgstr ""
 msgid "Are you sure?"
 msgstr ""
 
-#: backend/settings-panel.class.php:830
+#: backend/settings-panel.class.php:833
 msgid "The administrator role cannot be removed."
 msgstr ""
 
@@ -984,7 +984,7 @@ msgstr ""
 
 #: backend/templates/admin-settings.php:109
 #: backend/templates/admin-settings.php:161
-#: classes/admin.class.php:280
+#: classes/admin.class.php:286
 #: templates/admin/ppom-fields.php:578
 msgid "Upgrade to the Pro"
 msgstr ""
@@ -1001,129 +1001,129 @@ msgstr ""
 msgid "Choose Options"
 msgstr ""
 
-#: classes/admin.class.php:115
+#: classes/admin.class.php:121
 msgid "More Features"
 msgstr ""
 
-#: classes/admin.class.php:115
+#: classes/admin.class.php:121
 msgid "Get Pro"
 msgstr ""
 
-#: classes/admin.class.php:138
-#: classes/admin.class.php:139
-#: classes/admin.class.php:154
-#: classes/admin.class.php:169
-#: classes/plugin.class.php:961
+#: classes/admin.class.php:144
+#: classes/admin.class.php:145
+#: classes/admin.class.php:160
+#: classes/admin.class.php:175
+#: classes/plugin.class.php:968
 #: templates/admin/changelog.php:54
 msgid "PPOM Fields"
 msgstr ""
 
-#: classes/admin.class.php:204
+#: classes/admin.class.php:210
 msgid "PPOM Field Groups"
 msgstr ""
 
-#: classes/admin.class.php:206
+#: classes/admin.class.php:212
 msgid "All Addons"
 msgstr ""
 
-#: classes/admin.class.php:207
+#: classes/admin.class.php:213
 msgid "Changelog"
 msgstr ""
 
-#: classes/admin.class.php:208
+#: classes/admin.class.php:214
 msgid "About Us"
 msgstr ""
 
-#: classes/admin.class.php:211
+#: classes/admin.class.php:217
 msgid "Manage Personalization Previews"
 msgstr ""
 
-#: classes/admin.class.php:217
+#: classes/admin.class.php:223
 msgid "You can create different meta groups for different products."
 msgstr ""
 
-#: classes/admin.class.php:261
+#: classes/admin.class.php:267
 #: inc/admin.php:677
 msgid "Sorry, you are not allowed to perform this action"
 msgstr ""
 
-#: classes/admin.class.php:266
+#: classes/admin.class.php:272
 msgid "Input Field is missing."
 msgstr ""
 
 #. translators: %1$s: the link to the store with label 'upgrade'.
-#: classes/admin.class.php:276
+#: classes/admin.class.php:282
 #, php-format
 msgid "Your current plan supports adding one group of fields per product. To add multiple groups to the same product, please %1$s your plan!"
 msgstr ""
 
-#: classes/admin.class.php:286
+#: classes/admin.class.php:292
 msgid "Display on Specific Products"
 msgstr ""
 
-#: classes/admin.class.php:287
+#: classes/admin.class.php:293
 msgid "Select the product(s) where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:291
+#: classes/admin.class.php:297
 msgid "Choose Products:"
 msgstr ""
 
-#: classes/admin.class.php:302
+#: classes/admin.class.php:308
 msgid "Display in Specific Product Categories"
 msgstr ""
 
-#: classes/admin.class.php:303
+#: classes/admin.class.php:309
 msgid "Select the product categories where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:307
+#: classes/admin.class.php:313
 msgid "Choose Categories:"
 msgstr ""
 
-#: classes/admin.class.php:326
+#: classes/admin.class.php:332
 msgid "Display in Specific Product Tags"
 msgstr ""
 
-#: classes/admin.class.php:327
+#: classes/admin.class.php:333
 msgid "Select the product tags where you want these product fields to appear."
 msgstr ""
 
-#: classes/admin.class.php:331
+#: classes/admin.class.php:337
 msgid "Choose tags:"
 msgstr ""
 
-#: classes/admin.class.php:392
+#: classes/admin.class.php:398
 msgid "Select a product"
 msgstr ""
 
 #. translators: %1$d: number of products, %2$d: number of categories, %3$d: number of tags.
-#: classes/admin.class.php:650
+#: classes/admin.class.php:656
 #, php-format
 msgid "PPOM updated for %1$d Products, %2$d Categories and %3$d Tags."
 msgstr ""
 
-#: classes/admin.class.php:698
+#: classes/admin.class.php:704
 msgid "Provide API key below:"
 msgstr ""
 
-#: classes/admin.class.php:700
+#: classes/admin.class.php:706
 msgid "Enter API key"
 msgstr ""
 
-#: classes/admin.class.php:831
+#: classes/admin.class.php:837
 msgid "Choose Roles"
 msgstr ""
 
-#: classes/admin.class.php:832
+#: classes/admin.class.php:838
 msgid "Roles"
 msgstr ""
 
-#: classes/admin.class.php:842
+#: classes/admin.class.php:848
 msgid "Select all"
 msgstr ""
 
-#: classes/admin.class.php:844
+#: classes/admin.class.php:850
 msgid "Select none"
 msgstr ""
 
@@ -3580,41 +3580,41 @@ msgstr ""
 msgid "Provide Product ID"
 msgstr ""
 
-#: classes/plugin.class.php:383
+#: classes/plugin.class.php:390
 msgid "Select options"
 msgstr ""
 
-#: classes/plugin.class.php:466
-#: classes/plugin.class.php:467
+#: classes/plugin.class.php:473
+#: classes/plugin.class.php:474
 msgid "Remove Meta"
 msgstr ""
 
-#: classes/plugin.class.php:572
+#: classes/plugin.class.php:579
 msgid "Product meta updated."
 msgstr ""
 
 #. translators: %s: number of products
-#: classes/plugin.class.php:576
+#: classes/plugin.class.php:583
 #, php-format
 msgid "%s Products meta updated."
 msgstr ""
 
-#: classes/plugin.class.php:585
+#: classes/plugin.class.php:592
 msgid "Product meta removed."
 msgstr ""
 
 #. translators: %s: number of products
-#: classes/plugin.class.php:589
+#: classes/plugin.class.php:596
 #, php-format
 msgid "%s Products meta removed."
 msgstr ""
 
-#: classes/plugin.class.php:782
+#: classes/plugin.class.php:789
 msgid "Sorry, you are not allowed to clone"
 msgstr ""
 
 #. translators: %s: meta title
-#: classes/plugin.class.php:941
+#: classes/plugin.class.php:948
 #, php-format
 msgid "PPOM Meta Successfully Changed to - %s"
 msgstr ""
