@@ -659,8 +659,8 @@ class NM_PersonalizedProduct {
 
 		global $wpdb;
 
-		$qry = 'SELECT * FROM ' . $wpdb->prefix . PPOM_TABLE_META . " WHERE productmeta_id = $meta_id";
-		$res = $wpdb->get_row( $qry );
+		$table = $wpdb->prefix . PPOM_TABLE_META;
+		$res   = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM $table WHERE productmeta_id = %d", $meta_id ) );
 
 		return $res;
 	}
@@ -927,7 +927,19 @@ class NM_PersonalizedProduct {
 
 	function ppom_attach_meta() {
 
-		$product_id = isset( $_GET['productid'] ) ? intval( $_GET['productid'] ) : '';
+		$product_id  = isset( $_GET['productid'] ) ? intval( $_GET['productid'] ) : '';
+		$product_url = get_permalink( $product_id );
+
+		if ( ! isset( $_GET['nonce'] ) || empty( $_GET['nonce'] ) || ! wp_verify_nonce( $_GET['nonce'], 'ppom_attach' ) ) {
+			wp_redirect( $product_url );
+			exit;
+		}
+
+		if ( ! current_user_can( 'edit_post', $product_id ) ) {
+			wp_redirect( $product_url );
+			exit;
+		}
+											
 		$meta_id    = isset( $_GET['metaid'] ) ? intval( $_GET['metaid'] ) : '';
 		$meta_title = isset( $_GET['metatitle'] ) ? sanitize_title( $_GET['metatitle'] ) : '';
 
