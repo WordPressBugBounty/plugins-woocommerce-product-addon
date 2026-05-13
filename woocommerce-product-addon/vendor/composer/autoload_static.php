@@ -4,20 +4,112 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7c849397d791db90b84e36f5da2a9387
+class ComposerStaticInit6ef24b433812bec6d7a228950e36b9d0
 {
     public static $files = array (
         'c0d20706d9d6529d34835fc3382ce96d' => __DIR__ . '/..' . '/codeinwp/themeisle-sdk/load.php',
     );
 
+    public static $prefixLengthsPsr4 = array (
+        'P' =>
+        array (
+            'PPOM\\' => 5,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'PPOM\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PPOM\\Admin\\FieldGroupFieldsListTable' => __DIR__ . '/../..' . '/src/Admin/FieldGroupFieldsListTable.php',
+        'PPOM\\Admin\\FieldModal\\FieldModalRegistrar' => __DIR__ . '/../..' . '/src/Admin/FieldModal/FieldModalRegistrar.php',
+        'PPOM\\Admin\\FieldModal\\FieldModalRestController' => __DIR__ . '/../..' . '/src/Admin/FieldModal/FieldModalRestController.php',
+        'PPOM\\Admin\\FieldModal\\FieldModalSchemaBuilder' => __DIR__ . '/../..' . '/src/Admin/FieldModal/FieldModalSchemaBuilder.php',
+        'PPOM\\Admin\\Manager' => __DIR__ . '/../..' . '/src/Admin/Manager.php',
+        'PPOM\\Admin\\MetaGroupsListTable' => __DIR__ . '/../..' . '/src/Admin/MetaGroupsListTable.php',
+        'PPOM\\Arrays\\Settings' => __DIR__ . '/../..' . '/src/Arrays/Settings.php',
+        'PPOM\\Cart\\LegacyCartLinePricing' => __DIR__ . '/../..' . '/src/Cart/LegacyCartLinePricing.php',
+        'PPOM\\Cart\\LegacyFixedFees' => __DIR__ . '/../..' . '/src/Cart/LegacyFixedFees.php',
+        'PPOM\\Cart\\SessionCartRecalc' => __DIR__ . '/../..' . '/src/Cart/SessionCartRecalc.php',
+        'PPOM\\Cart\\WooCommerceCartLifecycleHooks' => __DIR__ . '/../..' . '/src/Cart/WooCommerceCartLifecycleHooks.php',
+        'PPOM\\Compatibility\\LegacyFunctionShim' => __DIR__ . '/../..' . '/src/Compatibility/LegacyFunctionShim.php',
+        'PPOM\\Core\\BootstrapKernel' => __DIR__ . '/../..' . '/src/Core/BootstrapKernel.php',
+        'PPOM\\Core\\Bootstrap\\HposCompatibilityRegistration' => __DIR__ . '/../..' . '/src/Core/Bootstrap/HposCompatibilityRegistration.php',
+        'PPOM\\Core\\Bootstrap\\I18nRegistration' => __DIR__ . '/../..' . '/src/Core/Bootstrap/I18nRegistration.php',
+        'PPOM\\Core\\Bootstrap\\LegacyRuntimeLoader' => __DIR__ . '/../..' . '/src/Core/Bootstrap/LegacyRuntimeLoader.php',
+        'PPOM\\Core\\Bootstrap\\SdkCompatAndMetadataRegistration' => __DIR__ . '/../..' . '/src/Core/Bootstrap/SdkCompatAndMetadataRegistration.php',
+        'PPOM\\Core\\Bootstrap\\SdkProductsRegistration' => __DIR__ . '/../..' . '/src/Core/Bootstrap/SdkProductsRegistration.php',
+        'PPOM\\Core\\Bootstrap\\WooCommerceRuntimeRegistration' => __DIR__ . '/../..' . '/src/Core/Bootstrap/WooCommerceRuntimeRegistration.php',
+        'PPOM\\Core\\RegisterHooks' => __DIR__ . '/../..' . '/src/Core/RegisterHooks.php',
+        'PPOM\\Core\\ServiceRegistry' => __DIR__ . '/../..' . '/src/Core/ServiceRegistry.php',
+        'PPOM\\Data\\FieldGroupRepository' => __DIR__ . '/../..' . '/src/Data/FieldGroupRepository.php',
+        'PPOM\\Data\\ProductConfigurationResolver' => __DIR__ . '/../..' . '/src/Data/ProductConfigurationResolver.php',
+        'PPOM\\Deprecated\\LegacyProductMeta' => __DIR__ . '/../..' . '/src/Deprecated/LegacyProductMeta.php',
+        'PPOM\\FieldMarkup\\AbstractInputRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/AbstractInputRenderer.php',
+        'PPOM\\FieldMarkup\\AttributeAdjustmentFilter' => __DIR__ . '/../..' . '/src/FieldMarkup/AttributeAdjustmentFilter.php',
+        'PPOM\\FieldMarkup\\Contracts\\InputRendererInterface' => __DIR__ . '/../..' . '/src/FieldMarkup/Contracts/InputRendererInterface.php',
+        'PPOM\\FieldMarkup\\FieldChrome' => __DIR__ . '/../..' . '/src/FieldMarkup/FieldChrome.php',
+        'PPOM\\FieldMarkup\\FieldMarkupRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/FieldMarkupRenderer.php',
+        'PPOM\\FieldMarkup\\FormAttributeContext' => __DIR__ . '/../..' . '/src/FieldMarkup/FormAttributeContext.php',
+        'PPOM\\FieldMarkup\\InputRendererRegistry' => __DIR__ . '/../..' . '/src/FieldMarkup/InputRendererRegistry.php',
+        'PPOM\\FieldMarkup\\Renderers\\AudioVideoRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/AudioVideoRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\CheckboxRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/CheckboxRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\CropperRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/CropperRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\CustomRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/CustomRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\DividerRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/DividerRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\FileRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/FileRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\HiddenInputRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/HiddenInputRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\ImageRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/ImageRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\MeasureInputRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/MeasureInputRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\PalettesRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/PalettesRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\PricematrixRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/PricematrixRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\QuantitiesRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/QuantitiesRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\RadioRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/RadioRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\RegularInputRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/RegularInputRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\SectionRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/SectionRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\SelectRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/SelectRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\TextareaRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/TextareaRenderer.php',
+        'PPOM\\FieldMarkup\\Renderers\\TimezoneRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/TimezoneRenderer.php',
+        'PPOM\\Files\\Handler' => __DIR__ . '/../..' . '/src/Files/Handler.php',
+        'PPOM\\Files\\PublicUploadAjaxHooks' => __DIR__ . '/../..' . '/src/Files/PublicUploadAjaxHooks.php',
+        'PPOM\\Files\\UploadErrors' => __DIR__ . '/../..' . '/src/Files/UploadErrors.php',
+        'PPOM\\Frontend\\PpomFilterHooks' => __DIR__ . '/../..' . '/src/Frontend/PpomFilterHooks.php',
+        'PPOM\\Frontend\\ProductAndTemplateHooks' => __DIR__ . '/../..' . '/src/Frontend/ProductAndTemplateHooks.php',
+        'PPOM\\Hooks\\Callbacks' => __DIR__ . '/../..' . '/src/Hooks/Callbacks.php',
+        'PPOM\\Meta\\MetaRepositoryAccessor' => __DIR__ . '/../..' . '/src/Meta/MetaRepositoryAccessor.php',
+        'PPOM\\Plugin' => __DIR__ . '/../..' . '/src/Plugin.php',
+        'PPOM\\Pricing\\Engine' => __DIR__ . '/../..' . '/src/Pricing/Engine.php',
+        'PPOM\\Pricing\\ModernCartFeeApplicator' => __DIR__ . '/../..' . '/src/Pricing/ModernCartFeeApplicator.php',
+        'PPOM\\Pricing\\ModernLineItemPricing' => __DIR__ . '/../..' . '/src/Pricing/ModernLineItemPricing.php',
+        'PPOM\\Pricing\\PriceMatrixCartItemEnricher' => __DIR__ . '/../..' . '/src/Pricing/PriceMatrixCartItemEnricher.php',
+        'PPOM\\Pricing\\PriceMode' => __DIR__ . '/../..' . '/src/Pricing/PriceMode.php',
+        'PPOM\\Rest\\OrderItemMetaPresenter' => __DIR__ . '/../..' . '/src/Rest/OrderItemMetaPresenter.php',
+        'PPOM\\Rest\\OrderMetaController' => __DIR__ . '/../..' . '/src/Rest/OrderMetaController.php',
+        'PPOM\\Rest\\ProductFieldGroupService' => __DIR__ . '/../..' . '/src/Rest/ProductFieldGroupService.php',
+        'PPOM\\Rest\\ProductMetaController' => __DIR__ . '/../..' . '/src/Rest/ProductMetaController.php',
+        'PPOM\\Rest\\RestBootstrap' => __DIR__ . '/../..' . '/src/Rest/RestBootstrap.php',
+        'PPOM\\Rest\\RestFieldFormatter' => __DIR__ . '/../..' . '/src/Rest/RestFieldFormatter.php',
+        'PPOM\\Rest\\RestSecretValidator' => __DIR__ . '/../..' . '/src/Rest/RestSecretValidator.php',
+        'PPOM\\Rest\\Routes' => __DIR__ . '/../..' . '/src/Rest/Routes.php',
+        'PPOM\\Support\\Helpers' => __DIR__ . '/../..' . '/src/Support/Helpers.php',
+        'PPOM\\Validation\\Validator' => __DIR__ . '/../..' . '/src/Validation/Validator.php',
+        'PPOM\\WooCommerce\\Cart\\CartHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Cart/CartHandler.php',
+        'PPOM\\WooCommerce\\Catalog\\CatalogHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Catalog/CatalogHandler.php',
+        'PPOM\\WooCommerce\\Order\\OrderHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Order/OrderHandler.php',
+        'PPOM\\WooCommerce\\Product\\ProductHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Product/ProductHandler.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit7c849397d791db90b84e36f5da2a9387::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6ef24b433812bec6d7a228950e36b9d0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6ef24b433812bec6d7a228950e36b9d0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6ef24b433812bec6d7a228950e36b9d0::$classMap;
 
         }, null, ClassLoader::class);
     }

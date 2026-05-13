@@ -1,9 +1,9 @@
 === PPOM - Product Addons & Custom Fields for WooCommerce ===
 Contributors: themeisle
-Tags: woocommerce product addons, woocommerce product options, woocommerce product fields, woocommerce product, product addons
-Requires at least: 3.5
+Tags: product addons, woocommerce product addons, woocommerce product options, custom fields, variable products
+Requires at least: 6.2
 Tested up to: 6.9
-Stable tag: 33.0.18
+Stable tag: 34.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -16,17 +16,17 @@ Are you a WooCommerce store owner looking to offer personalized products? PPOM (
 
 ## Quick Links
 
-- Would you like to see PPOM in action before installing it? [VIEW PPOM FIELDS DEMO](https://demo-ppom-lite.vertisite.cloud/)
-- Need any help with setup? [CHECK DOCUMENTATION](https://docs.themeisle.com/collection/1695-product-option-manager)
-- Interested in PPOM PRO? [LEARN MORE ABOUT PPOM PRO](https://themeisle.com/plugins/ppom-pro/upgrade?utm_source=wordpressorg&utm_medium=readme&utm_campaign=quick-links)
+- Would you like to see PPOM in action before installing it? [See it in action](https://demo-ppom-lite.vertisite.cloud/)
+- Need any help with setup? [View documentation](https://docs.themeisle.com/collection/1695-product-option-manager)
+- Interested in PPOM PRO? [Learn more](https://themeisle.com/plugins/ppom-pro/upgrade?utm_source=wordpressorg&utm_medium=readme&utm_campaign=quick-links)
 
 ## Why Choose PPOM?
 
-- **Customize with Ease**: Add custom fields and product add-ons directly to your product pages, creating flexible, personalized shopping experiences that encourage customers to purchase.
+- **Customize with Ease**: Add custom fields and product add-ons directly to your product pages, creating flexible, personalized shopping experiences.
 
 - **Increase Sales Potential**: With dynamic pricing adjustments and enticing customization options, you empower customers to get exactly what they want, increasing both satisfaction and sales.
 
-Boost your sales and customer satisfaction by offering tailored product options and add-ons. PPOM is the ultimate solution for WooCommerce stores looking to provide unique, customizable products.
+Increase sales and customer satisfaction by offering tailored product options and add-ons. PPOM is built for WooCommerce stores that need unique, customizable products.
 
 ## Input Types in Free Version:
 
@@ -40,13 +40,13 @@ Boost your sales and customer satisfaction by offering tailored product options 
 
 📌 **Checkbox Options (with price)**: Checkboxes for selecting multiple options. Supports per-option pricing. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-checkbox-input/)
 
-📌 **Date**: Date picker for selecting dates (e.g., date of birth). [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-date-input/)
+📌 **Date**: Let customers pick a date (e.g., date of birth). [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-date-input/)
 
 📌 **Email**: Email input displays an input box that allows users to add an email address. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-email-input/)
 
 📌 **Number**: Number input for digits only (e.g., phone numbers, IDs). [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-number-input/)
 
-📌 **Hidden**: Hidden input with a default value, visible only after adding to cart. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/hidden-input/)
+📌 **Hidden**: An invisible field that stores a default value (e.g., a product code) — it appears in the cart and order details but not on the product page. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/hidden-input/)
 
 
 ## Features in Free Version:
@@ -144,7 +144,7 @@ Boost your sales and customer satisfaction by offering tailored product options 
 
 💎 **Text Counter**: This input is a special text input that can restrict the total number of words or characters. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-text-counter/)
 
-💎 **Timezone**: Select a timezone from a pre-defined list of timezone. Exclude/include time zones. [View Demo](https://demo-ppom-lite.vertisite.cloud/product-category/timezone-input/)
+💎 **Timezone**: Let customers select a timezone from a pre-defined list. Admins can include or exclude specific zones. [View Demo](https://demo-ppom-lite.vertisite.cloud/product-category/timezone-input/)
 
 💎 **Variation Matrix Input**: Allow customers to order different quantities for different options like sizes or colors. [View Demo](https://demo-ppom-lite.vertisite.cloud/product/basic-variation-matrix-input/)
 
@@ -162,11 +162,11 @@ Boost your sales and customer satisfaction by offering tailored product options 
 
 💎 **Weight Options**: Weight can be assigned for options.
 
-💎 **Multiple Meta Groups**: Assign multiple metas groups to a single product.
+💎 **Multiple Meta Groups**: Assign multiple meta groups to a single product.
 
-💎 **Import/Export**: You can use PPOM to import or export your meta fields directly from PPOM settings.
+💎 **Import/Export**: You can use PPOM to import or export your custom fields directly from PPOM settings.
 
-💎 **[Client-Side Validation](https://www.youtube.com/watch?v=1IoABjkQ--I)**: Validate data on the client side to prevent page refreshes and speed up error detection.
+💎 **[Instant Validation](https://www.youtube.com/watch?v=1IoABjkQ--I)**: Check required fields in real time without reloading the page.
 
 💎 **PPOM Repeater**: Repeat meta-field groups as needed.
 
@@ -187,7 +187,7 @@ Boost your sales and customer satisfaction by offering tailored product options 
 
 ✅ **Fields Popup**: Display PPOM fields inside a popup on the product page.
 
-✅ **Collapse Settings**: Customize how sections open and display with colors, icons, and navigation options.
+✅ **Collapse Settings**: Control whether grouped fields start expanded or collapsed, and style them with custom colors, icons, and tab-style navigation.
 
 ✅ **Enquiry Form**: Collect custom customer inquiries directly from your product pages.
 
@@ -203,7 +203,7 @@ Interested in PPOM PRO? [Learn more](https://themeisle.com/plugins/ppom-pro/upgr
 
 👕 **Custom Apparel**: Allow fabric, color, and design uploads for personalized clothing.
 
-### See what real users talk about us:
+### See what real users say about us:
 
 - “[Best than Best](https://wordpress.org/support/topic/best-than-best-2/)” - With help of this plugin, I could able to add some extra items to my main product with ability do increase and decrease the price. Thanks guys, keep it going…
 
@@ -228,12 +228,18 @@ PPOM is open-source. Contribute on [GitHub](https://github.com/Codeinwp/woocomme
 ### Useful Resources
 
 - Read more about WordPress on our [blog](https://themeisle.com/blog/).
-- Interested in our other plugins? Take a look [here](https://themeisle.com/wordpress-plugins/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=PPOM).
+- Explore our [other plugins](https://themeisle.com/wordpress-plugins/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=PPOM).
+
+### How to report a security issue?
+ 
+Plugin security is a core priority for us. If you identify a potential vulnerability, we ask that you disclose it responsibly.
+
+Please follow the reporting protocols outlined on our [Security Page](https://themeisle.com/security/).
 
 == Installation ==
 1. Upload the plugin directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the `Plugins` menu in WordPress
-3. After activation, you can set options from the `WooCommerce -> PPOM Settings` menu
+3. After activation, you can set options from the `WooCommerce -> PPOM Settings` menu.
 
 == Screenshots ==
 
@@ -247,10 +253,63 @@ PPOM is open-source. Contribute on [GitHub](https://github.com/Codeinwp/woocomme
 
 == Changelog ==
 
-##### [Version 33.0.18](https://github.com/Codeinwp/woocommerce-product-addon/compare/v33.0.17...v33.0.18) (2025-12-19)
+#### [Version 34.0.0](https://github.com/Codeinwp/woocommerce-product-addon/compare/v33.0.18...v34.0.0) (2026-05-13)
 
-- Fixed image upload in image dropdown field
-- Enhanced security
+### New Features
+
+  - Added a curated template library with one-click presets for common use cases such as pizza ordering, t-shirt personalization, made-to-measure, and jewelry engraving.
+  - Added a live product page preview directly inside the field group editor.
+  - Added Cart Edit support for the WooCommerce block-based Cart, bringing parity with the legacy shortcode cart.
+  - Added the ability to build PPOM conditions based on WooCommerce product variations.
+
+### Improvements
+
+  - Improved the CSS/JS editors' layout, so it's easier to read and write code.
+  - Shortened the random suffix added to uploaded file names, keeping them readable in cart, checkout, and order confirmation emails.
+  - Revamped the field builder UI with a modernized modal layout, cleaner input styling, and a dedicated Advanced section for less-used options.
+  - Replaced the modal-based Attach to Products workflow with inline select dropdowns and AJAX search.
+  - Added an enable/disable toggle at the field group level, so admins can temporarily switch a group off without unassigning it.
+  - Added auto-save and an unsaved-changes warning to the field group editor.
+  - Improved the field-type picker with short descriptions and examples to help users tell similar field types apart.
+  - Added a designed empty state to the fields list with clear next-step guidance.
+  - Added a designed empty state to the PPOM Field Groups page and reworked the top navigation placement.
+  - Replaced plain-text color inputs throughout PPOM with a native color picker plus hex input combo.
+  - Improved the Personalization Preview creation screen with clearer purpose, guidance, and next steps.
+  - Improved front-end field layout with baseline input/label/description styling and consistent vertical alignment for side-by-side fields.
+  - Reworked the Integrations Settings tab with card-based layout, in-app API reference, a base URL display, and a masked, copyable secret key.
+  - Improved the file upload field to show accepted file types and the maximum file size before the customer attempts to upload.
+  - Replaced the support icon with a clearer, more accessible support button.
+  - Improved delete UX: trash bin icons and a specific delete confirmation dialog with a red destructive button.
+  - Performance: reduced database queries and PHP overhead on product pages.
+  - Added Esc-to-close on the Add Field modal.
+  - Allowed the field edit popup to float near the clicked field instead of being fixed at the top of the page.
+  - Enhanced security.
+  - Fixed typos and improved placeholder copy in admin settings.
+
+### Fixes
+
+  - Fixed the file upload field from crashing.
+  - Fixed a PHP 8+ deprecation warning and headers already sent error when saving certain WooCommerce settings.
+  - Fixed a separate stripslashes() fatal error where an array was passed instead of a string.
+  - Fixed the Timezone field from crashing with DateInvalidTimeZoneException on servers where the timezone list contained entries unsupported by PHP.
+  - Fixed a fatal TypeError when a text input add-on price was prefixed with $ or otherwise non-numeric.
+  - Fixed a fatal error in the REST API / Quick View context where WC()->cart was null, breaking PPOM fields in product popups.
+  - Fixed an SQL syntax error logged during plugin activation, causing noisy logs.
+  - Fixed multiple Personalization Preview bugs with multiple text boxes — color pickers, settings panels, and duplicate DOM IDs no longer break beyond the first text box.
+  - Fixed an undefined array key warning when adding a new text box to a Personalization Preview that had not been resized.
+  - Fixed multi-group rendering: custom CSS/JS from all attached field groups now renders, not just the first group. Stale group references on products are cleaned up when a group is deleted.
+  - Fixed image-based PPOM fields not appearing in the WooCommerce Cart Block (only the legacy shortcode cart was displaying them).
+  - Fixed detaching a PPOM group from a specific product tag.
+  - Fixed the User Roles option disappearing after saving a PPOM field configured with Visibility → By Role.
+  - Fixed the Images field treating any value in Max Image Select as requiring the field.
+  - Fixed the Stock option disappearing after saving an Image Dropdown field.
+  - Fixed the Pack Size option in the Quantities Pack field — the Add to Cart button no longer requires hitting the exact pack size before enabling.
+  - Fixed the Change Image button on the Image Cropping field so it clears all selections instead of replacing one image.
+  - Fixed conditional logic not saving for Select fields when an Image field was used as the controlling option.
+  - Fixed the file upload field not working on iOS Safari when the file field had conditional logic attached.
+  - Fixed price values not being converted with the WooCommerce Multilingual & Multicurrency (WCML) plugin (currency symbol changed, numeric price stayed the same).
+  - Fixed the Update Cart button and quantity field alignment in the Cart Items pop-up.
+  - Fixed the name of the plugin in the description.
 
 
 
@@ -265,7 +324,7 @@ PPOM is open-source. Contribute on [GitHub](https://github.com/Codeinwp/woocomme
 = Can I add fields to Variable Products? =
 Yes.
 = Are there any field limits? =
-No, but server limitations may restrict the number of fields you can add.
+No, but your server's PHP memory or POST size limits may affect how many fields load correctly. Check with your host if you experience issues.
 = Can I add prices to options? =
 Yes, prices can be added to Select, Radio, and Checkbox fields.
 = Can I see a demo? =
