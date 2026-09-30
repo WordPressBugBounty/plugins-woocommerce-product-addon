@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf94835ec65e54543d8453e459f8b8483
+class ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e
 {
     public static $files = array (
         'c0d20706d9d6529d34835fc3382ce96d' => __DIR__ . '/..' . '/codeinwp/themeisle-sdk/load.php',
@@ -26,6 +26,7 @@ class ComposerStaticInitf94835ec65e54543d8453e459f8b8483
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PPOM\\Abilities\\Abilities' => __DIR__ . '/../..' . '/src/Abilities/Abilities.php',
         'PPOM\\Admin\\FieldGroupFieldsListTable' => __DIR__ . '/../..' . '/src/Admin/FieldGroupFieldsListTable.php',
         'PPOM\\Admin\\FieldModal\\FieldModalRegistrar' => __DIR__ . '/../..' . '/src/Admin/FieldModal/FieldModalRegistrar.php',
         'PPOM\\Admin\\FieldModal\\FieldModalRestController' => __DIR__ . '/../..' . '/src/Admin/FieldModal/FieldModalRestController.php',
@@ -107,9 +108,9 @@ class ComposerStaticInitf94835ec65e54543d8453e459f8b8483
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf94835ec65e54543d8453e459f8b8483::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf94835ec65e54543d8453e459f8b8483::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitf94835ec65e54543d8453e459f8b8483::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$classMap;
 
         }, null, ClassLoader::class);
     }

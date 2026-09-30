@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'PPOM\\Abilities\\Abilities' => $baseDir . '/src/Abilities/Abilities.php',
     'PPOM\\Admin\\FieldGroupFieldsListTable' => $baseDir . '/src/Admin/FieldGroupFieldsListTable.php',
     'PPOM\\Admin\\FieldModal\\FieldModalRegistrar' => $baseDir . '/src/Admin/FieldModal/FieldModalRegistrar.php',
     'PPOM\\Admin\\FieldModal\\FieldModalRestController' => $baseDir . '/src/Admin/FieldModal/FieldModalRestController.php',
