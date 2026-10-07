@@ -4,13 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e
+class ComposerStaticInit74fb3f513a7ca4455e98782c544ece6d
 {
     public static $files = array (
         'c0d20706d9d6529d34835fc3382ce96d' => __DIR__ . '/..' . '/codeinwp/themeisle-sdk/load.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'e' =>
+        array (
+            'enshrined\\svgSanitize\\' => 22,
+        ),
         'P' =>
         array (
             'PPOM\\' => 5,
@@ -18,6 +22,10 @@ class ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e
     );
 
     public static $prefixDirsPsr4 = array (
+        'enshrined\\svgSanitize\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/enshrined/svg-sanitize/src',
+        ),
         'PPOM\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -78,6 +86,7 @@ class ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e
         'PPOM\\FieldMarkup\\Renderers\\TimezoneRenderer' => __DIR__ . '/../..' . '/src/FieldMarkup/Renderers/TimezoneRenderer.php',
         'PPOM\\Files\\Handler' => __DIR__ . '/../..' . '/src/Files/Handler.php',
         'PPOM\\Files\\PublicUploadAjaxHooks' => __DIR__ . '/../..' . '/src/Files/PublicUploadAjaxHooks.php',
+        'PPOM\\Files\\SvgSanitizer' => __DIR__ . '/../..' . '/src/Files/SvgSanitizer.php',
         'PPOM\\Files\\UploadErrors' => __DIR__ . '/../..' . '/src/Files/UploadErrors.php',
         'PPOM\\Frontend\\PpomFilterHooks' => __DIR__ . '/../..' . '/src/Frontend/PpomFilterHooks.php',
         'PPOM\\Frontend\\ProductAndTemplateHooks' => __DIR__ . '/../..' . '/src/Frontend/ProductAndTemplateHooks.php',
@@ -103,14 +112,25 @@ class ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e
         'PPOM\\WooCommerce\\Catalog\\CatalogHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Catalog/CatalogHandler.php',
         'PPOM\\WooCommerce\\Order\\OrderHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Order/OrderHandler.php',
         'PPOM\\WooCommerce\\Product\\ProductHandler' => __DIR__ . '/../..' . '/src/WooCommerce/Product/ProductHandler.php',
+        'enshrined\\svgSanitize\\ElementReference\\Resolver' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/ElementReference/Resolver.php',
+        'enshrined\\svgSanitize\\ElementReference\\Subject' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/ElementReference/Subject.php',
+        'enshrined\\svgSanitize\\ElementReference\\Usage' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/ElementReference/Usage.php',
+        'enshrined\\svgSanitize\\Exceptions\\NestingException' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/Exceptions/NestingException.php',
+        'enshrined\\svgSanitize\\Helper' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/Helper.php',
+        'enshrined\\svgSanitize\\Sanitizer' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/Sanitizer.php',
+        'enshrined\\svgSanitize\\data\\AllowedAttributes' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/AllowedAttributes.php',
+        'enshrined\\svgSanitize\\data\\AllowedTags' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/AllowedTags.php',
+        'enshrined\\svgSanitize\\data\\AttributeInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/AttributeInterface.php',
+        'enshrined\\svgSanitize\\data\\TagInterface' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/TagInterface.php',
+        'enshrined\\svgSanitize\\data\\XPath' => __DIR__ . '/..' . '/enshrined/svg-sanitize/src/data/XPath.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit76f26c65a990e5a9e1aa3017c1c7291e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit74fb3f513a7ca4455e98782c544ece6d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit74fb3f513a7ca4455e98782c544ece6d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit74fb3f513a7ca4455e98782c544ece6d::$classMap;
 
         }, null, ClassLoader::class);
     }
