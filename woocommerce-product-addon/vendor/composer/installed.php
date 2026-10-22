@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/woocommerce-product-addon',
-        'pretty_version' => 'v34.0.11',
-        'version' => '34.0.11.0',
-        'reference' => '5a5807826d5a5c57941963932f12cbd28558e302',
+        'pretty_version' => 'v34.0.12',
+        'version' => '34.0.12.0',
+        'reference' => '5e981bd06d3e86b4a43699e473dc049d989f3d6c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,18 +11,18 @@
     ),
     'versions' => array(
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.3.66',
-            'version' => '3.3.66.0',
-            'reference' => '27e095d8357e0594cd5769222af1258538832e75',
+            'pretty_version' => '3.3.67',
+            'version' => '3.3.67.0',
+            'reference' => 'e1dda44811660a65c3da6994349c054a46686d69',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'codeinwp/woocommerce-product-addon' => array(
-            'pretty_version' => 'v34.0.11',
-            'version' => '34.0.11.0',
-            'reference' => '5a5807826d5a5c57941963932f12cbd28558e302',
+            'pretty_version' => 'v34.0.12',
+            'version' => '34.0.12.0',
+            'reference' => '5e981bd06d3e86b4a43699e473dc049d989f3d6c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
